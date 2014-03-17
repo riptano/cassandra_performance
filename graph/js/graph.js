@@ -171,7 +171,7 @@ var drawGraph = function() {
             if (d.test!=operation) {
                 return;
             }
-            d.title = d.revision;
+            d.title = d.hasOwnProperty('label') ? d['label'] : d['revision'];
             data_by_title[d.title] = d;
             data.push(d);
             trials[d.title] = d;
