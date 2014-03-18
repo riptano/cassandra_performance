@@ -7,6 +7,10 @@ div#chart_controls {
     width: 640px;
 }
 
+#chart_controls td {
+    padding: 2px;
+}
+
 #chart_controls #zoom input {
     width: 50px;
 }
