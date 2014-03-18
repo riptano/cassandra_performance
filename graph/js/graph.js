@@ -84,7 +84,7 @@ var drawGraph = function() {
     });
     metric_selector.change(function(e) {
         // change the metric in the url to reload the page:
-        location.href = location.href.replace(new RegExp('metric=[a-zA-Z_0-9]*'), 'metric='+this.value);
+        location.href = location.href.replace(new RegExp('metric=[a-zA-Z_0-9\.]*'), 'metric='+this.value);
     });
     chart_controls_tbl.append('<tr><td><label for="metric_selector"/>Choose metric:</label></td><td id="metric_selector_td"></td></tr>')
     $('#metric_selector_td').append(metric_selector);
@@ -112,56 +112,10 @@ var drawGraph = function() {
     });
     chart_controls_tbl.append('<tr><td><label for="smoothing_selector"/>Data smoothing:</label></td><td id="smoothing_selector_td"></td></tr>')
     $('#smoothing_selector_td').append(smoothing_selector).append(" To hide/show a dataset double-click the colored box below:");
-
-    //Setup chart:
-    var margin = {top: 20, right: 1180, bottom: 2240, left: 60};
-    var width = 2060 - margin.left - margin.right;
-    var height = 2700 - margin.top - margin.bottom;
-
-    var x = d3.scale.linear()
-        .range([0, width]);
-
-    var y = d3.scale.linear()
-        .range([height, 0]);
-
-    var color = d3.scale.category10();
-
-    var xAxis = d3.svg.axis()
-        .scale(x)
-        .orient("bottom");
-
-    var yAxis = d3.svg.axis()
-        .scale(y)
-        .orient("left");
-
-    var getMetricValue = function(d) {
-        if (metric_index >= 0) {
-            //This is one of the metrics directly reported by stress:
-            return d[metric_index];
-        } else {
-            //This metric is not reported by stress, so compute it ourselves:
-            if (metric == 'num_timeouts') {
-                return d[stress_metrics.indexOf('interval_op_rate')] - d[stress_metrics.indexOf('interval_key_rate')];
-            }
-        }        
-    };
-
-    var line = d3.svg.line()
-        .interpolate("basis")
-        .x(function(d) { 
-            return x(d[time_index]); //time in seconds
-        })
-        .y(function(d) { 
-            return y(getMetricValue(d));
-        });
-
-    var svg = d3.select("body").append("svg")
-        .attr("width", width + margin.left + margin.right + 250)
-        .attr("height", height + margin.top + margin.bottom)
-        .append("g")
-        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");    
+    chart_controls_tbl.append('<tr><td colspan="100%"><span id="control_zoom">Zoom:</span><table id="zoom"><tr><td><label for="xmin"/>x min</label></td><td><input id="xmin"/></td><td><label for="xmax"/>x max</label></td><td><input id="xmax"/></td></tr><tr><td><label for="ymin"/>y min</label></td><td><input id="ymin"/></td><td><label for="ymax"/>y max</label></td><td><input id="ymax"/></td></tr></table></td></tr>');
 
     d3.json(stats_db, function(error, raw_data) {
+        
         //Filter the dataset for the one we want:
         var data = [];
         var trials = {};
@@ -205,16 +159,27 @@ var drawGraph = function() {
             }
         });
 
+        var getMetricValue = function(d) {
+            if (metric_index >= 0) {
+                //This is one of the metrics directly reported by stress:
+                return d[metric_index];
+            } else {
+
+
+                //This metric is not reported by stress, so compute it ourselves:
+                if (metric == 'num_timeouts') {
+                    return d[stress_metrics.indexOf('interval_op_rate')] - d[stress_metrics.indexOf('interval_key_rate')];
+                }
+            }        
+        };
 
         //Parse the dates:
         data.forEach(function(d) {
             d.date = new Date(Date.parse(d.date));
         });
 
-        color.domain(data.map(function(d){return d.title}));
-
         if (xmin == undefined) {
-            xmin = 1;
+            xmin = 0;
         }
         if (xmax == undefined) {
             xmax = d3.max(data, function(d) {
@@ -235,8 +200,87 @@ var drawGraph = function() {
             });
         }
 
-        x.domain([xmin, xmax]);
-        y.domain([ymin, ymax]);
+        //Setup chart:
+        var margin = {top: 20, right: 1180, bottom: 2240, left: 60};
+        var width = 2060 - margin.left - margin.right;
+        var height = 2700 - margin.top - margin.bottom;
+
+        var x = d3.scale.linear()
+            .domain([xmin, xmax])
+            .range([0, width]);
+
+        var y = d3.scale.linear()
+            .domain([ymin, ymax])
+            .range([height, 0]);
+
+        $("#xmin").val(Math.floor(x.domain()[0]));
+        $("#xmax").val(Math.floor(x.domain()[1]));
+        $("#ymin").val(Math.floor(y.domain()[0]));
+        $("#ymax").val(Math.floor(y.domain()[1]));
+        $("#xmin,#xmax").change(function(e) {
+            var coords = [$("#xmin").val(), $("#xmax").val()];
+            x.domain(coords);
+            redrawLines();
+        });
+        $("#ymin,#ymax").change(function(e) {
+            var coords = [$("#ymin").val(), $("#ymax").val()];
+            y.domain(coords);
+            redrawLines();
+        });
+
+        var color = d3.scale.category10();
+        color.domain(data.map(function(d){return d.title}));
+
+        var xAxis = d3.svg.axis()
+            .scale(x)
+            .orient("bottom");
+
+        var yAxis = d3.svg.axis()
+            .scale(y)
+            .orient("left");
+
+        var line = d3.svg.line()
+            .interpolate("basis")
+            .x(function(d) { 
+                return x(d[time_index]); //time in seconds
+            })
+            .y(function(d) { 
+                return y(getMetricValue(d));
+            });
+
+        $("body").append("<div id='svg_container'>");
+
+        var redrawLines = function() {
+                svg.select(".x.axis").call(xAxis);
+                svg.select(".y.axis").call(yAxis);
+                svg.selectAll(".line")
+                    .attr("class","line")
+                    .attr("d", function(d) {
+                        return line(d.intervals);
+                    })
+                $("#xmin").val(Math.floor(x.domain()[0]));
+                $("#xmax").val(Math.floor(x.domain()[1]));
+                $("#ymin").val(Math.floor(y.domain()[0]));
+                $("#ymax").val(Math.floor(y.domain()[1]));
+            }
+
+        var zoom = d3.behavior.zoom()
+            .x(x)
+            .y(y)
+            .on("zoom", redrawLines);
+
+        var svg = d3.select("div#svg_container").append("svg")
+            .attr("width", width + margin.left + margin.right + 250)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+
+        // Clip Path
+        svg.append("svg:clipPath")
+            .attr("id", "chart_clip")
+            .append("svg:rect")
+            .attr("width", width)
+            .attr("height", height);
 
         // Chart title
         svg.append("text")
@@ -283,6 +327,7 @@ var drawGraph = function() {
         // Draw benchmarked data:
         trial.append("path")
             .attr("class", "line")
+            .attr("clip-path", "url(#chart_clip)")
             .attr("d", function(d) {
                 return line(d.intervals);
             })
@@ -391,7 +436,13 @@ var drawGraph = function() {
         $("rect.legend-rect").dblclick(function() {
             $("g.trial[title='" + $(this).attr('title') + "']").toggle();
         });
-
+        
+        // Chart zoom/drag surface
+        // This should always be last, so it's on top of everything else
+        svg.append("svg:rect")
+            .attr("id", "zoom_drag_surface")
+            .attr("width", width)
+            .attr("height", height)
     });
 
 }
