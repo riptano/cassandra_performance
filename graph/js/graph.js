@@ -354,7 +354,7 @@ var drawGraph = function() {
             .enter().append("g")
             .attr("class", "legend")
             .attr("transform", function(d, i) {
-                var y_offset = 425 + ((i % 3)*170) + 70;
+                var y_offset = 425 + ((i % 3)*190) + 70;
                 var x_offset = -550 + (350 * (Math.ceil((i+1) / 3.0) - 1));
                 return "translate(" + x_offset + "," + y_offset + ")"; 
             });
@@ -434,6 +434,10 @@ var drawGraph = function() {
         });
 
         renderLegendText(13, function(title) {
+            return padTextEnd('Total time', 26) + ' : ' + data_by_title[title]['Total operation time'];
+        });
+
+        renderLegendText(14, function(title) {
             var cmd = data_by_title[title]['command'].replace(new RegExp(' \-node [a-zA-Z_0-9]*'), '');
             return 'cmd: ' + cmd;
         });
