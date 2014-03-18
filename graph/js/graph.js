@@ -172,6 +172,13 @@ var drawGraph = function() {
         $("svg").remove();
         //Setup initial zoom level:
         defaultZoom = function(initialize) {
+            if (!initialize) {
+                //Reset zoom query params:
+                query.xmin = xmin = undefined;
+                query.xmax = xmax = undefined;
+                query.ymin = ymin = undefined;
+                query.ymax = ymax = undefined;
+            }
             query.xmin = xmin = query.xmin ? query.xmin : 0;
             query.xmax = xmax = query.xmax ? query.xmax : Math.round(d3.max(data, function(d) {
                 if (d.intervals.length > 0) {
@@ -218,11 +225,8 @@ var drawGraph = function() {
             }
         }
         defaultZoom(true);
+
         $("#reset_zoom").click(function(e) {
-            query.xmin = xmin = undefined;
-            query.xmax = xmax = undefined;
-            query.ymin = ymin = undefined;
-            query.ymax = ymax = undefined;
             defaultZoom();
             e.preventDefault();
         });
@@ -456,16 +460,19 @@ var drawGraph = function() {
             metric = query.metric = this.value;
             metric_index = stress_metrics.indexOf(metric);
             graph_callback();
+            defaultZoom();
         });
         operation_selector.unbind().change(function(e) {
             // change the metric in the url to reload the page:
             operation = query.operation = this.value;
             graph_callback();
+            defaultZoom();
         });
         smoothing_selector.unbind().change(function(e) {
             // change the metric in the url to reload the page:
             smoothing = query.smoothing = this.value;
             graph_callback();
+            defaultZoom();
         });
 
         updateURLBar();
