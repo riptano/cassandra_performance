@@ -143,12 +143,6 @@ var drawGraph = function() {
                 option.attr('selected','selected');
             }
             operation_selector.append(option);
-            //If the operation selected is not one of the available
-            //operations in the JSON data file, select the first
-            //operation available and refresh the page:
-            if (!(operation in operations)) {
-                $(operation_selector).val($(operation_selector).find("option :first").text()).change();
-            }
         });
 
         var getMetricValue = function(d) {
@@ -487,6 +481,14 @@ var drawGraph = function() {
             .attr("id", "zoom_drag_surface")
             .attr("width", width)
             .attr("height", height);
+
+        //If the operation selected is not one of the available
+        //operations in the JSON data file, select the first
+        //operation available:
+        if (!(operation in operations)) {
+            $(operation_selector).val($(operation_selector).find("option :first").text()).change();
+        }
+
     }
 
     d3.json(stats_db, function(error, data) {
