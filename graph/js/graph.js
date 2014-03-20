@@ -3,16 +3,16 @@ var drawGraph = function() {
     $("svg").remove();
 
     //Dataset and metric to draw is passed via query option:
-    var query = parseUri(location).queryKey;
+    query = parseUri(location).queryKey;
     var stats_db = 'data/' + query.stats;
     var metric = query.metric;
     var operation = query.operation;
     var smoothing = query.smoothing;
 
-    var xmin = query.xmin;
-    var xmax = query.xmax;
-    var ymin = query.ymin;
-    var ymax = query.ymax;
+    xmin = query.xmin;
+    xmax = query.xmax;
+    ymin = query.ymin;
+    ymax = query.ymax;
 
     //Stress-ng (2.1) metrics:
     var stress_metrics = [
@@ -44,26 +44,25 @@ var drawGraph = function() {
         'stderr': 'stderr'
     };
 
-    var metric_index = stress_metrics.indexOf(metric);
-    var time_index = stress_metrics.indexOf('elapsed_time');
+    var updateURLBar = function() {
+        //Update the URL bar with the current parameters:
+        window.history.replaceState(null,null,parseUri(location).path + "?" + $.param(query));
+    };
     
-    //Keep track of what operations are availble from the test:
-    operations = {};
-
     //Check query parameters:
-    var url = location.href;
     if (metric == undefined) {
-        url=url+'&metric=op_rate';
+        metric = query.metric = 'op_rate';
     }
     if (operation == undefined) {
-        url=url+'&operation=write';
+        operation = query.operation = 'write';
     }
     if (smoothing == undefined) {
-        url=url+'&smoothing=1';
+        smoothing = query.smoothing = 1;
     }
-    if (url != location.href) {
-        location.href = url;
-    }
+    updateURLBar();
+
+    var metric_index = stress_metrics.indexOf(metric);
+    var time_index = stress_metrics.indexOf('elapsed_time');
 
     /// Add dropdown controls to select chart criteria / options:
     var chart_controls = $('<div id="chart_controls"/>');
@@ -82,18 +81,10 @@ var drawGraph = function() {
         metric_selector.append(option);
 
     });
-    metric_selector.change(function(e) {
-        // change the metric in the url to reload the page:
-        location.href = location.href.replace(new RegExp('metric=[a-zA-Z_0-9\.]*'), 'metric='+this.value);
-    });
     chart_controls_tbl.append('<tr><td><label for="metric_selector"/>Choose metric:</label></td><td id="metric_selector_td"></td></tr>')
     $('#metric_selector_td').append(metric_selector);
 
     var operation_selector = $('<select id="operation_selector"/>')
-    operation_selector.change(function(e) {
-        // change the metric in the url to reload the page:
-        location.href = location.href.replace(new RegExp('operation=[a-zA-Z_\-]*'), 'operation='+this.value);        
-    });
     chart_controls_tbl.append('<tr><td><label for="operation_selector"/>Choose operation:</label></td><td id="operation_selector_td"></td></tr>')
     $('#operation_selector_td').append(operation_selector);
 
@@ -106,21 +97,25 @@ var drawGraph = function() {
         }
         smoothing_selector.append(option);
     });
-    smoothing_selector.change(function(e) {
-        // change the metric in the url to reload the page:
-        location.href = location.href.replace(new RegExp('smoothing=[0-9]*'), 'smoothing='+this.value);
-    });
-    chart_controls_tbl.append('<tr><td><label for="smoothing_selector"/>Data smoothing:</label></td><td id="smoothing_selector_td"></td></tr>')
-    $('#smoothing_selector_td').append(smoothing_selector).append(" To hide/show a dataset double-click the colored box below:");
-    chart_controls_tbl.append('<tr><td colspan="100%"><span id="control_zoom">Zoom:</span><table id="zoom"><tr><td><label for="xmin"/>x min</label></td><td><input id="xmin"/></td><td><label for="xmax"/>x max</label></td><td><input id="xmax"/></td></tr><tr><td><label for="ymin"/>y min</label></td><td><input id="ymin"/></td><td><label for="ymax"/>y max</label></td><td><input id="ymax"/></td></tr></table></td></tr>');
+    chart_controls_tbl.append('<tr><td style="width:150px"><label for="smoothing_selector"/>Data smoothing:</label></td><td id="smoothing_selector_td"></td></tr>')
+    $("#smoothing_selector_td").append(smoothing_selector);
+    chart_controls_tbl.append('<tr><td colspan="100%">Zoom: <a href="#" id="reset_zoom">reset</a><table id="zoom"><tr><td><label for="xmin"/>x min</label></td><td><input id="xmin"/></td><td><label for="xmax"/>x max</label></td><td><input id="xmax"/></td></tr><tr><td><label for="ymin"/>y min</label></td><td><input id="ymin"/></td><td><label for="ymax"/>y max</label></td><td><input id="ymax"/></td></tr></table></td></tr>');
 
-    d3.json(stats_db, function(error, raw_data) {
-        
-        //Filter the dataset for the one we want:
+    chart_controls_tbl.append('<tr><td style="padding-top:10px" colspan="100%">To hide/show a dataset click on the associated colored box</td></tr>');
+
+    var raw_data;
+
+    //Callback to draw graph once we have json data.
+    var graph_callback = function() {
         var data = [];
         var trials = {};
         var data_by_title = {};
+        //Keep track of what operations are availble from the test:
+        var operations = {};
+
         raw_data.stats.forEach(function(d) {
+            // Make a copy of d so we never modify raw_data
+            d = $.extend({}, d);
             operations[d.test] = true;
             if (d.test!=operation) {
                 return;
@@ -131,12 +126,8 @@ var drawGraph = function() {
             trials[d.title] = d;
             //Clean up the intervals:
             //Remove every other item, so as to smooth the line:
-            new_intervals = [];
+            var new_intervals = [];
             d.intervals.forEach(function(i, x) {
-                //Skip data that is outside our x range:
-                if (i[time_index] < xmin || i[time_index] >= xmax)
-                    return;
-                
                 if (x % smoothing == 0) {
                     new_intervals.push(i);
                 }
@@ -145,6 +136,7 @@ var drawGraph = function() {
         });
 
         //Fill operations available from test:
+        operation_selector.children().remove();
         $.each(operations, function(k) {
             var option = $('<option/>').attr('value', k).text(k);
             if (operation == k) {
@@ -164,8 +156,6 @@ var drawGraph = function() {
                 //This is one of the metrics directly reported by stress:
                 return d[metric_index];
             } else {
-
-
                 //This metric is not reported by stress, so compute it ourselves:
                 if (metric == 'num_timeouts') {
                     return d[stress_metrics.indexOf('interval_op_rate')] - d[stress_metrics.indexOf('interval_key_rate')];
@@ -178,27 +168,68 @@ var drawGraph = function() {
             d.date = new Date(Date.parse(d.date));
         });
 
-        if (xmin == undefined) {
-            xmin = 0;
-        }
-        if (xmax == undefined) {
-            xmax = d3.max(data, function(d) {
+
+        $("svg").remove();
+        //Setup initial zoom level:
+        defaultZoom = function(initialize) {
+            if (!initialize) {
+                //Reset zoom query params:
+                query.xmin = xmin = undefined;
+                query.xmax = xmax = undefined;
+                query.ymin = ymin = undefined;
+                query.ymax = ymax = undefined;
+            }
+            query.xmin = xmin = query.xmin ? query.xmin : 0;
+            query.xmax = xmax = query.xmax ? query.xmax : Math.round(d3.max(data, function(d) {
                 if (d.intervals.length > 0) {
                     return d.intervals[d.intervals.length-1][time_index];
                 }
-            });
-        }
-
-        if (ymin == undefined) {
-            ymin = 0;
-        }
-        if (ymax == undefined) {
-            ymax = d3.max(data, function(d) {
+            }) * 1.1 * 100) / 100;
+            query.ymin = ymin = query.ymin ? query.ymin : 0;
+            query.ymax = ymax = query.ymax ? query.ymax : Math.round(d3.max(data, function(d) {
                 return d3.max(d.intervals, function(i) {
                     return getMetricValue(i);
                 });
+            }) * 1.1 * 100) / 100;
+            $("#xmin").val(xmin);
+            $("#xmax").val(xmax);
+            $("#ymin").val(ymin);
+            $("#ymax").val(ymax);
+            var updateX = function() {
+                query.xmin = xmin = $("#xmin").val();
+                query.xmax = xmax = $("#xmax").val();
+                x.domain([xmin,xmax]);
+                updateURLBar();
+            };
+            var updateY = function() {
+                query.ymin = ymin = $("#ymin").val();
+                query.ymax = ymax = $("#ymax").val();
+                y.domain([ymin, ymax]);
+                updateURLBar();
+            };
+            $("#xmin,#xmax").unbind().change(function(e) {
+                updateX();
+                redrawLines();
             });
+            $("#ymin,#ymax").unbind().change(function(e) {
+                updateY();
+                redrawLines();
+            });
+            // The first time defaultZoom is called, we pass
+            // initialize=true, and we do not call the change() method
+            // yet. On subsequent calls, without initialize, we do.
+            if (!initialize) {
+                updateX();
+                updateY();
+                redrawLines();
+            }
         }
+        defaultZoom(true);
+
+        $("#reset_zoom").click(function(e) {
+            defaultZoom();
+            e.preventDefault();
+        });
 
         //Setup chart:
         var margin = {top: 20, right: 1180, bottom: 2240, left: 60};
@@ -212,21 +243,6 @@ var drawGraph = function() {
         var y = d3.scale.linear()
             .domain([ymin, ymax])
             .range([height, 0]);
-
-        $("#xmin").val(Math.floor(x.domain()[0]));
-        $("#xmax").val(Math.floor(x.domain()[1]));
-        $("#ymin").val(Math.floor(y.domain()[0]));
-        $("#ymax").val(Math.floor(y.domain()[1]));
-        $("#xmin,#xmax").change(function(e) {
-            var coords = [$("#xmin").val(), $("#xmax").val()];
-            x.domain(coords);
-            redrawLines();
-        });
-        $("#ymin,#ymax").change(function(e) {
-            var coords = [$("#ymin").val(), $("#ymax").val()];
-            y.domain(coords);
-            redrawLines();
-        });
 
         var color = d3.scale.category10();
         color.domain(data.map(function(d){return d.title}));
@@ -247,22 +263,22 @@ var drawGraph = function() {
             .y(function(d) { 
                 return y(getMetricValue(d));
             });
-
+        
         $("body").append("<div id='svg_container'>");
 
         var redrawLines = function() {
-                svg.select(".x.axis").call(xAxis);
-                svg.select(".y.axis").call(yAxis);
-                svg.selectAll(".line")
-                    .attr("class","line")
-                    .attr("d", function(d) {
-                        return line(d.intervals);
-                    })
-                $("#xmin").val(Math.floor(x.domain()[0]));
-                $("#xmax").val(Math.floor(x.domain()[1]));
-                $("#ymin").val(Math.floor(y.domain()[0]));
-                $("#ymax").val(Math.floor(y.domain()[1]));
-            }
+            svg.select(".x.axis").call(xAxis);
+            svg.select(".y.axis").call(yAxis);
+            svg.selectAll(".line")
+                .attr("class","line")
+                .attr("d", function(d) {
+                    return line(d.intervals);
+                })
+            $("#xmin").val(x.domain()[0]);
+            $("#xmax").val(x.domain()[1]);
+            $("#ymin").val(y.domain()[0]);
+            $("#ymax").val(y.domain()[1]);
+        }
 
         var zoom = d3.behavior.zoom()
             .x(x)
@@ -338,7 +354,7 @@ var drawGraph = function() {
             .enter().append("g")
             .attr("class", "legend")
             .attr("transform", function(d, i) {
-                var y_offset = 425 + ((i % 3)*170) + 70;
+                var y_offset = 425 + ((i % 3)*190) + 70;
                 var x_offset = -550 + (350 * (Math.ceil((i+1) / 3.0) - 1));
                 return "translate(" + x_offset + "," + y_offset + ")"; 
             });
@@ -418,6 +434,10 @@ var drawGraph = function() {
         });
 
         renderLegendText(13, function(title) {
+            return padTextEnd('Total time', 26) + ' : ' + data_by_title[title]['Total operation time'];
+        });
+
+        renderLegendText(14, function(title) {
             var cmd = data_by_title[title]['command'].replace(new RegExp(' \-node [a-zA-Z_0-9]*'), '');
             return 'cmd: ' + cmd;
         });
@@ -433,16 +453,46 @@ var drawGraph = function() {
             .style("fill", color);
 
         //Make trials hideable by double clicking on the colored legend box
-        $("rect.legend-rect").dblclick(function() {
+        $("rect.legend-rect").click(function() {
             $("g.trial[title='" + $(this).attr('title') + "']").toggle();
         });
-        
+
+
+        // Chart control callbacks:
+        metric_selector.unbind().change(function(e) {
+            // change the metric in the url to reload the page:
+            metric = query.metric = this.value;
+            metric_index = stress_metrics.indexOf(metric);
+            graph_callback();
+            defaultZoom();
+        });
+        operation_selector.unbind().change(function(e) {
+            // change the metric in the url to reload the page:
+            operation = query.operation = this.value;
+            graph_callback();
+            defaultZoom();
+        });
+        smoothing_selector.unbind().change(function(e) {
+            // change the metric in the url to reload the page:
+            smoothing = query.smoothing = this.value;
+            graph_callback();
+            defaultZoom();
+        });
+
+        updateURLBar();
+
         // Chart zoom/drag surface
         // This should always be last, so it's on top of everything else
         svg.append("svg:rect")
             .attr("id", "zoom_drag_surface")
             .attr("width", width)
-            .attr("height", height)
+            .attr("height", height);
+    }
+
+    d3.json(stats_db, function(error, data) {
+        //Filter the dataset for the one we want:
+        raw_data = data;
+        graph_callback();
     });
 
 }
