@@ -300,6 +300,14 @@ var drawGraph = function() {
             .style("text-anchor", "middle")
             .text(raw_data.title + ' - ' + operation);
 
+        // Chart subtitle
+        svg.append("text")
+            .attr("x", width / 2 )
+            .attr("y", 15 )
+            .style('font-size', '1.2em')
+            .style("text-anchor", "middle")
+            .text((raw_data.subtitle ? raw_data.subtitle : ''));
+
         // x-axis - time
         svg.append("g")
             .attr("class", "x axis")

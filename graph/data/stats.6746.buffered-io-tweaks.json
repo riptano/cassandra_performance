@@ -15247,5 +15247,6 @@
             "test": "read"
         }
     ], 
-    "title": "CASSANDRA-6746 buffered-io-tweaks"
+    "title": "CASSANDRA-6746 buffered-io-tweaks",
+    "subtitle": "disk_access_mode: standard"
 }
