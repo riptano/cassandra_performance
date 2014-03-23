@@ -103,6 +103,8 @@ var drawGraph = function() {
 
     chart_controls_tbl.append('<tr><td style="padding-top:10px" colspan="100%">To hide/show a dataset click on the associated colored box</td></tr>');
 
+    chart_controls_tbl.append('<tr><td style="padding-top:10px" colspan="100%"><a href="#" id="dl-test-data">Download raw test data</a></td></tr>');
+
     var raw_data;
 
     //Callback to draw graph once we have json data.
@@ -482,6 +484,8 @@ var drawGraph = function() {
         });
 
         updateURLBar();
+
+        $("#dl-test-data").attr("href",stats_db);
 
         // Chart zoom/drag surface
         // This should always be last, so it's on top of everything else
