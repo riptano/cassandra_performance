@@ -1,0 +1,1 @@
+JVM_OPTS="$JVM_OPTS -Dcassandra.boot_without_jna=true"
