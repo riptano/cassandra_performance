@@ -35637,7 +35637,7 @@
             "real op rate": "35192", 
             "revision": "belliottsmith/cassandra-2.1", 
             "start_date": "2014-05-08T15:42:04.600068", 
-            "test": "write (write)", 
+            "test": "write (populate)", 
             "type": "stress"
         }, 
         {
