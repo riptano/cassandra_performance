@@ -4315,7 +4315,7 @@
             "real op rate": "33301", 
             "revision": "belliottsmith/4718-lse", 
             "start_date": "2014-05-08T14:53:41.987978", 
-            "test": "write", 
+            "test": "write (populate)", 
             "type": "stress"
         }, 
         {
@@ -12512,7 +12512,7 @@
             "real op rate": "32555", 
             "revision": "belliottsmith/4718-lse-batchnetty", 
             "start_date": "2014-05-08T15:06:14.652829", 
-            "test": "write", 
+            "test": "write (populate)", 
             "type": "stress"
         }, 
         {
