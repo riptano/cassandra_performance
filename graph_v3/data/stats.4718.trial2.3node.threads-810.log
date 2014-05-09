@@ -2093,7 +2093,7 @@
             "real op rate": "119179", 
             "revision": "belliottsmith/4718-lse-batchnetty", 
             "start_date": "2014-05-09T07:22:56.748575", 
-            "test": "1 - write", 
+            "test": "1_write", 
             "type": "stress"
         }, 
         {
@@ -2234,7 +2234,7 @@
             "real op rate": "122440", 
             "revision": "belliottsmith/4718-lse-batchnetty", 
             "start_date": "2014-05-09T07:26:38.884397", 
-            "test": "3 - write", 
+            "test": "3_write", 
             "type": "stress"
         }, 
         {
@@ -3818,7 +3818,7 @@
             "real op rate": "156688", 
             "revision": "belliottsmith/4718-lse-batchnetty", 
             "start_date": "2014-05-09T07:27:34.858827", 
-            "test": "4 - read", 
+            "test": "4_read", 
             "type": "stress"
         }, 
         {
@@ -5922,7 +5922,7 @@
             "real op rate": "117113", 
             "revision": "belliottsmith/4718-fjp-batchnetty", 
             "start_date": "2014-05-09T07:31:51.225600", 
-            "test": "1 - write", 
+            "test": "1_write", 
             "type": "stress"
         }, 
         {
@@ -6076,7 +6076,7 @@
             "real op rate": "111932", 
             "revision": "belliottsmith/4718-fjp-batchnetty", 
             "start_date": "2014-05-09T07:35:41.480461", 
-            "test": "3 - write", 
+            "test": "3_write", 
             "type": "stress"
         }, 
         {
@@ -8037,7 +8037,7 @@
             "real op rate": "126752", 
             "revision": "belliottsmith/4718-fjp-batchnetty", 
             "start_date": "2014-05-09T07:36:37.859740", 
-            "test": "4 - read", 
+            "test": "4_read", 
             "type": "stress"
         }, 
         {
@@ -9647,7 +9647,7 @@
             "real op rate": "152904", 
             "revision": "belliottsmith/cassandra-2.1-batchnetty", 
             "start_date": "2014-05-09T07:41:27.105396", 
-            "test": "1 - write", 
+            "test": "1_write", 
             "type": "stress"
         }, 
         {
@@ -9775,7 +9775,7 @@
             "real op rate": "137057", 
             "revision": "belliottsmith/cassandra-2.1-batchnetty", 
             "start_date": "2014-05-09T07:44:39.184607", 
-            "test": "3 - write", 
+            "test": "3_write", 
             "type": "stress"
         }, 
         {
@@ -11216,7 +11216,7 @@
             "real op rate": "171958", 
             "revision": "belliottsmith/cassandra-2.1-batchnetty", 
             "start_date": "2014-05-09T07:45:34.041180", 
-            "test": "4 - read", 
+            "test": "4_read", 
             "type": "stress"
         }, 
         {
@@ -12930,7 +12930,7 @@
             "real op rate": "140275", 
             "revision": "belliottsmith/cassandra-2.1", 
             "start_date": "2014-05-09T07:49:39.233194", 
-            "test": "1 - write", 
+            "test": "1_write", 
             "type": "stress"
         }, 
         {
@@ -13058,7 +13058,7 @@
             "real op rate": "130994", 
             "revision": "belliottsmith/cassandra-2.1", 
             "start_date": "2014-05-09T07:53:02.805366", 
-            "test": "3 - write", 
+            "test": "3_write", 
             "type": "stress"
         }, 
         {
@@ -14590,7 +14590,7 @@
             "real op rate": "153365", 
             "revision": "belliottsmith/cassandra-2.1", 
             "start_date": "2014-05-09T07:53:57.850773", 
-            "test": "4 - read", 
+            "test": "4_read", 
             "type": "stress"
         }
     ], 
