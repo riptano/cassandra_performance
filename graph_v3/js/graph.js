@@ -441,7 +441,7 @@ var drawGraph = function() {
         });
 
         renderLegendText(14, function(title) {
-            var cmd = data_by_title[title]['command'].replace(new RegExp(' \-node [a-zA-Z_0-9]*'), '');
+            var cmd = data_by_title[title]['command'];
             return 'cmd: ' + cmd;
         });
 
