@@ -53933,32 +53933,6 @@
             "revision": "belliottsmith/cassandra-2.1", 
             "start_date": "2014-05-13T15:07:07.291307", 
             "type": "cqlsh"
-        }, 
-        {
-            "command": "write n=10000000 -key populate=1..10000000 -rate threads=270 -mode cql3 native prepared -node bdplab2,bdplab3,bdplab1", 
-            "end_date": "2014-05-13T15:08:37.283700", 
-            "git_id": "b2dd6a7f6c5d3751df9483a557f7ec8d54901e4b", 
-            "id": "f40c1bf2-daea-11e3-ba36-d4ae5268ada5", 
-            "intervals": [], 
-            "label": "belliottsmith/cassandra-2.1", 
-            "op_duration": "0:01:16.995557", 
-            "revision": "belliottsmith/cassandra-2.1", 
-            "start_date": "2014-05-13T15:07:20.288143", 
-            "test": "3 - write", 
-            "type": "stress"
-        }, 
-        {
-            "command": "read n=200000000 -key dist=uniform\\(1..10000000\\) -rate threads=270 -mode cql3 native prepared -node bdplab2,bdplab3,bdplab1", 
-            "end_date": "2014-05-13T15:08:54.773544", 
-            "git_id": "b2dd6a7f6c5d3751df9483a557f7ec8d54901e4b", 
-            "id": "235df3c6-daeb-11e3-ba36-d4ae5268ada5", 
-            "intervals": [], 
-            "label": "belliottsmith/cassandra-2.1", 
-            "op_duration": "0:00:15.096114", 
-            "revision": "belliottsmith/cassandra-2.1", 
-            "start_date": "2014-05-13T15:08:39.677430", 
-            "test": "4 - read", 
-            "type": "stress"
         }
     ], 
     "subtitle": "", 
