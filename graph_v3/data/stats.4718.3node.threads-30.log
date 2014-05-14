@@ -3436,7 +3436,7 @@
             "real op rate": "37975", 
             "revision": "belliottsmith/4718-lse", 
             "start_date": "2014-05-08T20:03:54.261713", 
-            "test": "1 - write", 
+            "test": "1_write", 
             "type": "stress"
         }, 
         {
@@ -3824,7 +3824,7 @@
             "real op rate": "37010", 
             "revision": "belliottsmith/4718-lse", 
             "start_date": "2014-05-08T20:08:40.099964", 
-            "test": "3 - write", 
+            "test": "3_write", 
             "type": "stress"
         }, 
         {
@@ -7293,7 +7293,7 @@
             "real op rate": "37490", 
             "revision": "belliottsmith/4718-lse", 
             "start_date": "2014-05-08T20:09:17.527153", 
-            "test": "4 - read", 
+            "test": "4_read", 
             "type": "stress"
         }, 
         {
@@ -10775,7 +10775,7 @@
             "real op rate": "37191", 
             "revision": "belliottsmith/4718-lse-batchnetty", 
             "start_date": "2014-05-08T20:15:10.521313", 
-            "test": "1 - write", 
+            "test": "1_write", 
             "type": "stress"
         }, 
         {
@@ -11176,7 +11176,7 @@
             "real op rate": "36149", 
             "revision": "belliottsmith/4718-lse-batchnetty", 
             "start_date": "2014-05-08T20:20:02.871707", 
-            "test": "3 - write", 
+            "test": "3_write", 
             "type": "stress"
         }, 
         {
@@ -14645,7 +14645,7 @@
             "real op rate": "37339", 
             "revision": "belliottsmith/4718-lse-batchnetty", 
             "start_date": "2014-05-08T20:20:41.065216", 
-            "test": "4 - read", 
+            "test": "4_read", 
             "type": "stress"
         }, 
         {
@@ -17802,7 +17802,7 @@
             "real op rate": "41025", 
             "revision": "belliottsmith/4718-fjp", 
             "start_date": "2014-05-08T20:26:34.640873", 
-            "test": "1 - write", 
+            "test": "1_write", 
             "type": "stress"
         }, 
         {
@@ -18164,7 +18164,7 @@
             "real op rate": "39258", 
             "revision": "belliottsmith/4718-fjp", 
             "start_date": "2014-05-08T20:31:00.954908", 
-            "test": "3 - write", 
+            "test": "3_write", 
             "type": "stress"
         }, 
         {
@@ -21360,7 +21360,7 @@
             "real op rate": "40673", 
             "revision": "belliottsmith/4718-fjp", 
             "start_date": "2014-05-08T20:31:37.248350", 
-            "test": "4 - read", 
+            "test": "4_read", 
             "type": "stress"
         }, 
         {
@@ -24634,7 +24634,7 @@
             "real op rate": "39555", 
             "revision": "belliottsmith/4718-lowsignal", 
             "start_date": "2014-05-08T20:37:09.007633", 
-            "test": "1 - write", 
+            "test": "1_write", 
             "type": "stress"
         }, 
         {
@@ -25009,7 +25009,7 @@
             "real op rate": "38663", 
             "revision": "belliottsmith/4718-lowsignal", 
             "start_date": "2014-05-08T20:41:43.878423", 
-            "test": "3 - write", 
+            "test": "3_write", 
             "type": "stress"
         }, 
         {
@@ -28309,7 +28309,7 @@
             "real op rate": "39360", 
             "revision": "belliottsmith/4718-lowsignal", 
             "start_date": "2014-05-08T20:42:20.336073", 
-            "test": "4 - read", 
+            "test": "4_read", 
             "type": "stress"
         }, 
         {
@@ -31583,7 +31583,7 @@
             "real op rate": "39553", 
             "revision": "belliottsmith/cassandra-2.1", 
             "start_date": "2014-05-08T20:48:01.134266", 
-            "test": "1 - write", 
+            "test": "1_write", 
             "type": "stress"
         }, 
         {
@@ -31958,7 +31958,7 @@
             "real op rate": "38483", 
             "revision": "belliottsmith/cassandra-2.1", 
             "start_date": "2014-05-08T20:52:36.920163", 
-            "test": "3 - write", 
+            "test": "3_write", 
             "type": "stress"
         }, 
         {
@@ -35310,7 +35310,7 @@
             "real op rate": "38761", 
             "revision": "belliottsmith/cassandra-2.1", 
             "start_date": "2014-05-08T20:53:13.435696", 
-            "test": "4 - read", 
+            "test": "4_read", 
             "type": "stress"
         }
     ], 

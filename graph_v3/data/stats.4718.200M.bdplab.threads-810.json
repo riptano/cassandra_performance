@@ -18377,7 +18377,7 @@
             "real op rate": "129982", 
             "revision": "belliottsmith/4718-sep", 
             "start_date": "2014-05-13T10:08:48.234801", 
-            "test": "1 - write", 
+            "test": "1_write", 
             "type": "stress"
         }, 
         {
@@ -18404,7 +18404,7 @@
             "op_duration": "0:00:32.425242", 
             "revision": "belliottsmith/4718-sep", 
             "start_date": "2014-05-13T10:35:06.280240", 
-            "test": "3 - write", 
+            "test": "3_write", 
             "type": "stress"
         }, 
         {
@@ -18417,7 +18417,7 @@
             "op_duration": "0:00:34.286462", 
             "revision": "belliottsmith/4718-sep", 
             "start_date": "2014-05-13T10:35:40.974200", 
-            "test": "4 - read", 
+            "test": "4_read", 
             "type": "stress"
         }, 
         {
@@ -38292,7 +38292,7 @@
             "real op rate": "120516", 
             "revision": "belliottsmith/cassandra-2.1-batchnetty", 
             "start_date": "2014-05-13T10:37:50.656383", 
-            "test": "1 - write", 
+            "test": "1_write", 
             "type": "stress"
         }, 
         {
@@ -39266,7 +39266,7 @@
             "real op rate": "128252", 
             "revision": "belliottsmith/cassandra-2.1-batchnetty", 
             "start_date": "2014-05-13T11:06:28.483686", 
-            "test": "3 - write", 
+            "test": "3_write", 
             "type": "stress"
         }, 
         {
@@ -57646,7 +57646,7 @@
             "real op rate": "133100", 
             "revision": "belliottsmith/cassandra-2.1-batchnetty", 
             "start_date": "2014-05-13T11:08:33.413243", 
-            "test": "4 - read", 
+            "test": "4_read", 
             "type": "stress"
         }, 
         {
@@ -78392,7 +78392,7 @@
             "real op rate": "115206", 
             "revision": "belliottsmith/cassandra-2.1", 
             "start_date": "2014-05-13T11:35:38.768197", 
-            "test": "1 - write", 
+            "test": "1_write", 
             "type": "stress"
         }, 
         {
