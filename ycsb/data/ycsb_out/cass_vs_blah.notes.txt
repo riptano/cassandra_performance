@@ -1,0 +1,5 @@
+python ycsb_stats.py -j data/cassandra_vs_blahdb.ycsb.json -t "YCSB C* vs BlahDB - RF=1 - durable writes" -f data/ycsb_out/cass_vs_blahdb_no_replicas/cass.rf1_2014-05-30_20-06-02.load.out INSERT "Cassandra 2.1 beta2" -f data/ycsb_out/cass_vs_blahdb_no_replicas/cass.rf1_2014-05-30_20-06-02.run.out READ "Cassandra 2.1 beta2" -f data/ycsb_out/cass_vs_blahdb_no_replicas/blahdb.2014-05-30_18-05-14.load.out INSERT "BlahDB"  -f data/ycsb_out/cass_vs_blahdb_no_replicas/blahdb.2014-05-30_18-05-14.run.out READ "BlahDB"
+
+
+python ycsb_stats.py -j data/cassandra_vs_blahdb.ycsb.json -t "YCSB C* vs BlahDB - RF=1 - durable writes" -f data/ycsb_out/cass_vs_blahdb_no_replicas/cass.rf1_2014-05-30_20-06-02.load.out INSERT "Cassandra 2.1 beta2" -f data/ycsb_out/cass_vs_blahdb_no_replicas/blahdb.2014-05-30_18-05-14.load.out INSERT "BlahDB"  -f data/ycsb_out/cass_vs_blahdb_no_replicas/blahdb.2014-05-30_18-05-14.run.out READ "BlahDB"
+
