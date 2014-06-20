@@ -13150,7 +13150,7 @@
             "real op rate": "56971", 
             "revision": "cassandra-2.1.0-rc1", 
             "start_date": "2014-06-19T11:48:55.213927", 
-            "test": "1 - write", 
+            "test": "1_write", 
             "type": "stress"
         }, 
         {
@@ -45882,7 +45882,7 @@
             "real op rate": "20838", 
             "revision": "cassandra-2.1.0-rc1", 
             "start_date": "2014-06-19T12:08:09.483598", 
-            "test": "2 - read", 
+            "test": "2_read_warm_up", 
             "type": "stress"
         }, 
         {
@@ -61285,7 +61285,7 @@
             "real op rate": "54274", 
             "revision": "cassandra-2.1.0-rc1", 
             "start_date": "2014-06-19T13:01:48.796102", 
-            "test": "3 - read", 
+            "test": "3_read", 
             "type": "stress"
         }, 
         {
@@ -74946,7 +74946,7 @@
             "real op rate": "59233", 
             "revision": "cassandra-2.1.0-rc1", 
             "start_date": "2014-06-19T13:24:18.621460", 
-            "test": "1 - write", 
+            "test": "1_write", 
             "type": "stress"
         }, 
         {
@@ -130701,7 +130701,7 @@
             "real op rate": "9721", 
             "revision": "cassandra-2.1.0-rc1", 
             "start_date": "2014-06-19T13:42:49.605024", 
-            "test": "2 - read", 
+            "test": "2_read_warm_up", 
             "type": "stress"
         }, 
         {
@@ -146897,7 +146897,7 @@
             "real op rate": "51612", 
             "revision": "cassandra-2.1.0-rc1", 
             "start_date": "2014-06-19T15:35:40.338010", 
-            "test": "3 - read", 
+            "test": "3_read", 
             "type": "stress"
         }
     ], 
