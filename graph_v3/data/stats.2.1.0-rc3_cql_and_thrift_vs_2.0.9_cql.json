@@ -91152,7 +91152,7 @@
                 ]
             ], 
             "key rate": "75197", 
-            "label": "cassandra-2.0.9", 
+            "label": "cassandra-2.0.9 (cql)", 
             "latency 95th percentile": "3.9", 
             "latency 99.9th percentile": "61.8", 
             "latency 99th percentile": "5.6", 
@@ -109675,7 +109675,7 @@
                 ]
             ], 
             "key rate": "83077", 
-            "label": "cassandra-2.0.9", 
+            "label": "cassandra-2.0.9 (cql)", 
             "latency 95th percentile": "13.2", 
             "latency 99.9th percentile": "78.0", 
             "latency 99th percentile": "30.3", 
