@@ -155407,6 +155407,6 @@
             "type": "stress"
         }
     ], 
-    "subtitle": "", 
+    "subtitle": "1 x c3.8xlarge", 
     "title": "C* CQL vs Thrift"
 }
