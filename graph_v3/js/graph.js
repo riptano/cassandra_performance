@@ -357,8 +357,8 @@ var drawGraph = function() {
             .enter().append("g")
             .attr("class", "legend")
             .attr("transform", function(d, i) {
-                var y_offset = 425 + ((i % 3)*190) + 70;
-                var x_offset = -550 + (350 * (Math.ceil((i+1) / 3.0) - 1));
+                var y_offset = 425 + (i*190) + 70;
+                var x_offset = -550;
                 return "translate(" + x_offset + "," + y_offset + ")"; 
             });
 
