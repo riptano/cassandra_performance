@@ -105,6 +105,11 @@ var drawGraph = function() {
     });
     chart_controls_tbl.append('<tr><td style="width:150px"><label for="smoothing_selector"/>Data smoothing:</label></td><td id="smoothing_selector_td"></td></tr>')
     $("#smoothing_selector_td").append(smoothing_selector);
+
+    var show_aggregates_checkbox = $('<input type="checkbox" id="show_aggregates_checkbox"/>');
+    chart_controls_tbl.append('<tr><td style="padding-top:10px"><label for="show_aggregates_checkbox">Show aggregates</label></td><td id="show_aggregates_td"></td></tr>');
+    $("#show_aggregates_td").append(show_aggregates_checkbox);
+
     chart_controls_tbl.append('<tr><td colspan="100%">Zoom: <a href="#" id="reset_zoom">reset</a><table id="zoom"><tr><td><label for="xmin"/>x min</label></td><td><input id="xmin"/></td><td><label for="xmax"/>x max</label></td><td><input id="xmax"/></td></tr><tr><td><label for="ymin"/>y min</label></td><td><input id="ymin"/></td><td><label for="ymax"/>y max</label></td><td><input id="ymax"/></td></tr></table></td></tr>');
 
     chart_controls_tbl.append('<tr><td style="padding-top:10px" colspan="100%">To hide/show a dataset click on the associated colored box</td></tr>');
@@ -492,6 +497,10 @@ var drawGraph = function() {
             smoothing = query.smoothing = this.value;
             graph_callback();
             defaultZoom();
+        });
+        show_aggregates_checkbox.unbind().change(function(e) {
+            show_aggregates = query.show_aggregates = this.checked;
+            graph_callback();
         });
 
         updateURLBar();
