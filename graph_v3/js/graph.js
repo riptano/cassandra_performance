@@ -9,12 +9,7 @@ var drawGraph = function() {
     var metric = query.metric;
     var operation = query.operation;
     var smoothing = query.smoothing;
-    var show_aggregates;
-    if (query.show_aggregates == 'true') {
-        show_aggregates = true;
-    } else {
-        show_aggregates = false;
-    }   
+    var show_aggregates = query.show_aggregates;
 
     xmin = query.xmin;
     xmax = query.xmax;
@@ -64,9 +59,12 @@ var drawGraph = function() {
     if (smoothing == undefined) {
         smoothing = query.smoothing = 1;
     }
-    if (show_aggregates == undefined) {
+    if (show_aggregates == undefined || query.show_aggregates == 'true') {
         show_aggregates = query.show_aggregates = true;
+    } else {
+        show_aggregates = query.show_aggregates = false;
     }
+    console.log(show_aggregates);
     updateURLBar();
 
     var metric_index = stress_metrics.indexOf(metric);
