@@ -9,6 +9,12 @@ var drawGraph = function() {
     var metric = query.metric;
     var operation = query.operation;
     var smoothing = query.smoothing;
+    var show_aggregates;
+    if (query.show_aggregates == 'true') {
+        show_aggregates = true;
+    } else {
+        show_aggregates = false;
+    }   
 
     xmin = query.xmin;
     xmax = query.xmax;
@@ -57,6 +63,9 @@ var drawGraph = function() {
     }
     if (smoothing == undefined) {
         smoothing = query.smoothing = 1;
+    }
+    if (show_aggregates == undefined) {
+        show_aggregates = query.show_aggregates = true;
     }
     updateURLBar();
 
@@ -357,7 +366,11 @@ var drawGraph = function() {
             .enter().append("g")
             .attr("class", "legend")
             .attr("transform", function(d, i) {
-                var y_offset = 425 + (i*190) + 70;
+                if (show_aggregates == true) {
+                    var y_offset = 425 + (i*190) + 70;
+                } else {
+                    var y_offset = 425 + (i*25) + 70;
+                }
                 var x_offset = -550;
                 return "translate(" + x_offset + "," + y_offset + ")"; 
             });
@@ -392,59 +405,60 @@ var drawGraph = function() {
             return padTextStart(title, title.length + 5);
         });
 
-        renderLegendText(2, function(title) {
-            return '---------------------------------------';
-        });
+        if (show_aggregates === true) {
+            renderLegendText(2, function(title) {
+                return '---------------------------------------';
+            });
 
-        renderLegendText(3, function(title) {
-            return padTextEnd('real op rate', 26) + " : " + data_by_title[title]['real op rate'];
-        });
+            renderLegendText(3, function(title) {
+                return padTextEnd('real op rate', 26) + " : " + data_by_title[title]['real op rate'];
+            });
 
-        renderLegendText(4, function(title) {
-            return padTextEnd('adjusted op rate', 26) + " : " + data_by_title[title]['adjusted op rate'];
-        });
+            renderLegendText(4, function(title) {
+                return padTextEnd('adjusted op rate', 26) + " : " + data_by_title[title]['adjusted op rate'];
+            });
 
-        renderLegendText(5, function(title) {
-            return padTextEnd('adjusted op rate stderr', 26) + ' : ' + data_by_title[title]['adjusted op rate stderr'];
-        });
+            renderLegendText(5, function(title) {
+                return padTextEnd('adjusted op rate stderr', 26) + ' : ' + data_by_title[title]['adjusted op rate stderr'];
+            });
 
-        renderLegendText(6, function(title) {
-            return padTextEnd('key rate', 26) + ' : ' + data_by_title[title]['key rate'];
-        });
+            renderLegendText(6, function(title) {
+                return padTextEnd('key rate', 26) + ' : ' + data_by_title[title]['key rate'];
+            });
 
-        renderLegendText(7, function(title) {
-            return padTextEnd('latency mean', 26) + ' : ' + data_by_title[title]['latency mean'];
-        });
+            renderLegendText(7, function(title) {
+                return padTextEnd('latency mean', 26) + ' : ' + data_by_title[title]['latency mean'];
+            });
 
-        renderLegendText(8, function(title) {
-            return padTextEnd('latency median', 26) + ' : ' + data_by_title[title]['latency median'];
-        });
+            renderLegendText(8, function(title) {
+                return padTextEnd('latency median', 26) + ' : ' + data_by_title[title]['latency median'];
+            });
 
-        renderLegendText(9, function(title) {
-            return padTextEnd('latency 95th percentile', 26) + ' : ' + data_by_title[title]['latency 95th percentile'];
-        });
+            renderLegendText(9, function(title) {
+                return padTextEnd('latency 95th percentile', 26) + ' : ' + data_by_title[title]['latency 95th percentile'];
+            });
 
-        renderLegendText(10, function(title) {
-            return padTextEnd('latency 99th percentile', 26) + ' : ' + data_by_title[title]['latency 99th percentile'];
-        });
+            renderLegendText(10, function(title) {
+                return padTextEnd('latency 99th percentile', 26) + ' : ' + data_by_title[title]['latency 99th percentile'];
+            });
 
-        renderLegendText(11, function(title) {
-            return padTextEnd('latency 99.9th percentile', 26) + ' : ' + data_by_title[title]['latency 99.9th percentile'];
-        });
+            renderLegendText(11, function(title) {
+                return padTextEnd('latency 99.9th percentile', 26) + ' : ' + data_by_title[title]['latency 99.9th percentile'];
+            });
 
-        renderLegendText(12, function(title) {
-            return padTextEnd('latency max', 26) + ' : ' + data_by_title[title]['latency max'];
-        });
+            renderLegendText(12, function(title) {
+                return padTextEnd('latency max', 26) + ' : ' + data_by_title[title]['latency max'];
+            });
 
-        renderLegendText(13, function(title) {
-            return padTextEnd('Total time', 26) + ' : ' + data_by_title[title]['Total operation time'];
-        });
+            renderLegendText(13, function(title) {
+                return padTextEnd('Total time', 26) + ' : ' + data_by_title[title]['Total operation time'];
+            });
 
-        renderLegendText(14, function(title) {
-            var cmd = data_by_title[title]['command'];
-            return 'cmd: ' + cmd;
-        });
-
+            renderLegendText(14, function(title) {
+                var cmd = data_by_title[title]['command'];
+                return 'cmd: ' + cmd;
+            });
+        }
         legend.append("rect")
             .attr("x", width - 270)
             .attr("width", 18)
