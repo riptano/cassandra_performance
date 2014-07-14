@@ -109,6 +109,7 @@ var drawGraph = function() {
     var show_aggregates_checkbox = $('<input type="checkbox" id="show_aggregates_checkbox"/>');
     chart_controls_tbl.append('<tr><td style="padding-top:10px"><label for="show_aggregates_checkbox">Show aggregates</label></td><td id="show_aggregates_td"></td></tr>');
     $("#show_aggregates_td").append(show_aggregates_checkbox);
+    show_aggregates_checkbox.attr("checked", show_aggregates);
 
     chart_controls_tbl.append('<tr><td colspan="100%">Zoom: <a href="#" id="reset_zoom">reset</a><table id="zoom"><tr><td><label for="xmin"/>x min</label></td><td><input id="xmin"/></td><td><label for="xmax"/>x max</label></td><td><input id="xmax"/></td></tr><tr><td><label for="ymin"/>y min</label></td><td><input id="ymin"/></td><td><label for="ymax"/>y max</label></td><td><input id="ymax"/></td></tr></table></td></tr>');
 
