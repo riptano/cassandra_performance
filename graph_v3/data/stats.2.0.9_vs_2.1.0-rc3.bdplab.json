@@ -20,7 +20,7 @@
             "git_id": "tag cassandra-2.0.9", 
             "log_dir": "/var/log/cassandra", 
             "revision": "cassandra-2.0.9"
-        }, 
+        } 
     ], 
     "stats": [
         {
@@ -139650,7 +139650,7 @@
             "start_date": "2014-07-15T11:45:41.330159", 
             "test": "3_read", 
             "type": "stress"
-        
+        }
     ], 
     "subtitle": "memtable_cleanup_threshold: 0.2 / memtable_flush_writers: 6", 
     "title": "Offheap vs Onheap memtables"
