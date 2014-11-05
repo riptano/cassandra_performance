@@ -19,8 +19,10 @@ var drawGraph = function() {
     //Stress-ng (2.1) metrics:
     var stress_metrics = [
         'total_ops',
+        'adj_row_rate',
         'op_rate',
         'key_rate',
+        'row_rate',
         'mean',
         'med',
         '95th_latency',
@@ -28,7 +30,12 @@ var drawGraph = function() {
         '99.9th_latency',
         'max_latency',
         'elapsed_time',
-        'stderr'
+        'stderr',
+        'gc_count',
+        'gc_max_ms',
+        'gc_sum_ms',
+        'gc_sdv_ms',
+        'gc_mb'
     ];
     var stress_metric_names = {
         'total_ops': 'Total operations',
@@ -41,14 +48,19 @@ var drawGraph = function() {
         '99.9th_latency': 'Latency 99.9th percentile',
         'max_latency': 'Maximum latency',
         'elapsed_time': 'Total operation time (seconds)',
-        'stderr': 'stderr'
+        'stderr': 'stderr',
+        'gc_count': 'GC count',
+        'gc_max_ms': 'GC longest pause (ms)',
+        'gc_sum_ms': 'GC total pause (ms)',
+        'gc_sdv_ms': 'GC pause standard deviation (ms)',
+        'gc_mb': 'GC memory freed (MB)'
     };
 
     var updateURLBar = function() {
         //Update the URL bar with the current parameters:
         window.history.replaceState(null,null,parseUri(location).path + "?" + $.param(query));
     };
-    
+
     //Check query parameters:
     if (metric == undefined) {
         metric = query.metric = 'op_rate';
@@ -134,7 +146,7 @@ var drawGraph = function() {
             if (d.test!=operation) {
                 return;
             }
-            d.title = d.hasOwnProperty('label') ? d['label'] : d['revision'];
+            d.title = d['label'] != undefined ? d['label'] : d['revision'];
             data_by_title[d.title] = d;
             data.push(d);
             trials[d.title] = d;
@@ -168,7 +180,7 @@ var drawGraph = function() {
                 if (metric == 'num_timeouts') {
                     return d[stress_metrics.indexOf('interval_op_rate')] - d[stress_metrics.indexOf('interval_key_rate')];
                 }
-            }        
+            }
         };
 
         //Parse the dates:
@@ -265,13 +277,13 @@ var drawGraph = function() {
 
         var line = d3.svg.line()
             .interpolate("basis")
-            .x(function(d) { 
+            .x(function(d) {
                 return x(d[time_index]); //time in seconds
             })
-            .y(function(d) { 
+            .y(function(d) {
                 return y(getMetricValue(d));
             });
-        
+
         $("body").append("<div id='svg_container'>");
 
         var redrawLines = function() {
@@ -328,7 +340,7 @@ var drawGraph = function() {
             .attr("transform", "translate(0," + height + ")")
             .call(xAxis);
 
-        // x-axis label   
+        // x-axis label
         svg.append("text")
             .attr("x", width / 2 )
             .attr("y", height + 30 )
@@ -376,7 +388,7 @@ var drawGraph = function() {
                     var y_offset = 425 + (i*25) + 70;
                 }
                 var x_offset = -550;
-                return "translate(" + x_offset + "," + y_offset + ")"; 
+                return "translate(" + x_offset + "," + y_offset + ")";
             });
 
         var renderLegendText = function(linenum, getTextCallback) {
@@ -387,7 +399,7 @@ var drawGraph = function() {
                 .style("font-family", "monospace")
                 .style("font-size", "1.2em")
                 .style("text-anchor", "start")
-                .text(function(d) { 
+                .text(function(d) {
                     return getTextCallback(d);
                 });
         };
@@ -415,19 +427,15 @@ var drawGraph = function() {
             });
 
             renderLegendText(3, function(title) {
-                return padTextEnd('real op rate', 26) + " : " + data_by_title[title]['real op rate'];
+                return padTextEnd('op rate', 26) + " : " + data_by_title[title]['op rate'];
             });
 
             renderLegendText(4, function(title) {
-                return padTextEnd('adjusted op rate', 26) + " : " + data_by_title[title]['adjusted op rate'];
+                return padTextEnd('partition rate', 26) + " : " + data_by_title[title]['partition rate'];
             });
 
             renderLegendText(5, function(title) {
-                return padTextEnd('adjusted op rate stderr', 26) + ' : ' + data_by_title[title]['adjusted op rate stderr'];
-            });
-
-            renderLegendText(6, function(title) {
-                return padTextEnd('key rate', 26) + ' : ' + data_by_title[title]['key rate'];
+                return padTextEnd('row rate', 26) + ' : ' + data_by_title[title]['row rate'];
             });
 
             renderLegendText(7, function(title) {
@@ -455,7 +463,7 @@ var drawGraph = function() {
             });
 
             renderLegendText(13, function(title) {
-                return padTextEnd('Total time', 26) + ' : ' + data_by_title[title]['Total operation time'];
+                return padTextEnd('Total operation time', 26) + ' : ' + data_by_title[title]['Total operation time'];
             });
 
             renderLegendText(14, function(title) {
@@ -533,7 +541,7 @@ var drawGraph = function() {
 }
 
 $(document).ready(function(){
-    
+
     drawGraph();
-    
+
 });
