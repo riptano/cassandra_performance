@@ -1,0 +1,545 @@
+Loading workload...
+Starting test.
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/automaton/YCSB/cassandra/target/cassandra-binding-0.1.4.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/automaton/YCSB/apache-maven-3.2.5/lib/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Feb 21, 2015 11:17:36 PM org.jboss.netty.util.internal.SharedResourceMisuseDetector
+WARNING: You are creating too many HashedWheelTimer instances.  HashedWheelTimer is a shared resource that must be reused across the application, so that only a few instances are created.
+ 0 sec: 0 operations; 
+ 2 sec: 20072 operations; 10030.98 current ops/sec; [READ AverageLatency(us)=28287.33] 
+ 4 sec: 50310 operations; 15096.36 current ops/sec; [READ AverageLatency(us)=19770.52] 
+ 6 sec: 81287 operations; 15488.5 current ops/sec; [READ AverageLatency(us)=19343.89] 
+ 8 sec: 111489 operations; 15093.45 current ops/sec; [READ AverageLatency(us)=19846.14] 
+ 10 sec: 142434 operations; 15472.5 current ops/sec; [READ AverageLatency(us)=19400.23] 
+ 12 sec: 156163 operations; 6861.07 current ops/sec; [READ AverageLatency(us)=43577.86] 
+ 14 sec: 176741 operations; 10283.86 current ops/sec; [READ AverageLatency(us)=29022.02] 
+ 16 sec: 204569 operations; 13914 current ops/sec; [READ AverageLatency(us)=21497.57] 
+ 18 sec: 232490 operations; 13953.52 current ops/sec; [READ AverageLatency(us)=21423.62] 
+ 20 sec: 258700 operations; 13105 current ops/sec; [READ AverageLatency(us)=22788.36] 
+ 22 sec: 286016 operations; 13651.17 current ops/sec; [READ AverageLatency(us)=21874.8] 
+ 24 sec: 312497 operations; 13240.5 current ops/sec; [READ AverageLatency(us)=22525.55] 
+ 26 sec: 340099 operations; 13794.1 current ops/sec; [READ AverageLatency(us)=21643.3] 
+ 28 sec: 366741 operations; 13314.34 current ops/sec; [READ AverageLatency(us)=22465.94] 
+ 30 sec: 395229 operations; 14244 current ops/sec; [READ AverageLatency(us)=20852.16] 
+ 32 sec: 418404 operations; 11581.71 current ops/sec; [READ AverageLatency(us)=25818.69] 
+ 34 sec: 445309 operations; 13445.78 current ops/sec; [READ AverageLatency(us)=22084.79] 
+ 36 sec: 472452 operations; 13571.5 current ops/sec; [READ AverageLatency(us)=21980.39] 
+ 38 sec: 499522 operations; 13528.24 current ops/sec; [READ AverageLatency(us)=21820.39] 
+ 40 sec: 526789 operations; 13626.69 current ops/sec; [READ AverageLatency(us)=21853.99] 
+ 42 sec: 554137 operations; 13674 current ops/sec; [READ AverageLatency(us)=21780.65] 
+ 44 sec: 581585 operations; 13717.14 current ops/sec; [READ AverageLatency(us)=21687.38] 
+ 46 sec: 608649 operations; 13525.24 current ops/sec; [READ AverageLatency(us)=21977.81] 
+ 48 sec: 637121 operations; 14236 current ops/sec; [READ AverageLatency(us)=20787.61] 
+ 50 sec: 665071 operations; 13968.02 current ops/sec; [READ AverageLatency(us)=21165.11] 
+ 52 sec: 692781 operations; 13848.08 current ops/sec; [READ AverageLatency(us)=21460.56] 
+ 54 sec: 716285 operations; 11746.13 current ops/sec; [READ AverageLatency(us)=25312.66] 
+ 56 sec: 741787 operations; 12744.63 current ops/sec; [READ AverageLatency(us)=23537.53] 
+ 58 sec: 768595 operations; 13377.25 current ops/sec; [READ AverageLatency(us)=22145.75] 
+ 60 sec: 794992 operations; 13191.9 current ops/sec; [READ AverageLatency(us)=22639.83] 
+ 62 sec: 822501 operations; 13747.63 current ops/sec; [READ AverageLatency(us)=21674.25] 
+ 64 sec: 849493 operations; 13489.26 current ops/sec; [READ AverageLatency(us)=22099.52] 
+ 66 sec: 877460 operations; 13969.53 current ops/sec; [READ AverageLatency(us)=21402.23] 
+ 68 sec: 904981 operations; 13753.62 current ops/sec; [READ AverageLatency(us)=21665.12] 
+ 70 sec: 934122 operations; 14563.22 current ops/sec; [READ AverageLatency(us)=20532.57] 
+ 72 sec: 961556 operations; 13710.14 current ops/sec; [READ AverageLatency(us)=21779.49] 
+ 74 sec: 990147 operations; 14288.36 current ops/sec; [READ AverageLatency(us)=20891.7] 
+ 76 sec: 1016262 operations; 13050.97 current ops/sec; [READ AverageLatency(us)=22554.47] 
+ 78 sec: 1042461 operations; 13092.95 current ops/sec; [READ AverageLatency(us)=22868.09] 
+ 80 sec: 1065247 operations; 11387.31 current ops/sec; [READ AverageLatency(us)=26014.04] 
+ 82 sec: 1090722 operations; 12731.13 current ops/sec; [READ AverageLatency(us)=22803.02] 
+ 84 sec: 1114376 operations; 11827 current ops/sec; [READ AverageLatency(us)=24383.89] 
+ 86 sec: 1140023 operations; 12817.09 current ops/sec; [READ AverageLatency(us)=23122.41] 
+ 88 sec: 1165038 operations; 12507.5 current ops/sec; [READ AverageLatency(us)=23378.8] 
+ 90 sec: 1190430 operations; 12689.66 current ops/sec; [READ AverageLatency(us)=22971.97] 
+ 92 sec: 1216512 operations; 13041 current ops/sec; [READ AverageLatency(us)=22577] 
+ 94 sec: 1241199 operations; 12337.33 current ops/sec; [READ AverageLatency(us)=23848.07] 
+ 96 sec: 1267760 operations; 13280.5 current ops/sec; [READ AverageLatency(us)=21974.96] 
+ 98 sec: 1293393 operations; 12810.09 current ops/sec; [READ AverageLatency(us)=22893.49] 
+ 100 sec: 1320771 operations; 13689 current ops/sec; [READ AverageLatency(us)=21281.71] 
+ 102 sec: 1344373 operations; 11795.1 current ops/sec; [READ AverageLatency(us)=25339.69] 
+ 104 sec: 1372152 operations; 13882.56 current ops/sec; [READ AverageLatency(us)=21570.74] 
+ 106 sec: 1400669 operations; 14258.5 current ops/sec; [READ AverageLatency(us)=20994.29] 
+ 108 sec: 1429396 operations; 14363.5 current ops/sec; [READ AverageLatency(us)=20791.8] 
+ 110 sec: 1458159 operations; 14374.31 current ops/sec; [READ AverageLatency(us)=20768.37] 
+ 112 sec: 1488079 operations; 14960 current ops/sec; [READ AverageLatency(us)=19967.47] 
+ 114 sec: 1517847 operations; 14876.56 current ops/sec; [READ AverageLatency(us)=20068.66] 
+ 116 sec: 1548464 operations; 15308.5 current ops/sec; [READ AverageLatency(us)=19437.22] 
+ 118 sec: 1580164 operations; 15842.08 current ops/sec; [READ AverageLatency(us)=18903.69] 
+ 120 sec: 1610006 operations; 14921 current ops/sec; [READ AverageLatency(us)=20083.92] 
+ 122 sec: 1636913 operations; 13446.78 current ops/sec; [READ AverageLatency(us)=20009.93] 
+ 124 sec: 1663789 operations; 13438 current ops/sec; [READ AverageLatency(us)=24266.46] 
+ 126 sec: 1692556 operations; 14383.5 current ops/sec; [READ AverageLatency(us)=20548.21] 
+ 128 sec: 1720748 operations; 14088.96 current ops/sec; [READ AverageLatency(us)=20953.81] 
+ 130 sec: 1749251 operations; 14244.38 current ops/sec; [READ AverageLatency(us)=20695.78] 
+ 132 sec: 1777046 operations; 13890.55 current ops/sec; [READ AverageLatency(us)=21266.94] 
+ 134 sec: 1807439 operations; 15188.91 current ops/sec; [READ AverageLatency(us)=19505.4] 
+ 136 sec: 1837858 operations; 15201.9 current ops/sec; [READ AverageLatency(us)=19509.67] 
+ 138 sec: 1868514 operations; 15312.69 current ops/sec; [READ AverageLatency(us)=19404.16] 
+ 140 sec: 1898241 operations; 14856.07 current ops/sec; [READ AverageLatency(us)=19859.31] 
+ 142 sec: 1929962 operations; 15852.57 current ops/sec; [READ AverageLatency(us)=18883.67] 
+ 144 sec: 1960306 operations; 15164.42 current ops/sec; [READ AverageLatency(us)=19668.03] 
+ 146 sec: 1986275 operations; 12971.53 current ops/sec; [READ AverageLatency(us)=22810.28] 
+ 148 sec: 2014920 operations; 14322.5 current ops/sec; [READ AverageLatency(us)=20657.22] 
+ 150 sec: 2042617 operations; 13841.58 current ops/sec; [READ AverageLatency(us)=21374.14] 
+ 152 sec: 2072127 operations; 14747.63 current ops/sec; [READ AverageLatency(us)=20226] 
+ 154 sec: 2102108 operations; 14983.01 current ops/sec; [READ AverageLatency(us)=19673.69] 
+ 156 sec: 2132205 operations; 15040.98 current ops/sec; [READ AverageLatency(us)=19819.77] 
+ 158 sec: 2162609 operations; 15186.81 current ops/sec; [READ AverageLatency(us)=19662.32] 
+ 160 sec: 2191627 operations; 14501.75 current ops/sec; [READ AverageLatency(us)=20369.24] 
+ 162 sec: 2220853 operations; 14605.7 current ops/sec; [READ AverageLatency(us)=20100.19] 
+ 164 sec: 2250763 operations; 14947.53 current ops/sec; [READ AverageLatency(us)=20020.86] 
+ 166 sec: 2279790 operations; 14513.5 current ops/sec; [READ AverageLatency(us)=20622.89] 
+ 168 sec: 2307804 operations; 13993.01 current ops/sec; [READ AverageLatency(us)=21191.42] 
+ 170 sec: 2337157 operations; 14676.5 current ops/sec; [READ AverageLatency(us)=20247.21] 
+ 172 sec: 2368072 operations; 15449.78 current ops/sec; [READ AverageLatency(us)=18938.47] 
+ 174 sec: 2397764 operations; 14838.58 current ops/sec; [READ AverageLatency(us)=20218.89] 
+ 176 sec: 2429337 operations; 15786.5 current ops/sec; [READ AverageLatency(us)=18916.1] 
+ 178 sec: 2459578 operations; 15112.94 current ops/sec; [READ AverageLatency(us)=19849.65] 
+ 180 sec: 2490819 operations; 15612.69 current ops/sec; [READ AverageLatency(us)=19231.99] 
+ 182 sec: 2521936 operations; 15550.72 current ops/sec; [READ AverageLatency(us)=19215.09] 
+ 184 sec: 2552913 operations; 15480.76 current ops/sec; [READ AverageLatency(us)=19229.1] 
+ 186 sec: 2585148 operations; 16117.5 current ops/sec; [READ AverageLatency(us)=18523.28] 
+ 188 sec: 2615818 operations; 15327.34 current ops/sec; [READ AverageLatency(us)=19590.95] 
+ 190 sec: 2643732 operations; 13957 current ops/sec; [READ AverageLatency(us)=21412.07] 
+ 192 sec: 2670245 operations; 13249.88 current ops/sec; [READ AverageLatency(us)=22584.87] 
+ 194 sec: 2696948 operations; 13351.5 current ops/sec; [READ AverageLatency(us)=22422.63] 
+ 196 sec: 2724956 operations; 13997 current ops/sec; [READ AverageLatency(us)=21327.3] 
+ 198 sec: 2752719 operations; 13881.5 current ops/sec; [READ AverageLatency(us)=21614.07] 
+ 200 sec: 2778588 operations; 12928.04 current ops/sec; [READ AverageLatency(us)=23123.9] 
+ 202 sec: 2806214 operations; 13813 current ops/sec; [READ AverageLatency(us)=21734.68] 
+ 204 sec: 2833791 operations; 13781.61 current ops/sec; [READ AverageLatency(us)=21706.7] 
+ 206 sec: 2861298 operations; 13753.5 current ops/sec; [READ AverageLatency(us)=21723.54] 
+ 208 sec: 2891248 operations; 14967.52 current ops/sec; [READ AverageLatency(us)=20010.42] 
+ 210 sec: 2920072 operations; 14412 current ops/sec; [READ AverageLatency(us)=20799.62] 
+ 212 sec: 2949241 operations; 14577.21 current ops/sec; [READ AverageLatency(us)=20519.98] 
+ 214 sec: 2976440 operations; 13599.5 current ops/sec; [READ AverageLatency(us)=21831.49] 
+ 216 sec: 3007331 operations; 15437.78 current ops/sec; [READ AverageLatency(us)=19471.98] 
+ 218 sec: 3035199 operations; 13934 current ops/sec; [READ AverageLatency(us)=21393.14] 
+ 220 sec: 3063673 operations; 14229.89 current ops/sec; [READ AverageLatency(us)=20973.41] 
+ 222 sec: 3093194 operations; 14760.5 current ops/sec; [READ AverageLatency(us)=20123.09] 
+ 224 sec: 3121965 operations; 14385.5 current ops/sec; [READ AverageLatency(us)=20707.79] 
+ 226 sec: 3151420 operations; 14720.14 current ops/sec; [READ AverageLatency(us)=20053.46] 
+ 228 sec: 3180778 operations; 14679 current ops/sec; [READ AverageLatency(us)=20440.42] 
+ 230 sec: 3208600 operations; 13904.05 current ops/sec; [READ AverageLatency(us)=21379.22] 
+ 232 sec: 3237280 operations; 14340 current ops/sec; [READ AverageLatency(us)=20617.34] 
+ 234 sec: 3265817 operations; 14261.37 current ops/sec; [READ AverageLatency(us)=21023.11] 
+ 236 sec: 3295357 operations; 14770 current ops/sec; [READ AverageLatency(us)=20215.63] 
+ 238 sec: 3320884 operations; 12757.12 current ops/sec; [READ AverageLatency(us)=23384.07] 
+ 240 sec: 3349597 operations; 14356.5 current ops/sec; [READ AverageLatency(us)=20820.66] 
+ 242 sec: 3377571 operations; 13980.01 current ops/sec; [READ AverageLatency(us)=21353.52] 
+ 244 sec: 3405559 operations; 13994 current ops/sec; [READ AverageLatency(us)=21431.34] 
+ 246 sec: 3434564 operations; 14502.5 current ops/sec; [READ AverageLatency(us)=20650.79] 
+ 248 sec: 3463788 operations; 14604.7 current ops/sec; [READ AverageLatency(us)=20504.27] 
+ 250 sec: 3491104 operations; 13658 current ops/sec; [READ AverageLatency(us)=21690.26] 
+ 252 sec: 3519990 operations; 14435.78 current ops/sec; [READ AverageLatency(us)=20744.67] 
+ 254 sec: 3548746 operations; 14378 current ops/sec; [READ AverageLatency(us)=20842.62] 
+ 256 sec: 3577967 operations; 14603.2 current ops/sec; [READ AverageLatency(us)=20456.21] 
+ 258 sec: 3608127 operations; 15080 current ops/sec; [READ AverageLatency(us)=19883.47] 
+ 260 sec: 3636967 operations; 14412.79 current ops/sec; [READ AverageLatency(us)=20729.88] 
+ 262 sec: 3664076 operations; 13554.5 current ops/sec; [READ AverageLatency(us)=22129.47] 
+ 264 sec: 3693031 operations; 14470.26 current ops/sec; [READ AverageLatency(us)=20678.14] 
+ 266 sec: 3722662 operations; 14815.5 current ops/sec; [READ AverageLatency(us)=19933.25] 
+ 268 sec: 3752058 operations; 14690.65 current ops/sec; [READ AverageLatency(us)=20301.89] 
+ 270 sec: 3781567 operations; 14754.5 current ops/sec; [READ AverageLatency(us)=20351] 
+ 272 sec: 3810903 operations; 14660.67 current ops/sec; [READ AverageLatency(us)=20336.51] 
+ 274 sec: 3841793 operations; 15445 current ops/sec; [READ AverageLatency(us)=19325.43] 
+ 276 sec: 3872041 operations; 15116.44 current ops/sec; [READ AverageLatency(us)=19804.85] 
+ 278 sec: 3902262 operations; 15110.5 current ops/sec; [READ AverageLatency(us)=19843] 
+ 280 sec: 3932561 operations; 15141.93 current ops/sec; [READ AverageLatency(us)=19745.78] 
+ 282 sec: 3963880 operations; 15659.5 current ops/sec; [READ AverageLatency(us)=19134.75] 
+ 284 sec: 3995371 operations; 15737.63 current ops/sec; [READ AverageLatency(us)=19051.96] 
+ 286 sec: 4023101 operations; 13865 current ops/sec; [READ AverageLatency(us)=21571.83] 
+ 288 sec: 4054213 operations; 15548.23 current ops/sec; [READ AverageLatency(us)=19314.44] 
+ 290 sec: 4084065 operations; 14918.54 current ops/sec; [READ AverageLatency(us)=20052.87] 
+ 292 sec: 4115994 operations; 15956.52 current ops/sec; [READ AverageLatency(us)=18805.04] 
+ 294 sec: 4145179 operations; 14592.5 current ops/sec; [READ AverageLatency(us)=20477.05] 
+ 296 sec: 4175939 operations; 15380 current ops/sec; [READ AverageLatency(us)=19569.91] 
+ 298 sec: 4206123 operations; 15084.46 current ops/sec; [READ AverageLatency(us)=19824.68] 
+ 300 sec: 4237217 operations; 15547 current ops/sec; [READ AverageLatency(us)=19285.94] 
+ 302 sec: 4268025 operations; 15396.3 current ops/sec; [READ AverageLatency(us)=19456.76] 
+ 304 sec: 4298998 operations; 15486.5 current ops/sec; [READ AverageLatency(us)=19371.94] 
+ 306 sec: 4330136 operations; 15561.22 current ops/sec; [READ AverageLatency(us)=19248.13] 
+ 308 sec: 4357878 operations; 13871 current ops/sec; [READ AverageLatency(us)=21618.41] 
+ 310 sec: 4388193 operations; 15149.93 current ops/sec; [READ AverageLatency(us)=19769.06] 
+ 312 sec: 4419584 operations; 15695.5 current ops/sec; [READ AverageLatency(us)=19085.71] 
+ 314 sec: 4449809 operations; 15104.95 current ops/sec; [READ AverageLatency(us)=19864.24] 
+ 316 sec: 4480119 operations; 15155 current ops/sec; [READ AverageLatency(us)=19791.2] 
+ 318 sec: 4511619 operations; 15742.13 current ops/sec; [READ AverageLatency(us)=19056.74] 
+ 320 sec: 4543252 operations; 15816.5 current ops/sec; [READ AverageLatency(us)=18914.2] 
+ 322 sec: 4573619 operations; 15175.91 current ops/sec; [READ AverageLatency(us)=19762.63] 
+ 324 sec: 4605471 operations; 15926 current ops/sec; [READ AverageLatency(us)=18832.81] 
+ 326 sec: 4636239 operations; 15376.31 current ops/sec; [READ AverageLatency(us)=19491.33] 
+ 328 sec: 4666199 operations; 14972.51 current ops/sec; [READ AverageLatency(us)=19932.05] 
+ 330 sec: 4697358 operations; 15579.5 current ops/sec; [READ AverageLatency(us)=19195.25] 
+ 332 sec: 4719929 operations; 11285.5 current ops/sec; [READ AverageLatency(us)=26400.73] 
+ 334 sec: 4747981 operations; 14018.99 current ops/sec; [READ AverageLatency(us)=21080.26] 
+ 336 sec: 4775404 operations; 13711.5 current ops/sec; [READ AverageLatency(us)=21606.58] 
+ 338 sec: 4801883 operations; 13232.88 current ops/sec; [READ AverageLatency(us)=22370.76] 
+ 340 sec: 4828130 operations; 13123.5 current ops/sec; [READ AverageLatency(us)=22608.89] 
+ 342 sec: 4854925 operations; 13390.8 current ops/sec; [READ AverageLatency(us)=22152.57] 
+ 344 sec: 4881910 operations; 13492.5 current ops/sec; [READ AverageLatency(us)=21991.46] 
+ 346 sec: 4908976 operations; 13526.24 current ops/sec; [READ AverageLatency(us)=21878.29] 
+ 348 sec: 4936122 operations; 13573 current ops/sec; [READ AverageLatency(us)=21406.86] 
+ 350 sec: 4963603 operations; 13740.5 current ops/sec; [READ AverageLatency(us)=21660.84] 
+ 352 sec: 4990513 operations; 13448.28 current ops/sec; [READ AverageLatency(us)=21875.11] 
+ 354 sec: 5018688 operations; 14087.5 current ops/sec; [READ AverageLatency(us)=21014.7] 
+ 356 sec: 5046889 operations; 14093.45 current ops/sec; [READ AverageLatency(us)=21120.44] 
+ 358 sec: 5072707 operations; 12909 current ops/sec; [READ AverageLatency(us)=23109.12] 
+ 360 sec: 5102135 operations; 14706.65 current ops/sec; [READ AverageLatency(us)=20085.68] 
+ 362 sec: 5130285 operations; 14075 current ops/sec; [READ AverageLatency(us)=21237.01] 
+ 364 sec: 5159611 operations; 14663 current ops/sec; [READ AverageLatency(us)=20425.7] 
+ 366 sec: 5189191 operations; 14782.61 current ops/sec; [READ AverageLatency(us)=20228.21] 
+ 368 sec: 5217465 operations; 14137 current ops/sec; [READ AverageLatency(us)=20973.5] 
+ 370 sec: 5245395 operations; 13958.02 current ops/sec; [READ AverageLatency(us)=21391.84] 
+ 372 sec: 5272922 operations; 13763.5 current ops/sec; [READ AverageLatency(us)=21760.26] 
+ 374 sec: 5302834 operations; 14948.53 current ops/sec; [READ AverageLatency(us)=20017.69] 
+ 376 sec: 5331771 operations; 14468.5 current ops/sec; [READ AverageLatency(us)=20697.14] 
+ 378 sec: 5360778 operations; 14503.5 current ops/sec; [READ AverageLatency(us)=20613.65] 
+ 380 sec: 5390527 operations; 14867.07 current ops/sec; [READ AverageLatency(us)=20182.59] 
+ 382 sec: 5419250 operations; 14361.5 current ops/sec; [READ AverageLatency(us)=20724.1] 
+ 384 sec: 5448709 operations; 14722.14 current ops/sec; [READ AverageLatency(us)=20205.62] 
+ 386 sec: 5476989 operations; 14140 current ops/sec; [READ AverageLatency(us)=20984.75] 
+ 388 sec: 5506205 operations; 14600.7 current ops/sec; [READ AverageLatency(us)=20279.85] 
+ 390 sec: 5535230 operations; 14512.5 current ops/sec; [READ AverageLatency(us)=20315.53] 
+ 392 sec: 5565750 operations; 15260 current ops/sec; [READ AverageLatency(us)=19641.9] 
+ 394 sec: 5595150 operations; 14692.65 current ops/sec; [READ AverageLatency(us)=20378.6] 
+ 396 sec: 5623765 operations; 14307.5 current ops/sec; [READ AverageLatency(us)=20675.01] 
+ 398 sec: 5652430 operations; 14325.34 current ops/sec; [READ AverageLatency(us)=20622.41] 
+ 400 sec: 5680907 operations; 14238.5 current ops/sec; [READ AverageLatency(us)=20748.32] 
+ 402 sec: 5710882 operations; 14980.01 current ops/sec; [READ AverageLatency(us)=19918.7] 
+ 404 sec: 5740551 operations; 14834.5 current ops/sec; [READ AverageLatency(us)=20059.92] 
+ 406 sec: 5769403 operations; 14426 current ops/sec; [READ AverageLatency(us)=19764.43] 
+ 408 sec: 5797501 operations; 14041.98 current ops/sec; [READ AverageLatency(us)=22366.93] 
+ 410 sec: 5826104 operations; 14294.35 current ops/sec; [READ AverageLatency(us)=20947.28] 
+ 412 sec: 5854809 operations; 14352.5 current ops/sec; [READ AverageLatency(us)=20900.21] 
+ 414 sec: 5884119 operations; 14647.68 current ops/sec; [READ AverageLatency(us)=20462.19] 
+ 416 sec: 5913631 operations; 14748.63 current ops/sec; [READ AverageLatency(us)=20327.53] 
+ 418 sec: 5944344 operations; 15356.5 current ops/sec; [READ AverageLatency(us)=19539.91] 
+ 420 sec: 5974658 operations; 15149.43 current ops/sec; [READ AverageLatency(us)=19748.79] 
+ 422 sec: 5987359 operations; 6347.33 current ops/sec; [READ AverageLatency(us)=45350.79] [CLEANUP AverageLatency(us)=4.88] 
+ 423 sec: 6000000 operations; 9738.83 current ops/sec; [READ AverageLatency(us)=15345.04] [CLEANUP AverageLatency(us)=3.22] 
