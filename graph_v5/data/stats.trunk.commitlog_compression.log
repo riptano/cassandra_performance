@@ -65508,6 +65508,6 @@
             "type": "stress"
         }
     ], 
-    "subtitle": "1 c3.8xlarge", 
+    "subtitle": "1 c3.8xlarge (2 SSD sriped)", 
     "title": "Commitlog Compression"
 }
