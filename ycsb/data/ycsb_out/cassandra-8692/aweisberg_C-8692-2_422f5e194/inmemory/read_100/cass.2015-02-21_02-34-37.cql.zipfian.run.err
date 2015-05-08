@@ -1,0 +1,2138 @@
+Loading workload...
+ (might take a few minutes for large data sets)
+Starting test.
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/automaton/YCSB/cassandra/target/cassandra-binding-0.1.4.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/automaton/YCSB/apache-maven-3.2.5/lib/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.datastax.driver.core.Cluster).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Feb 21, 2015 2:34:46 AM org.jboss.netty.util.internal.SharedResourceMisuseDetector
+WARNING: You are creating too many HashedWheelTimer instances.  HashedWheelTimer is a shared resource that must be reused across the application, so that only a few instances are created.
+ 0 sec: 0 operations; 
+ 2 sec: 0 operations; 
+ 4 sec: 128 operations; 63.97 current ops/sec; [READ AverageLatency(us)=2894866.66] 
+com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.DefaultResultSetFuture.extractCauseFromExecutionException(DefaultResultSetFuture.java:256)
+	at com.datastax.driver.core.DefaultResultSetFuture.getUninterruptibly(DefaultResultSetFuture.java:172)
+	at com.datastax.driver.core.AbstractSession.execute(AbstractSession.java:52)
+	at com.yahoo.ycsb.db.CassandraCQLClient.read(CassandraCQLClient.java:282)
+	at com.yahoo.ycsb.db.CassandraCQLClient.readAll(CassandraCQLClient.java:255)
+	at com.yahoo.ycsb.DBWrapper$1.go(DBWrapper.java:124)
+	at com.yahoo.ycsb.DBWrapper.operation(DBWrapper.java:283)
+	at com.yahoo.ycsb.DBWrapper.readAll(DBWrapper.java:111)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransactionRead(CoreWorkload.java:535)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransaction(CoreWorkload.java:482)
+	at com.yahoo.ycsb.ClientThread$1.doOperation(Client.java:349)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:405)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:346)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.Responses$Error.asException(Responses.java:94)
+	at com.datastax.driver.core.DefaultResultSetFuture.onSet(DefaultResultSetFuture.java:108)
+	at com.datastax.driver.core.RequestHandler.setFinalResult(RequestHandler.java:235)
+	at com.datastax.driver.core.RequestHandler.onSet(RequestHandler.java:379)
+	at com.datastax.driver.core.Connection$Dispatcher.messageReceived(Connection.java:582)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:109)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:90)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:57)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:34)
+	at com.datastax.driver.core.Message$ProtocolDecoder.decode(Message.java:182)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:66)
+	... 21 more
+com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.DefaultResultSetFuture.extractCauseFromExecutionException(DefaultResultSetFuture.java:256)
+	at com.datastax.driver.core.DefaultResultSetFuture.getUninterruptibly(DefaultResultSetFuture.java:172)
+	at com.datastax.driver.core.AbstractSession.execute(AbstractSession.java:52)
+	at com.yahoo.ycsb.db.CassandraCQLClient.read(CassandraCQLClient.java:282)
+	at com.yahoo.ycsb.db.CassandraCQLClient.readAll(CassandraCQLClient.java:255)
+	at com.yahoo.ycsb.DBWrapper$1.go(DBWrapper.java:124)
+	at com.yahoo.ycsb.DBWrapper.operation(DBWrapper.java:283)
+	at com.yahoo.ycsb.DBWrapper.readAll(DBWrapper.java:111)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransactionRead(CoreWorkload.java:535)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransaction(CoreWorkload.java:482)
+	at com.yahoo.ycsb.ClientThread$1.doOperation(Client.java:349)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:405)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:346)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.Responses$Error.asException(Responses.java:94)
+	at com.datastax.driver.core.DefaultResultSetFuture.onSet(DefaultResultSetFuture.java:108)
+	at com.datastax.driver.core.RequestHandler.setFinalResult(RequestHandler.java:235)
+	at com.datastax.driver.core.RequestHandler.onSet(RequestHandler.java:379)
+	at com.datastax.driver.core.Connection$Dispatcher.messageReceived(Connection.java:582)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:109)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:90)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:57)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:34)
+	at com.datastax.driver.core.Message$ProtocolDecoder.decode(Message.java:182)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:66)
+	... 21 more
+com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.DefaultResultSetFuture.extractCauseFromExecutionException(DefaultResultSetFuture.java:256)
+	at com.datastax.driver.core.DefaultResultSetFuture.getUninterruptibly(DefaultResultSetFuture.java:172)
+	at com.datastax.driver.core.AbstractSession.execute(AbstractSession.java:52)
+	at com.yahoo.ycsb.db.CassandraCQLClient.read(CassandraCQLClient.java:282)
+	at com.yahoo.ycsb.db.CassandraCQLClient.readAll(CassandraCQLClient.java:255)
+	at com.yahoo.ycsb.DBWrapper$1.go(DBWrapper.java:124)
+	at com.yahoo.ycsb.DBWrapper.operation(DBWrapper.java:283)
+	at com.yahoo.ycsb.DBWrapper.readAll(DBWrapper.java:111)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransactionRead(CoreWorkload.java:535)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransaction(CoreWorkload.java:482)
+	at com.yahoo.ycsb.ClientThread$1.doOperation(Client.java:349)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:405)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:346)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.Responses$Error.asException(Responses.java:94)
+	at com.datastax.driver.core.DefaultResultSetFuture.onSet(DefaultResultSetFuture.java:108)
+	at com.datastax.driver.core.RequestHandler.setFinalResult(RequestHandler.java:235)
+	at com.datastax.driver.core.RequestHandler.onSet(RequestHandler.java:379)
+	at com.datastax.driver.core.Connection$Dispatcher.messageReceived(Connection.java:582)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:109)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:90)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:57)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:34)
+	at com.datastax.driver.core.Message$ProtocolDecoder.decode(Message.java:182)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:66)
+	... 21 more
+com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.DefaultResultSetFuture.extractCauseFromExecutionException(DefaultResultSetFuture.java:256)
+	at com.datastax.driver.core.DefaultResultSetFuture.getUninterruptibly(DefaultResultSetFuture.java:172)
+	at com.datastax.driver.core.AbstractSession.execute(AbstractSession.java:52)
+	at com.yahoo.ycsb.db.CassandraCQLClient.read(CassandraCQLClient.java:282)
+	at com.yahoo.ycsb.db.CassandraCQLClient.readAll(CassandraCQLClient.java:255)
+	at com.yahoo.ycsb.DBWrapper$1.go(DBWrapper.java:124)
+	at com.yahoo.ycsb.DBWrapper.operation(DBWrapper.java:283)
+	at com.yahoo.ycsb.DBWrapper.readAll(DBWrapper.java:111)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransactionRead(CoreWorkload.java:535)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransaction(CoreWorkload.java:482)
+	at com.yahoo.ycsb.ClientThread$1.doOperation(Client.java:349)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:405)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:346)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.Responses$Error.asException(Responses.java:94)
+	at com.datastax.driver.core.DefaultResultSetFuture.onSet(DefaultResultSetFuture.java:108)
+	at com.datastax.driver.core.RequestHandler.setFinalResult(RequestHandler.java:235)
+	at com.datastax.driver.core.RequestHandler.onSet(RequestHandler.java:379)
+	at com.datastax.driver.core.Connection$Dispatcher.messageReceived(Connection.java:582)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:109)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:90)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:57)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:34)
+	at com.datastax.driver.core.Message$ProtocolDecoder.decode(Message.java:182)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:66)
+	... 21 more
+com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.DefaultResultSetFuture.extractCauseFromExecutionException(DefaultResultSetFuture.java:256)
+	at com.datastax.driver.core.DefaultResultSetFuture.getUninterruptibly(DefaultResultSetFuture.java:172)
+	at com.datastax.driver.core.AbstractSession.execute(AbstractSession.java:52)
+	at com.yahoo.ycsb.db.CassandraCQLClient.read(CassandraCQLClient.java:282)
+	at com.yahoo.ycsb.db.CassandraCQLClient.readAll(CassandraCQLClient.java:255)
+	at com.yahoo.ycsb.DBWrapper$1.go(DBWrapper.java:124)
+	at com.yahoo.ycsb.DBWrapper.operation(DBWrapper.java:283)
+	at com.yahoo.ycsb.DBWrapper.readAll(DBWrapper.java:111)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransactionRead(CoreWorkload.java:535)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransaction(CoreWorkload.java:482)
+	at com.yahoo.ycsb.ClientThread$1.doOperation(Client.java:349)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:405)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:346)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.Responses$Error.asException(Responses.java:94)
+	at com.datastax.driver.core.DefaultResultSetFuture.onSet(DefaultResultSetFuture.java:108)
+	at com.datastax.driver.core.RequestHandler.setFinalResult(RequestHandler.java:235)
+	at com.datastax.driver.core.RequestHandler.onSet(RequestHandler.java:379)
+	at com.datastax.driver.core.Connection$Dispatcher.messageReceived(Connection.java:582)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:109)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:90)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:57)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:34)
+	at com.datastax.driver.core.Message$ProtocolDecoder.decode(Message.java:182)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:66)
+	... 21 more
+com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.DefaultResultSetFuture.extractCauseFromExecutionException(DefaultResultSetFuture.java:256)
+	at com.datastax.driver.core.DefaultResultSetFuture.getUninterruptibly(DefaultResultSetFuture.java:172)
+	at com.datastax.driver.core.AbstractSession.execute(AbstractSession.java:52)
+	at com.yahoo.ycsb.db.CassandraCQLClient.read(CassandraCQLClient.java:282)
+	at com.yahoo.ycsb.db.CassandraCQLClient.readAll(CassandraCQLClient.java:255)
+	at com.yahoo.ycsb.DBWrapper$1.go(DBWrapper.java:124)
+	at com.yahoo.ycsb.DBWrapper.operation(DBWrapper.java:283)
+	at com.yahoo.ycsb.DBWrapper.readAll(DBWrapper.java:111)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransactionRead(CoreWorkload.java:535)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransaction(CoreWorkload.java:482)
+	at com.yahoo.ycsb.ClientThread$1.doOperation(Client.java:349)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:405)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:346)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.Responses$Error.asException(Responses.java:94)
+	at com.datastax.driver.core.DefaultResultSetFuture.onSet(DefaultResultSetFuture.java:108)
+	at com.datastax.driver.core.RequestHandler.setFinalResult(RequestHandler.java:235)
+	at com.datastax.driver.core.RequestHandler.onSet(RequestHandler.java:379)
+	at com.datastax.driver.core.Connection$Dispatcher.messageReceived(Connection.java:582)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:109)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:90)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:57)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:34)
+	at com.datastax.driver.core.Message$ProtocolDecoder.decode(Message.java:182)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:66)
+	... 21 more
+com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.DefaultResultSetFuture.extractCauseFromExecutionException(DefaultResultSetFuture.java:256)
+	at com.datastax.driver.core.DefaultResultSetFuture.getUninterruptibly(DefaultResultSetFuture.java:172)
+	at com.datastax.driver.core.AbstractSession.execute(AbstractSession.java:52)
+	at com.yahoo.ycsb.db.CassandraCQLClient.read(CassandraCQLClient.java:282)
+	at com.yahoo.ycsb.db.CassandraCQLClient.readAll(CassandraCQLClient.java:255)
+	at com.yahoo.ycsb.DBWrapper$1.go(DBWrapper.java:124)
+	at com.yahoo.ycsb.DBWrapper.operation(DBWrapper.java:283)
+	at com.yahoo.ycsb.DBWrapper.readAll(DBWrapper.java:111)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransactionRead(CoreWorkload.java:535)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransaction(CoreWorkload.java:482)
+	at com.yahoo.ycsb.ClientThread$1.doOperation(Client.java:349)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:405)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:346)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.Responses$Error.asException(Responses.java:94)
+	at com.datastax.driver.core.DefaultResultSetFuture.onSet(DefaultResultSetFuture.java:108)
+	at com.datastax.driver.core.RequestHandler.setFinalResult(RequestHandler.java:235)
+	at com.datastax.driver.core.RequestHandler.onSet(RequestHandler.java:379)
+	at com.datastax.driver.core.Connection$Dispatcher.messageReceived(Connection.java:582)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:109)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:90)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:57)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:34)
+	at com.datastax.driver.core.Message$ProtocolDecoder.decode(Message.java:182)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:66)
+	... 21 more
+com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.DefaultResultSetFuture.extractCauseFromExecutionException(DefaultResultSetFuture.java:256)
+	at com.datastax.driver.core.DefaultResultSetFuture.getUninterruptibly(DefaultResultSetFuture.java:172)
+	at com.datastax.driver.core.AbstractSession.execute(AbstractSession.java:52)
+	at com.yahoo.ycsb.db.CassandraCQLClient.read(CassandraCQLClient.java:282)
+	at com.yahoo.ycsb.db.CassandraCQLClient.readAll(CassandraCQLClient.java:255)
+	at com.yahoo.ycsb.DBWrapper$1.go(DBWrapper.java:124)
+	at com.yahoo.ycsb.DBWrapper.operation(DBWrapper.java:283)
+	at com.yahoo.ycsb.DBWrapper.readAll(DBWrapper.java:111)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransactionRead(CoreWorkload.java:535)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransaction(CoreWorkload.java:482)
+	at com.yahoo.ycsb.ClientThread$1.doOperation(Client.java:349)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:405)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:346)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.Responses$Error.asException(Responses.java:94)
+	at com.datastax.driver.core.DefaultResultSetFuture.onSet(DefaultResultSetFuture.java:108)
+	at com.datastax.driver.core.RequestHandler.setFinalResult(RequestHandler.java:235)
+	at com.datastax.driver.core.RequestHandler.onSet(RequestHandler.java:379)
+	at com.datastax.driver.core.Connection$Dispatcher.messageReceived(Connection.java:582)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:109)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:90)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:57)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:34)
+	at com.datastax.driver.core.Message$ProtocolDecoder.decode(Message.java:182)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:66)
+	... 21 more
+com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.DefaultResultSetFuture.extractCauseFromExecutionException(DefaultResultSetFuture.java:256)
+	at com.datastax.driver.core.DefaultResultSetFuture.getUninterruptibly(DefaultResultSetFuture.java:172)
+	at com.datastax.driver.core.AbstractSession.execute(AbstractSession.java:52)
+	at com.yahoo.ycsb.db.CassandraCQLClient.read(CassandraCQLClient.java:282)
+	at com.yahoo.ycsb.db.CassandraCQLClient.readAll(CassandraCQLClient.java:255)
+	at com.yahoo.ycsb.DBWrapper$1.go(DBWrapper.java:124)
+	at com.yahoo.ycsb.DBWrapper.operation(DBWrapper.java:283)
+	at com.yahoo.ycsb.DBWrapper.readAll(DBWrapper.java:111)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransactionRead(CoreWorkload.java:535)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransaction(CoreWorkload.java:482)
+	at com.yahoo.ycsb.ClientThread$1.doOperation(Client.java:349)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:405)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:346)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.Responses$Error.asException(Responses.java:94)
+	at com.datastax.driver.core.DefaultResultSetFuture.onSet(DefaultResultSetFuture.java:108)
+	at com.datastax.driver.core.RequestHandler.setFinalResult(RequestHandler.java:235)
+	at com.datastax.driver.core.RequestHandler.onSet(RequestHandler.java:379)
+	at com.datastax.driver.core.Connection$Dispatcher.messageReceived(Connection.java:582)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:109)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:90)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:57)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:34)
+	at com.datastax.driver.core.Message$ProtocolDecoder.decode(Message.java:182)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:66)
+	... 21 more
+com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.DefaultResultSetFuture.extractCauseFromExecutionException(DefaultResultSetFuture.java:256)
+	at com.datastax.driver.core.DefaultResultSetFuture.getUninterruptibly(DefaultResultSetFuture.java:172)
+	at com.datastax.driver.core.AbstractSession.execute(AbstractSession.java:52)
+	at com.yahoo.ycsb.db.CassandraCQLClient.read(CassandraCQLClient.java:282)
+	at com.yahoo.ycsb.db.CassandraCQLClient.readAll(CassandraCQLClient.java:255)
+	at com.yahoo.ycsb.DBWrapper$1.go(DBWrapper.java:124)
+	at com.yahoo.ycsb.DBWrapper.operation(DBWrapper.java:283)
+	at com.yahoo.ycsb.DBWrapper.readAll(DBWrapper.java:111)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransactionRead(CoreWorkload.java:535)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransaction(CoreWorkload.java:482)
+	at com.yahoo.ycsb.ClientThread$1.doOperation(Client.java:349)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:405)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:346)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.Responses$Error.asException(Responses.java:94)
+	at com.datastax.driver.core.DefaultResultSetFuture.onSet(DefaultResultSetFuture.java:108)
+	at com.datastax.driver.core.RequestHandler.setFinalResult(RequestHandler.java:235)
+	at com.datastax.driver.core.RequestHandler.onSet(RequestHandler.java:379)
+	at com.datastax.driver.core.Connection$Dispatcher.messageReceived(Connection.java:582)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:109)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:90)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:57)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:34)
+	at com.datastax.driver.core.Message$ProtocolDecoder.decode(Message.java:182)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:66)
+	... 21 more
+com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.DefaultResultSetFuture.extractCauseFromExecutionException(DefaultResultSetFuture.java:256)
+	at com.datastax.driver.core.DefaultResultSetFuture.getUninterruptibly(DefaultResultSetFuture.java:172)
+	at com.datastax.driver.core.AbstractSession.execute(AbstractSession.java:52)
+	at com.yahoo.ycsb.db.CassandraCQLClient.read(CassandraCQLClient.java:282)
+	at com.yahoo.ycsb.db.CassandraCQLClient.readAll(CassandraCQLClient.java:255)
+	at com.yahoo.ycsb.DBWrapper$1.go(DBWrapper.java:124)
+	at com.yahoo.ycsb.DBWrapper.operation(DBWrapper.java:283)
+	at com.yahoo.ycsb.DBWrapper.readAll(DBWrapper.java:111)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransactionRead(CoreWorkload.java:535)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransaction(CoreWorkload.java:482)
+	at com.yahoo.ycsb.ClientThread$1.doOperation(Client.java:349)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:405)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:346)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.Responses$Error.asException(Responses.java:94)
+	at com.datastax.driver.core.DefaultResultSetFuture.onSet(DefaultResultSetFuture.java:108)
+	at com.datastax.driver.core.RequestHandler.setFinalResult(RequestHandler.java:235)
+	at com.datastax.driver.core.RequestHandler.onSet(RequestHandler.java:379)
+	at com.datastax.driver.core.Connection$Dispatcher.messageReceived(Connection.java:582)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:109)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:90)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:57)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:34)
+	at com.datastax.driver.core.Message$ProtocolDecoder.decode(Message.java:182)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:66)
+	... 21 more
+com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.DefaultResultSetFuture.extractCauseFromExecutionException(DefaultResultSetFuture.java:256)
+	at com.datastax.driver.core.DefaultResultSetFuture.getUninterruptibly(DefaultResultSetFuture.java:172)
+	at com.datastax.driver.core.AbstractSession.execute(AbstractSession.java:52)
+	at com.yahoo.ycsb.db.CassandraCQLClient.read(CassandraCQLClient.java:282)
+	at com.yahoo.ycsb.db.CassandraCQLClient.readAll(CassandraCQLClient.java:255)
+	at com.yahoo.ycsb.DBWrapper$1.go(DBWrapper.java:124)
+	at com.yahoo.ycsb.DBWrapper.operation(DBWrapper.java:283)
+	at com.yahoo.ycsb.DBWrapper.readAll(DBWrapper.java:111)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransactionRead(CoreWorkload.java:535)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransaction(CoreWorkload.java:482)
+	at com.yahoo.ycsb.ClientThread$1.doOperation(Client.java:349)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:405)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:346)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.Responses$Error.asException(Responses.java:94)
+	at com.datastax.driver.core.DefaultResultSetFuture.onSet(DefaultResultSetFuture.java:108)
+	at com.datastax.driver.core.RequestHandler.setFinalResult(RequestHandler.java:235)
+	at com.datastax.driver.core.RequestHandler.onSet(RequestHandler.java:379)
+	at com.datastax.driver.core.Connection$Dispatcher.messageReceived(Connection.java:582)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:109)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:90)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:57)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:34)
+	at com.datastax.driver.core.Message$ProtocolDecoder.decode(Message.java:182)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:66)
+	... 21 more
+com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.DefaultResultSetFuture.extractCauseFromExecutionException(DefaultResultSetFuture.java:256)
+	at com.datastax.driver.core.DefaultResultSetFuture.getUninterruptibly(DefaultResultSetFuture.java:172)
+	at com.datastax.driver.core.AbstractSession.execute(AbstractSession.java:52)
+	at com.yahoo.ycsb.db.CassandraCQLClient.read(CassandraCQLClient.java:282)
+	at com.yahoo.ycsb.db.CassandraCQLClient.readAll(CassandraCQLClient.java:255)
+	at com.yahoo.ycsb.DBWrapper$1.go(DBWrapper.java:124)
+	at com.yahoo.ycsb.DBWrapper.operation(DBWrapper.java:283)
+	at com.yahoo.ycsb.DBWrapper.readAll(DBWrapper.java:111)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransactionRead(CoreWorkload.java:535)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransaction(CoreWorkload.java:482)
+	at com.yahoo.ycsb.ClientThread$1.doOperation(Client.java:349)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:405)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:346)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.Responses$Error.asException(Responses.java:94)
+	at com.datastax.driver.core.DefaultResultSetFuture.onSet(DefaultResultSetFuture.java:108)
+	at com.datastax.driver.core.RequestHandler.setFinalResult(RequestHandler.java:235)
+	at com.datastax.driver.core.RequestHandler.onSet(RequestHandler.java:379)
+	at com.datastax.driver.core.Connection$Dispatcher.messageReceived(Connection.java:582)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:109)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:90)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:57)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:34)
+	at com.datastax.driver.core.Message$ProtocolDecoder.decode(Message.java:182)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:66)
+	... 21 more
+com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.DefaultResultSetFuture.extractCauseFromExecutionException(DefaultResultSetFuture.java:256)
+	at com.datastax.driver.core.DefaultResultSetFuture.getUninterruptibly(DefaultResultSetFuture.java:172)
+	at com.datastax.driver.core.AbstractSession.execute(AbstractSession.java:52)
+	at com.yahoo.ycsb.db.CassandraCQLClient.read(CassandraCQLClient.java:282)
+	at com.yahoo.ycsb.db.CassandraCQLClient.readAll(CassandraCQLClient.java:255)
+	at com.yahoo.ycsb.DBWrapper$1.go(DBWrapper.java:124)
+	at com.yahoo.ycsb.DBWrapper.operation(DBWrapper.java:283)
+	at com.yahoo.ycsb.DBWrapper.readAll(DBWrapper.java:111)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransactionRead(CoreWorkload.java:535)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransaction(CoreWorkload.java:482)
+	at com.yahoo.ycsb.ClientThread$1.doOperation(Client.java:349)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:405)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:346)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.Responses$Error.asException(Responses.java:94)
+	at com.datastax.driver.core.DefaultResultSetFuture.onSet(DefaultResultSetFuture.java:108)
+	at com.datastax.driver.core.RequestHandler.setFinalResult(RequestHandler.java:235)
+	at com.datastax.driver.core.RequestHandler.onSet(RequestHandler.java:379)
+	at com.datastax.driver.core.Connection$Dispatcher.messageReceived(Connection.java:582)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:109)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:90)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:57)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:34)
+	at com.datastax.driver.core.Message$ProtocolDecoder.decode(Message.java:182)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:66)
+	... 21 more
+com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.DefaultResultSetFuture.extractCauseFromExecutionException(DefaultResultSetFuture.java:256)
+	at com.datastax.driver.core.DefaultResultSetFuture.getUninterruptibly(DefaultResultSetFuture.java:172)
+	at com.datastax.driver.core.AbstractSession.execute(AbstractSession.java:52)
+	at com.yahoo.ycsb.db.CassandraCQLClient.read(CassandraCQLClient.java:282)
+	at com.yahoo.ycsb.db.CassandraCQLClient.readAll(CassandraCQLClient.java:255)
+	at com.yahoo.ycsb.DBWrapper$1.go(DBWrapper.java:124)
+	at com.yahoo.ycsb.DBWrapper.operation(DBWrapper.java:283)
+	at com.yahoo.ycsb.DBWrapper.readAll(DBWrapper.java:111)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransactionRead(CoreWorkload.java:535)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransaction(CoreWorkload.java:482)
+	at com.yahoo.ycsb.ClientThread$1.doOperation(Client.java:349)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:405)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:346)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.Responses$Error.asException(Responses.java:94)
+	at com.datastax.driver.core.DefaultResultSetFuture.onSet(DefaultResultSetFuture.java:108)
+	at com.datastax.driver.core.RequestHandler.setFinalResult(RequestHandler.java:235)
+	at com.datastax.driver.core.RequestHandler.onSet(RequestHandler.java:379)
+	at com.datastax.driver.core.Connection$Dispatcher.messageReceived(Connection.java:582)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:109)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:90)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:57)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:34)
+	at com.datastax.driver.core.Message$ProtocolDecoder.decode(Message.java:182)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:66)
+	... 21 more
+com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.DefaultResultSetFuture.extractCauseFromExecutionException(DefaultResultSetFuture.java:256)
+	at com.datastax.driver.core.DefaultResultSetFuture.getUninterruptibly(DefaultResultSetFuture.java:172)
+	at com.datastax.driver.core.AbstractSession.execute(AbstractSession.java:52)
+	at com.yahoo.ycsb.db.CassandraCQLClient.read(CassandraCQLClient.java:282)
+	at com.yahoo.ycsb.db.CassandraCQLClient.readAll(CassandraCQLClient.java:255)
+	at com.yahoo.ycsb.DBWrapper$1.go(DBWrapper.java:124)
+	at com.yahoo.ycsb.DBWrapper.operation(DBWrapper.java:283)
+	at com.yahoo.ycsb.DBWrapper.readAll(DBWrapper.java:111)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransactionRead(CoreWorkload.java:535)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransaction(CoreWorkload.java:482)
+	at com.yahoo.ycsb.ClientThread$1.doOperation(Client.java:349)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:405)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:346)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.Responses$Error.asException(Responses.java:94)
+	at com.datastax.driver.core.DefaultResultSetFuture.onSet(DefaultResultSetFuture.java:108)
+	at com.datastax.driver.core.RequestHandler.setFinalResult(RequestHandler.java:235)
+	at com.datastax.driver.core.RequestHandler.onSet(RequestHandler.java:379)
+	at com.datastax.driver.core.Connection$Dispatcher.messageReceived(Connection.java:582)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:109)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:90)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:57)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:34)
+	at com.datastax.driver.core.Message$ProtocolDecoder.decode(Message.java:182)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:66)
+	... 21 more
+com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.DefaultResultSetFuture.extractCauseFromExecutionException(DefaultResultSetFuture.java:256)
+	at com.datastax.driver.core.DefaultResultSetFuture.getUninterruptibly(DefaultResultSetFuture.java:172)
+	at com.datastax.driver.core.AbstractSession.execute(AbstractSession.java:52)
+	at com.yahoo.ycsb.db.CassandraCQLClient.read(CassandraCQLClient.java:282)
+	at com.yahoo.ycsb.db.CassandraCQLClient.readAll(CassandraCQLClient.java:255)
+	at com.yahoo.ycsb.DBWrapper$1.go(DBWrapper.java:124)
+	at com.yahoo.ycsb.DBWrapper.operation(DBWrapper.java:283)
+	at com.yahoo.ycsb.DBWrapper.readAll(DBWrapper.java:111)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransactionRead(CoreWorkload.java:535)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransaction(CoreWorkload.java:482)
+	at com.yahoo.ycsb.ClientThread$1.doOperation(Client.java:349)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:405)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:346)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.Responses$Error.asException(Responses.java:94)
+	at com.datastax.driver.core.DefaultResultSetFuture.onSet(DefaultResultSetFuture.java:108)
+	at com.datastax.driver.core.RequestHandler.setFinalResult(RequestHandler.java:235)
+	at com.datastax.driver.core.RequestHandler.onSet(RequestHandler.java:379)
+	at com.datastax.driver.core.Connection$Dispatcher.messageReceived(Connection.java:582)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:109)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:90)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:57)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:34)
+	at com.datastax.driver.core.Message$ProtocolDecoder.decode(Message.java:182)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:66)
+	... 21 more
+com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.DefaultResultSetFuture.extractCauseFromExecutionException(DefaultResultSetFuture.java:256)
+	at com.datastax.driver.core.DefaultResultSetFuture.getUninterruptibly(DefaultResultSetFuture.java:172)
+	at com.datastax.driver.core.AbstractSession.execute(AbstractSession.java:52)
+	at com.yahoo.ycsb.db.CassandraCQLClient.read(CassandraCQLClient.java:282)
+	at com.yahoo.ycsb.db.CassandraCQLClient.readAll(CassandraCQLClient.java:255)
+	at com.yahoo.ycsb.DBWrapper$1.go(DBWrapper.java:124)
+	at com.yahoo.ycsb.DBWrapper.operation(DBWrapper.java:283)
+	at com.yahoo.ycsb.DBWrapper.readAll(DBWrapper.java:111)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransactionRead(CoreWorkload.java:535)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransaction(CoreWorkload.java:482)
+	at com.yahoo.ycsb.ClientThread$1.doOperation(Client.java:349)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:405)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:346)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.Responses$Error.asException(Responses.java:94)
+	at com.datastax.driver.core.DefaultResultSetFuture.onSet(DefaultResultSetFuture.java:108)
+	at com.datastax.driver.core.RequestHandler.setFinalResult(RequestHandler.java:235)
+	at com.datastax.driver.core.RequestHandler.onSet(RequestHandler.java:379)
+	at com.datastax.driver.core.Connection$Dispatcher.messageReceived(Connection.java:582)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:109)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:90)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:57)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:34)
+	at com.datastax.driver.core.Message$ProtocolDecoder.decode(Message.java:182)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:66)
+	... 21 more
+com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.DefaultResultSetFuture.extractCauseFromExecutionException(DefaultResultSetFuture.java:256)
+	at com.datastax.driver.core.DefaultResultSetFuture.getUninterruptibly(DefaultResultSetFuture.java:172)
+	at com.datastax.driver.core.AbstractSession.execute(AbstractSession.java:52)
+	at com.yahoo.ycsb.db.CassandraCQLClient.read(CassandraCQLClient.java:282)
+	at com.yahoo.ycsb.db.CassandraCQLClient.readAll(CassandraCQLClient.java:255)
+	at com.yahoo.ycsb.DBWrapper$1.go(DBWrapper.java:124)
+	at com.yahoo.ycsb.DBWrapper.operation(DBWrapper.java:283)
+	at com.yahoo.ycsb.DBWrapper.readAll(DBWrapper.java:111)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransactionRead(CoreWorkload.java:535)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransaction(CoreWorkload.java:482)
+	at com.yahoo.ycsb.ClientThread$1.doOperation(Client.java:349)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:405)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:346)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.Responses$Error.asException(Responses.java:94)
+	at com.datastax.driver.core.DefaultResultSetFuture.onSet(DefaultResultSetFuture.java:108)
+	at com.datastax.driver.core.RequestHandler.setFinalResult(RequestHandler.java:235)
+	at com.datastax.driver.core.RequestHandler.onSet(RequestHandler.java:379)
+	at com.datastax.driver.core.Connection$Dispatcher.messageReceived(Connection.java:582)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:109)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:90)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:57)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:34)
+	at com.datastax.driver.core.Message$ProtocolDecoder.decode(Message.java:182)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:66)
+	... 21 more
+com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 0 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.DefaultResultSetFuture.extractCauseFromExecutionException(DefaultResultSetFuture.java:256)
+	at com.datastax.driver.core.DefaultResultSetFuture.getUninterruptibly(DefaultResultSetFuture.java:172)
+	at com.datastax.driver.core.AbstractSession.execute(AbstractSession.java:52)
+	at com.yahoo.ycsb.db.CassandraCQLClient.read(CassandraCQLClient.java:282)
+	at com.yahoo.ycsb.db.CassandraCQLClient.readAll(CassandraCQLClient.java:255)
+	at com.yahoo.ycsb.DBWrapper$1.go(DBWrapper.java:124)
+	at com.yahoo.ycsb.DBWrapper.operation(DBWrapper.java:283)
+	at com.yahoo.ycsb.DBWrapper.readAll(DBWrapper.java:111)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransactionRead(CoreWorkload.java:535)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransaction(CoreWorkload.java:482)
+	at com.yahoo.ycsb.ClientThread$1.doOperation(Client.java:349)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:405)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:346)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 0 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.Responses$Error.asException(Responses.java:94)
+	at com.datastax.driver.core.DefaultResultSetFuture.onSet(DefaultResultSetFuture.java:108)
+	at com.datastax.driver.core.RequestHandler.setFinalResult(RequestHandler.java:235)
+	at com.datastax.driver.core.RequestHandler.onSet(RequestHandler.java:379)
+	at com.datastax.driver.core.Connection$Dispatcher.messageReceived(Connection.java:582)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:109)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:90)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 0 replica responded)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:57)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:34)
+	at com.datastax.driver.core.Message$ProtocolDecoder.decode(Message.java:182)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:66)
+	... 21 more
+com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.DefaultResultSetFuture.extractCauseFromExecutionException(DefaultResultSetFuture.java:256)
+	at com.datastax.driver.core.DefaultResultSetFuture.getUninterruptibly(DefaultResultSetFuture.java:172)
+	at com.datastax.driver.core.AbstractSession.execute(AbstractSession.java:52)
+	at com.yahoo.ycsb.db.CassandraCQLClient.read(CassandraCQLClient.java:282)
+	at com.yahoo.ycsb.db.CassandraCQLClient.readAll(CassandraCQLClient.java:255)
+	at com.yahoo.ycsb.DBWrapper$1.go(DBWrapper.java:124)
+	at com.yahoo.ycsb.DBWrapper.operation(DBWrapper.java:283)
+	at com.yahoo.ycsb.DBWrapper.readAll(DBWrapper.java:111)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransactionRead(CoreWorkload.java:535)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransaction(CoreWorkload.java:482)
+	at com.yahoo.ycsb.ClientThread$1.doOperation(Client.java:349)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:405)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:346)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.Responses$Error.asException(Responses.java:94)
+	at com.datastax.driver.core.DefaultResultSetFuture.onSet(DefaultResultSetFuture.java:108)
+	at com.datastax.driver.core.RequestHandler.setFinalResult(RequestHandler.java:235)
+	at com.datastax.driver.core.RequestHandler.onSet(RequestHandler.java:379)
+	at com.datastax.driver.core.Connection$Dispatcher.messageReceived(Connection.java:582)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:109)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:90)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:57)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:34)
+	at com.datastax.driver.core.Message$ProtocolDecoder.decode(Message.java:182)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:66)
+	... 21 more
+com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.DefaultResultSetFuture.extractCauseFromExecutionException(DefaultResultSetFuture.java:256)
+	at com.datastax.driver.core.DefaultResultSetFuture.getUninterruptibly(DefaultResultSetFuture.java:172)
+	at com.datastax.driver.core.AbstractSession.execute(AbstractSession.java:52)
+	at com.yahoo.ycsb.db.CassandraCQLClient.read(CassandraCQLClient.java:282)
+	at com.yahoo.ycsb.db.CassandraCQLClient.readAll(CassandraCQLClient.java:255)
+	at com.yahoo.ycsb.DBWrapper$1.go(DBWrapper.java:124)
+	at com.yahoo.ycsb.DBWrapper.operation(DBWrapper.java:283)
+	at com.yahoo.ycsb.DBWrapper.readAll(DBWrapper.java:111)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransactionRead(CoreWorkload.java:535)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransaction(CoreWorkload.java:482)
+	at com.yahoo.ycsb.ClientThread$1.doOperation(Client.java:349)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:405)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:346)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.Responses$Error.asException(Responses.java:94)
+	at com.datastax.driver.core.DefaultResultSetFuture.onSet(DefaultResultSetFuture.java:108)
+	at com.datastax.driver.core.RequestHandler.setFinalResult(RequestHandler.java:235)
+	at com.datastax.driver.core.RequestHandler.onSet(RequestHandler.java:379)
+	at com.datastax.driver.core.Connection$Dispatcher.messageReceived(Connection.java:582)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:109)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:90)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:57)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:34)
+	at com.datastax.driver.core.Message$ProtocolDecoder.decode(Message.java:182)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:66)
+	... 21 more
+com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.DefaultResultSetFuture.extractCauseFromExecutionException(DefaultResultSetFuture.java:256)
+	at com.datastax.driver.core.DefaultResultSetFuture.getUninterruptibly(DefaultResultSetFuture.java:172)
+	at com.datastax.driver.core.AbstractSession.execute(AbstractSession.java:52)
+	at com.yahoo.ycsb.db.CassandraCQLClient.read(CassandraCQLClient.java:282)
+	at com.yahoo.ycsb.db.CassandraCQLClient.readAll(CassandraCQLClient.java:255)
+	at com.yahoo.ycsb.DBWrapper$1.go(DBWrapper.java:124)
+	at com.yahoo.ycsb.DBWrapper.operation(DBWrapper.java:283)
+	at com.yahoo.ycsb.DBWrapper.readAll(DBWrapper.java:111)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransactionRead(CoreWorkload.java:535)
+	at com.yahoo.ycsb.workloads.CoreWorkload.doTransaction(CoreWorkload.java:482)
+	at com.yahoo.ycsb.ClientThread$1.doOperation(Client.java:349)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:405)
+	at com.yahoo.ycsb.ClientThread.run(Client.java:346)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.exceptions.ReadTimeoutException.copy(ReadTimeoutException.java:69)
+	at com.datastax.driver.core.Responses$Error.asException(Responses.java:94)
+	at com.datastax.driver.core.DefaultResultSetFuture.onSet(DefaultResultSetFuture.java:108)
+	at com.datastax.driver.core.RequestHandler.setFinalResult(RequestHandler.java:235)
+	at com.datastax.driver.core.RequestHandler.onSet(RequestHandler.java:379)
+	at com.datastax.driver.core.Connection$Dispatcher.messageReceived(Connection.java:582)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:109)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:90)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: com.datastax.driver.core.exceptions.ReadTimeoutException: Cassandra timeout during read query at consistency QUORUM (2 responses were required but only 1 replica responded)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:57)
+	at com.datastax.driver.core.Responses$Error$1.decode(Responses.java:34)
+	at com.datastax.driver.core.Message$ProtocolDecoder.decode(Message.java:182)
+	at org.jboss.netty.handler.codec.oneone.OneToOneDecoder.handleUpstream(OneToOneDecoder.java:66)
+	... 21 more
+ 6 sec: 306 operations; 80.11 current ops/sec; [READ AverageLatency(us)=5405392.04] 
+ 8 sec: 1418 operations; 555.72 current ops/sec; [READ AverageLatency(us)=852560.42] 
+ 10 sec: 2391 operations; 486.26 current ops/sec; [READ AverageLatency(us)=707055.84] 
+ 12 sec: 3178 operations; 392.91 current ops/sec; [READ AverageLatency(us)=727552.2] 
+ 14 sec: 13685 operations; 5245.63 current ops/sec; [READ AverageLatency(us)=63036.53] 
+ 16 sec: 43250 operations; 14775.11 current ops/sec; [READ AverageLatency(us)=20807.91] 
+ 18 sec: 78593 operations; 17662.67 current ops/sec; [READ AverageLatency(us)=16624.65] 
+ 20 sec: 134342 operations; 27874.5 current ops/sec; [READ AverageLatency(us)=10729.37] 
+ 22 sec: 189248 operations; 27439.28 current ops/sec; [READ AverageLatency(us)=10884.49] 
+ 24 sec: 242959 operations; 26842.08 current ops/sec; [READ AverageLatency(us)=11132.14] 
+ 27 sec: 253672 operations; 3547.35 current ops/sec; [READ AverageLatency(us)=11373.99] 
+ 29 sec: 286185 operations; 16240.26 current ops/sec; [READ AverageLatency(us)=42100.66] 
+ 31 sec: 337403 operations; 25596.2 current ops/sec; [READ AverageLatency(us)=11405.15] 
+ 33 sec: 388714 operations; 25642.68 current ops/sec; [READ AverageLatency(us)=11541.1] 
+ 35 sec: 438258 operations; 24772 current ops/sec; [READ AverageLatency(us)=11683.98] 
+ 37 sec: 488616 operations; 25166.42 current ops/sec; [READ AverageLatency(us)=11339.77] 
+ 39 sec: 540108 operations; 25733.13 current ops/sec; [READ AverageLatency(us)=11500.89] 
+ 41 sec: 590417 operations; 25154.5 current ops/sec; [READ AverageLatency(us)=11607.84] 
+ 43 sec: 641739 operations; 25648.18 current ops/sec; [READ AverageLatency(us)=11494.92] 
+ 45 sec: 693431 operations; 25833.08 current ops/sec; [READ AverageLatency(us)=10926.36] 
+ 47 sec: 743626 operations; 25084.96 current ops/sec; [READ AverageLatency(us)=11557.1] 
+ 49 sec: 793492 operations; 24933 current ops/sec; [READ AverageLatency(us)=11833.04] 
+ 51 sec: 844459 operations; 25470.76 current ops/sec; [READ AverageLatency(us)=11051.36] 
+ 53 sec: 895830 operations; 25672.66 current ops/sec; [READ AverageLatency(us)=11302.47] 
+ 55 sec: 947175 operations; 25672.5 current ops/sec; [READ AverageLatency(us)=11412.19] 
+ 57 sec: 997769 operations; 25284.36 current ops/sec; [READ AverageLatency(us)=11356.22] 
+ 59 sec: 1049969 operations; 26086.96 current ops/sec; [READ AverageLatency(us)=11153.16] 
+ 61 sec: 1100810 operations; 25407.8 current ops/sec; [READ AverageLatency(us)=11513.91] 
+ 63 sec: 1151674 operations; 25419.29 current ops/sec; [READ AverageLatency(us)=11223.07] 
+ 65 sec: 1203095 operations; 25710.5 current ops/sec; [READ AverageLatency(us)=11233.7] 
+ 67 sec: 1252397 operations; 24638.68 current ops/sec; [READ AverageLatency(us)=11178] 
+ 69 sec: 1299200 operations; 23389.81 current ops/sec; [READ AverageLatency(us)=12424.89] 
+ 71 sec: 1347010 operations; 23893.05 current ops/sec; [READ AverageLatency(us)=12140.83] 
+ 73 sec: 1395111 operations; 24038.48 current ops/sec; [READ AverageLatency(us)=12367.75] 
+ 75 sec: 1436692 operations; 20790.5 current ops/sec; [READ AverageLatency(us)=13669.46] 
+ 77 sec: 1483550 operations; 23417.29 current ops/sec; [READ AverageLatency(us)=12232.99] 
+ 79 sec: 1533482 operations; 24953.52 current ops/sec; [READ AverageLatency(us)=11563.32] 
+ 81 sec: 1581807 operations; 24162.5 current ops/sec; [READ AverageLatency(us)=12137.26] 
+ 83 sec: 1630392 operations; 24280.36 current ops/sec; [READ AverageLatency(us)=11681.07] 
+ 85 sec: 1677509 operations; 23558.5 current ops/sec; [READ AverageLatency(us)=11842.94] 
+ 87 sec: 1725460 operations; 23963.52 current ops/sec; [READ AverageLatency(us)=12190.38] 
+ 89 sec: 1773864 operations; 24202 current ops/sec; [READ AverageLatency(us)=11524.56] 
+ 91 sec: 1821375 operations; 23743.63 current ops/sec; [READ AverageLatency(us)=11381.52] 
+ 93 sec: 1872685 operations; 25642.18 current ops/sec; [READ AverageLatency(us)=11566.74] 
+ 95 sec: 1921590 operations; 24452.5 current ops/sec; [READ AverageLatency(us)=11934.5] 
+ 97 sec: 1971301 operations; 24843.08 current ops/sec; [READ AverageLatency(us)=12014.08] 
+ 99 sec: 2021618 operations; 25158.5 current ops/sec; [READ AverageLatency(us)=11807.92] 
+ 101 sec: 2075126 operations; 26740.63 current ops/sec; [READ AverageLatency(us)=11057.84] 
+ 103 sec: 2124899 operations; 24886.5 current ops/sec; [READ AverageLatency(us)=11318.53] 
+ 105 sec: 2177303 operations; 26188.91 current ops/sec; [READ AverageLatency(us)=11388.09] 
+ 107 sec: 2227774 operations; 25235.5 current ops/sec; [READ AverageLatency(us)=11445.89] 
+ 109 sec: 2279760 operations; 25980.01 current ops/sec; [READ AverageLatency(us)=11312.86] 
+ 111 sec: 2332284 operations; 26262 current ops/sec; [READ AverageLatency(us)=11295.78] 
+ 113 sec: 2381567 operations; 24629.19 current ops/sec; [READ AverageLatency(us)=12079.4] 
+ 115 sec: 2431618 operations; 25025.5 current ops/sec; [READ AverageLatency(us)=11902.89] 
+ 117 sec: 2482725 operations; 25540.73 current ops/sec; [READ AverageLatency(us)=11710.72] 
+ 119 sec: 2534454 operations; 25851.57 current ops/sec; [READ AverageLatency(us)=11374.43] 
+ 121 sec: 2583600 operations; 24560.72 current ops/sec; [READ AverageLatency(us)=11762.08] 
+ 123 sec: 2633910 operations; 25129.87 current ops/sec; [READ AverageLatency(us)=12188.76] 
+ 125 sec: 2682651 operations; 24358.32 current ops/sec; [READ AverageLatency(us)=12267.09] 
+ 127 sec: 2732630 operations; 24977.01 current ops/sec; [READ AverageLatency(us)=11921.91] 
+ 129 sec: 2784306 operations; 25825.09 current ops/sec; [READ AverageLatency(us)=11468.93] 
+ 131 sec: 2837122 operations; 26394.8 current ops/sec; [READ AverageLatency(us)=11300.94] 
+ 133 sec: 2888446 operations; 25662 current ops/sec; [READ AverageLatency(us)=11600.48] 
+ 135 sec: 2939230 operations; 25379.31 current ops/sec; [READ AverageLatency(us)=11663.55] 
+ 137 sec: 2991395 operations; 26082.5 current ops/sec; [READ AverageLatency(us)=11393.24] 
+ 139 sec: 3043238 operations; 25908.55 current ops/sec; [READ AverageLatency(us)=11516.59] 
+ 141 sec: 3093271 operations; 25004 current ops/sec; [READ AverageLatency(us)=11874.36] 
+ 143 sec: 3144833 operations; 25755.24 current ops/sec; [READ AverageLatency(us)=11428.13] 
+ 145 sec: 3196789 operations; 25965.02 current ops/sec; [READ AverageLatency(us)=11471.5] 
+ 147 sec: 3245033 operations; 24109.95 current ops/sec; [READ AverageLatency(us)=11368.9] 
+ 149 sec: 3295128 operations; 24223.89 current ops/sec; [READ AverageLatency(us)=11650.12] 
+ 151 sec: 3346365 operations; 25592.91 current ops/sec; [READ AverageLatency(us)=12022.19] 
+ 153 sec: 3398352 operations; 25980.51 current ops/sec; [READ AverageLatency(us)=11415.44] 
+ 155 sec: 3450675 operations; 26148.43 current ops/sec; [READ AverageLatency(us)=11431.54] 
+ 157 sec: 3502743 operations; 26007.99 current ops/sec; [READ AverageLatency(us)=11299.81] 
+ 159 sec: 3554218 operations; 25724.64 current ops/sec; [READ AverageLatency(us)=11469.88] 
+ 161 sec: 3607145 operations; 26437.06 current ops/sec; [READ AverageLatency(us)=11139.2] 
+ 163 sec: 3658096 operations; 25462.77 current ops/sec; [READ AverageLatency(us)=11683.69] 
+ 165 sec: 3708599 operations; 25238.88 current ops/sec; [READ AverageLatency(us)=11758.51] 
+ 167 sec: 3760891 operations; 26132.93 current ops/sec; [READ AverageLatency(us)=11364.7] 
+ 169 sec: 3811200 operations; 25141.93 current ops/sec; [READ AverageLatency(us)=11529.2] 
+ 171 sec: 3864504 operations; 26638.68 current ops/sec; [READ AverageLatency(us)=11155.33] 
+ 173 sec: 3916385 operations; 25927.54 current ops/sec; [READ AverageLatency(us)=11401.43] 
+ 175 sec: 3969303 operations; 26459 current ops/sec; [READ AverageLatency(us)=11211.05] 
+ 177 sec: 4017843 operations; 24257.87 current ops/sec; [READ AverageLatency(us)=12110.26] 
+ 179 sec: 4069839 operations; 25985.01 current ops/sec; [READ AverageLatency(us)=11193.68] 
+ 181 sec: 4121140 operations; 25637.68 current ops/sec; [READ AverageLatency(us)=11250.69] 
+ 183 sec: 4174645 operations; 26752.5 current ops/sec; [READ AverageLatency(us)=10910.61] 
+ 185 sec: 4227934 operations; 26631.18 current ops/sec; [READ AverageLatency(us)=11186.55] 
+ 187 sec: 4277973 operations; 25019.5 current ops/sec; [READ AverageLatency(us)=11718.88] 
+ 189 sec: 4329402 operations; 25701.65 current ops/sec; [READ AverageLatency(us)=11258.38] 
+ 191 sec: 4380633 operations; 25602.7 current ops/sec; [READ AverageLatency(us)=11501.45] 
+ 193 sec: 4431831 operations; 25599 current ops/sec; [READ AverageLatency(us)=11430.87] 
+ 195 sec: 4483499 operations; 25821.09 current ops/sec; [READ AverageLatency(us)=11218.82] 
+ 197 sec: 4535935 operations; 26218 current ops/sec; [READ AverageLatency(us)=11276.05] 
+ 199 sec: 4587635 operations; 25837.08 current ops/sec; [READ AverageLatency(us)=11399.5] 
+ 201 sec: 4640156 operations; 26260.5 current ops/sec; [READ AverageLatency(us)=11126.94] 
+ 203 sec: 4693370 operations; 26593.7 current ops/sec; [READ AverageLatency(us)=11008.58] 
+ 205 sec: 4747581 operations; 27105.5 current ops/sec; [READ AverageLatency(us)=10727.3] 
+ 207 sec: 4797701 operations; 25047.48 current ops/sec; [READ AverageLatency(us)=11596.98] 
+ 209 sec: 4847501 operations; 24900 current ops/sec; [READ AverageLatency(us)=11746.65] 
+ 211 sec: 4895695 operations; 24084.96 current ops/sec; [READ AverageLatency(us)=11960.81] 
+ 213 sec: 4943998 operations; 24151.5 current ops/sec; [READ AverageLatency(us)=12077.64] 
+ 215 sec: 4993196 operations; 24586.71 current ops/sec; [READ AverageLatency(us)=11862.2] 
+ 217 sec: 5041378 operations; 24091 current ops/sec; [READ AverageLatency(us)=12245.15] 
+ 219 sec: 5092099 operations; 25360.5 current ops/sec; [READ AverageLatency(us)=11395.81] 
+ 221 sec: 5142928 operations; 25401.8 current ops/sec; [READ AverageLatency(us)=11748.66] 
+ 223 sec: 5193970 operations; 25521 current ops/sec; [READ AverageLatency(us)=11496.22] 
+ 225 sec: 5240208 operations; 23107.45 current ops/sec; [READ AverageLatency(us)=12844.47] 
+ 227 sec: 5286786 operations; 23289 current ops/sec; [READ AverageLatency(us)=12058.88] 
+ 229 sec: 5338238 operations; 25713.14 current ops/sec; [READ AverageLatency(us)=11263.58] 
+ 231 sec: 5390391 operations; 26076.5 current ops/sec; [READ AverageLatency(us)=11223.95] 
+ 233 sec: 5442921 operations; 26251.87 current ops/sec; [READ AverageLatency(us)=11120.39] 
+ 235 sec: 5495010 operations; 26044.5 current ops/sec; [READ AverageLatency(us)=11209.13] 
+ 237 sec: 5546732 operations; 25848.08 current ops/sec; [READ AverageLatency(us)=11455.97] 
+ 239 sec: 5599680 operations; 26474 current ops/sec; [READ AverageLatency(us)=11276.35] 
+ 241 sec: 5652320 operations; 26320 current ops/sec; [READ AverageLatency(us)=11294.48] 
+ 243 sec: 5706522 operations; 27087.46 current ops/sec; [READ AverageLatency(us)=11025.68] 
+ 245 sec: 5761013 operations; 27245.5 current ops/sec; [READ AverageLatency(us)=10932.11] 
+ 247 sec: 5815071 operations; 27015.49 current ops/sec; [READ AverageLatency(us)=11030.3] 
+ 249 sec: 5870028 operations; 27478.5 current ops/sec; [READ AverageLatency(us)=10805.33] 
+ 251 sec: 5924145 operations; 27044.98 current ops/sec; [READ AverageLatency(us)=10939.21] 
+ 253 sec: 5977899 operations; 26877 current ops/sec; [READ AverageLatency(us)=10989.42] 
+ 255 sec: 6032617 operations; 27345.33 current ops/sec; [READ AverageLatency(us)=10887.8] 
+ 257 sec: 6085711 operations; 26547 current ops/sec; [READ AverageLatency(us)=11156.32] 
+ 259 sec: 6141312 operations; 27786.61 current ops/sec; [READ AverageLatency(us)=10673.96] 
+ 261 sec: 6192195 operations; 25441.5 current ops/sec; [READ AverageLatency(us)=11737.18] 
+ 263 sec: 6249814 operations; 28809.5 current ops/sec; [READ AverageLatency(us)=10313.58] 
+ 265 sec: 6305664 operations; 27911.04 current ops/sec; [READ AverageLatency(us)=10705.56] 
+ 267 sec: 6359955 operations; 27145.5 current ops/sec; [READ AverageLatency(us)=10946.06] 
+ 269 sec: 6415884 operations; 27950.52 current ops/sec; [READ AverageLatency(us)=10716.27] 
+ 271 sec: 6471026 operations; 27571 current ops/sec; [READ AverageLatency(us)=10730.29] 
+ 273 sec: 6526353 operations; 27649.68 current ops/sec; [READ AverageLatency(us)=10763.43] 
+ 275 sec: 6582238 operations; 27942.5 current ops/sec; [READ AverageLatency(us)=10691.1] 
+ 277 sec: 6636860 operations; 27311 current ops/sec; [READ AverageLatency(us)=10913.26] 
+ 279 sec: 6690970 operations; 27041.48 current ops/sec; [READ AverageLatency(us)=10972.49] 
+ 281 sec: 6745942 operations; 27486 current ops/sec; [READ AverageLatency(us)=10847.45] 
+ 283 sec: 6799740 operations; 26885.56 current ops/sec; [READ AverageLatency(us)=11031.46] 
+ 285 sec: 6855793 operations; 28026.5 current ops/sec; [READ AverageLatency(us)=10423.48] 
+ 287 sec: 6910325 operations; 27252.37 current ops/sec; [READ AverageLatency(us)=10936.78] 
+ 289 sec: 6961962 operations; 25818.5 current ops/sec; [READ AverageLatency(us)=11415.88] 
+ 291 sec: 7018656 operations; 28347 current ops/sec; [READ AverageLatency(us)=10360.14] 
+ 293 sec: 7072810 operations; 27063.47 current ops/sec; [READ AverageLatency(us)=11001.92] 
+ 295 sec: 7124056 operations; 25623 current ops/sec; [READ AverageLatency(us)=11093.86] 
+ 297 sec: 7174032 operations; 24963.04 current ops/sec; [READ AverageLatency(us)=11930.85] 
+ 299 sec: 7228514 operations; 27241 current ops/sec; [READ AverageLatency(us)=10845] 
+ 301 sec: 7281866 operations; 26662.67 current ops/sec; [READ AverageLatency(us)=11080.89] 
+ 303 sec: 7337897 operations; 28001.5 current ops/sec; [READ AverageLatency(us)=10627.57] 
+ 305 sec: 7393746 operations; 27910.54 current ops/sec; [READ AverageLatency(us)=10722.26] 
+ 307 sec: 7446963 operations; 26608.5 current ops/sec; [READ AverageLatency(us)=11214.97] 
+ 309 sec: 7505150 operations; 29078.96 current ops/sec; [READ AverageLatency(us)=10253.41] 
+ 311 sec: 7561260 operations; 28055 current ops/sec; [READ AverageLatency(us)=10645.58] 
+ 313 sec: 7618721 operations; 28716.14 current ops/sec; [READ AverageLatency(us)=10328.24] 
+ 315 sec: 7674715 operations; 27997 current ops/sec; [READ AverageLatency(us)=10709.21] 
+ 317 sec: 7730637 operations; 27947.03 current ops/sec; [READ AverageLatency(us)=10649.61] 
+ 319 sec: 7786344 operations; 27839.58 current ops/sec; [READ AverageLatency(us)=10737.53] 
+ 321 sec: 7843717 operations; 28672.16 current ops/sec; [READ AverageLatency(us)=10407.51] 
+ 323 sec: 7902012 operations; 29147.5 current ops/sec; [READ AverageLatency(us)=10154.31] 
+ 325 sec: 7958253 operations; 28120.5 current ops/sec; [READ AverageLatency(us)=10552.93] 
+ 327 sec: 8014112 operations; 27915.54 current ops/sec; [READ AverageLatency(us)=10693.13] 
+ 329 sec: 8070206 operations; 28047 current ops/sec; [READ AverageLatency(us)=10653.45] 
+ 331 sec: 8127812 operations; 28788.61 current ops/sec; [READ AverageLatency(us)=10365.48] 
+ 333 sec: 8182038 operations; 27113 current ops/sec; [READ AverageLatency(us)=11014.22] 
+ 335 sec: 8235414 operations; 26674.66 current ops/sec; [READ AverageLatency(us)=11193.4] 
+ 337 sec: 8290463 operations; 27510.74 current ops/sec; [READ AverageLatency(us)=10828.62] 
+ 339 sec: 8345454 operations; 27495.5 current ops/sec; [READ AverageLatency(us)=10818.52] 
+ 341 sec: 8400788 operations; 27653.17 current ops/sec; [READ AverageLatency(us)=10824.64] 
+ 343 sec: 8454685 operations; 26948.5 current ops/sec; [READ AverageLatency(us)=11064.75] 
+ 345 sec: 8509620 operations; 27453.77 current ops/sec; [READ AverageLatency(us)=10786.04] 
+ 347 sec: 8564558 operations; 27469 current ops/sec; [READ AverageLatency(us)=10836.66] 
+ 349 sec: 8619381 operations; 27397.8 current ops/sec; [READ AverageLatency(us)=10904.6] 
+ 351 sec: 8676398 operations; 28508.5 current ops/sec; [READ AverageLatency(us)=10479.52] 
+ 353 sec: 8732806 operations; 28204 current ops/sec; [READ AverageLatency(us)=10530.9] 
+ 355 sec: 8789359 operations; 28262.37 current ops/sec; [READ AverageLatency(us)=10415.45] 
+ 357 sec: 8845910 operations; 28275.5 current ops/sec; [READ AverageLatency(us)=10564.36] 
+ 359 sec: 8902196 operations; 28128.94 current ops/sec; [READ AverageLatency(us)=10567.91] 
+ 361 sec: 8959600 operations; 28702 current ops/sec; [READ AverageLatency(us)=10385.82] 
+ 363 sec: 9010481 operations; 25427.79 current ops/sec; [READ AverageLatency(us)=11222.83] 
+ 365 sec: 9063648 operations; 26583.5 current ops/sec; [READ AverageLatency(us)=11213.7] 
+ 367 sec: 9113853 operations; 25102.5 current ops/sec; [READ AverageLatency(us)=11845.79] 
+ 369 sec: 9163186 operations; 24654.17 current ops/sec; [READ AverageLatency(us)=12088.21] 
+ 371 sec: 9211666 operations; 24240 current ops/sec; [READ AverageLatency(us)=11928.15] 
+ 373 sec: 9260271 operations; 24290.35 current ops/sec; [READ AverageLatency(us)=11775.3] 
+ 375 sec: 9308536 operations; 24132.5 current ops/sec; [READ AverageLatency(us)=11605.24] 
+ 377 sec: 9357621 operations; 24542.5 current ops/sec; [READ AverageLatency(us)=11596.93] 
+ 379 sec: 9405196 operations; 23775.61 current ops/sec; [READ AverageLatency(us)=12254.46] 
+ 381 sec: 9454110 operations; 24457 current ops/sec; [READ AverageLatency(us)=11890.88] 
+ 383 sec: 9503283 operations; 24574.21 current ops/sec; [READ AverageLatency(us)=11312.29] 
+ 385 sec: 9551051 operations; 23884 current ops/sec; [READ AverageLatency(us)=11696.96] 
+ 387 sec: 9597849 operations; 23399 current ops/sec; [READ AverageLatency(us)=11797.81] 
+ 389 sec: 9643739 operations; 22933.53 current ops/sec; [READ AverageLatency(us)=12136.56] 
+ 391 sec: 9690776 operations; 23518.5 current ops/sec; [READ AverageLatency(us)=12269.2] 
+ 393 sec: 9737483 operations; 23341.83 current ops/sec; [READ AverageLatency(us)=12352.86] 
+ 395 sec: 9782471 operations; 22494 current ops/sec; [READ AverageLatency(us)=13072.28] 
+ 397 sec: 9829253 operations; 23379.31 current ops/sec; [READ AverageLatency(us)=12407.45] 
+ 399 sec: 9876940 operations; 23843.5 current ops/sec; [READ AverageLatency(us)=12257.95] 
+ 401 sec: 9925645 operations; 24352.5 current ops/sec; [READ AverageLatency(us)=11846.31] 
+ 403 sec: 9972774 operations; 23552.72 current ops/sec; [READ AverageLatency(us)=12311.36] 
+ 405 sec: 10022421 operations; 24823.5 current ops/sec; [READ AverageLatency(us)=11828.98] 
+ 407 sec: 10073290 operations; 25421.79 current ops/sec; [READ AverageLatency(us)=11638.78] 
+ 409 sec: 10124977 operations; 25843.5 current ops/sec; [READ AverageLatency(us)=11307.7] 
+ 411 sec: 10171006 operations; 23003 current ops/sec; [READ AverageLatency(us)=12555.29] 
+ 413 sec: 10221749 operations; 25371.5 current ops/sec; [READ AverageLatency(us)=11647.07] 
+ 415 sec: 10267743 operations; 22985.51 current ops/sec; [READ AverageLatency(us)=12822.94] 
+ 417 sec: 10316223 operations; 24240 current ops/sec; [READ AverageLatency(us)=12281.17] 
+ 419 sec: 10365144 operations; 24448.28 current ops/sec; [READ AverageLatency(us)=12196.89] 
+ 421 sec: 10410596 operations; 22726 current ops/sec; [READ AverageLatency(us)=13097.71] 
+ 423 sec: 10460666 operations; 25035 current ops/sec; [READ AverageLatency(us)=11877.12] 
+ 425 sec: 10512444 operations; 25876.06 current ops/sec; [READ AverageLatency(us)=11479.42] 
+ 427 sec: 10562203 operations; 24879.5 current ops/sec; [READ AverageLatency(us)=11927.67] 
+ 429 sec: 10613413 operations; 25592.2 current ops/sec; [READ AverageLatency(us)=11639.2] 
+ 431 sec: 10664985 operations; 25786 current ops/sec; [READ AverageLatency(us)=11537.84] 
+ 433 sec: 10718190 operations; 26589.21 current ops/sec; [READ AverageLatency(us)=11174.7] 
+ 435 sec: 10772460 operations; 27135 current ops/sec; [READ AverageLatency(us)=11011.13] 
+ 437 sec: 10826189 operations; 26864.5 current ops/sec; [READ AverageLatency(us)=11147.03] 
+ 439 sec: 10877686 operations; 25735.63 current ops/sec; [READ AverageLatency(us)=11598] 
+ 441 sec: 10930360 operations; 26337 current ops/sec; [READ AverageLatency(us)=11313.98] 
+ 443 sec: 10984233 operations; 26923.04 current ops/sec; [READ AverageLatency(us)=11099.47] 
+ 445 sec: 11038157 operations; 26962 current ops/sec; [READ AverageLatency(us)=10973.76] 
+ 447 sec: 11090914 operations; 26365.32 current ops/sec; [READ AverageLatency(us)=11227.15] 
+ 449 sec: 11143496 operations; 26291 current ops/sec; [READ AverageLatency(us)=11342.05] 
+ 451 sec: 11195028 operations; 25753.12 current ops/sec; [READ AverageLatency(us)=11561.87] 
+ 453 sec: 11246854 operations; 25913 current ops/sec; [READ AverageLatency(us)=11489.73] 
+ 455 sec: 11297955 operations; 25550.5 current ops/sec; [READ AverageLatency(us)=11616.99] 
+ 457 sec: 11350904 operations; 26461.27 current ops/sec; [READ AverageLatency(us)=11129.71] 
+ 459 sec: 11403538 operations; 26317 current ops/sec; [READ AverageLatency(us)=11277.88] 
+ 461 sec: 11457334 operations; 26884.56 current ops/sec; [READ AverageLatency(us)=11050.7] 
+ 463 sec: 11511883 operations; 27274.5 current ops/sec; [READ AverageLatency(us)=10899.44] 
+ 465 sec: 11563788 operations; 25939.53 current ops/sec; [READ AverageLatency(us)=11492.24] 
+ 467 sec: 11616890 operations; 26537.73 current ops/sec; [READ AverageLatency(us)=11250.22] 
+ 469 sec: 11671517 operations; 27286.21 current ops/sec; [READ AverageLatency(us)=10956.86] 
+ 471 sec: 11725809 operations; 27118.88 current ops/sec; [READ AverageLatency(us)=10984.47] 
+ 473 sec: 11781183 operations; 27673.16 current ops/sec; [READ AverageLatency(us)=10819.43] 
+ 475 sec: 11836949 operations; 27855.14 current ops/sec; [READ AverageLatency(us)=10714.04] 
+ 477 sec: 11891662 operations; 27356.5 current ops/sec; [READ AverageLatency(us)=10924.31] 
+ 479 sec: 11946088 operations; 27199.4 current ops/sec; [READ AverageLatency(us)=10901.42] 
+ 481 sec: 12003271 operations; 28577.21 current ops/sec; [READ AverageLatency(us)=10491.25] 
+ 483 sec: 12058897 operations; 27799.1 current ops/sec; [READ AverageLatency(us)=10766.85] 
+ 485 sec: 12117141 operations; 29107.45 current ops/sec; [READ AverageLatency(us)=10265.44] 
+ 487 sec: 12173563 operations; 28196.9 current ops/sec; [READ AverageLatency(us)=10613.36] 
+ 489 sec: 12226064 operations; 26250.5 current ops/sec; [READ AverageLatency(us)=10783.6] 
+ 491 sec: 12279270 operations; 26589.71 current ops/sec; [READ AverageLatency(us)=11773.34] 
+ 493 sec: 12332267 operations; 26485.26 current ops/sec; [READ AverageLatency(us)=11246.18] 
+ 495 sec: 12385995 operations; 26837.16 current ops/sec; [READ AverageLatency(us)=11169.64] 
+ 497 sec: 12439315 operations; 26646.68 current ops/sec; [READ AverageLatency(us)=11199.88] 
+ 499 sec: 12493468 operations; 27062.97 current ops/sec; [READ AverageLatency(us)=11027.49] 
+ 501 sec: 12546450 operations; 26477.76 current ops/sec; [READ AverageLatency(us)=11264.03] 
+ 503 sec: 12600620 operations; 27071.46 current ops/sec; [READ AverageLatency(us)=10963.96] 
+ 505 sec: 12653022 operations; 26187.91 current ops/sec; [READ AverageLatency(us)=11452.6] 
+ 507 sec: 12707334 operations; 27156 current ops/sec; [READ AverageLatency(us)=11016.67] 
+ 509 sec: 12761770 operations; 27204.4 current ops/sec; [READ AverageLatency(us)=10927.01] 
+ 511 sec: 12817963 operations; 28096.5 current ops/sec; [READ AverageLatency(us)=10589.85] 
+ 513 sec: 12871432 operations; 26721.14 current ops/sec; [READ AverageLatency(us)=11160.67] 
+ 515 sec: 12926427 operations; 27497.5 current ops/sec; [READ AverageLatency(us)=10879.47] 
+ 517 sec: 12981458 operations; 27501.75 current ops/sec; [READ AverageLatency(us)=10861.02] 
+ 519 sec: 13037258 operations; 27900 current ops/sec; [READ AverageLatency(us)=10690.95] 
+ 521 sec: 13092785 operations; 27749.63 current ops/sec; [READ AverageLatency(us)=10668.73] 
+ 523 sec: 13149308 operations; 28261.5 current ops/sec; [READ AverageLatency(us)=10500.39] 
+ 525 sec: 13205561 operations; 28112.44 current ops/sec; [READ AverageLatency(us)=10620.78] 
+ 527 sec: 13260651 operations; 27531.23 current ops/sec; [READ AverageLatency(us)=10799.56] 
+ 529 sec: 13316246 operations; 27797.5 current ops/sec; [READ AverageLatency(us)=10766.63] 
+ 531 sec: 13374253 operations; 28989.01 current ops/sec; [READ AverageLatency(us)=10278.95] 
+ 533 sec: 13430838 operations; 28292.5 current ops/sec; [READ AverageLatency(us)=10572.65] 
+ 535 sec: 13487931 operations; 28532.23 current ops/sec; [READ AverageLatency(us)=10451.94] 
+ 537 sec: 13545802 operations; 28935.5 current ops/sec; [READ AverageLatency(us)=10338.29] 
+ 539 sec: 13603177 operations; 28673.16 current ops/sec; [READ AverageLatency(us)=10383.32] 
+ 541 sec: 13657891 operations; 27357 current ops/sec; [READ AverageLatency(us)=10933.35] 
+ 543 sec: 13715440 operations; 28760.12 current ops/sec; [READ AverageLatency(us)=10376.98] 
+ 545 sec: 13773152 operations; 28856 current ops/sec; [READ AverageLatency(us)=10362.19] 
+ 547 sec: 13828800 operations; 27810.09 current ops/sec; [READ AverageLatency(us)=10740.19] 
+ 549 sec: 13885405 operations; 28302.5 current ops/sec; [READ AverageLatency(us)=10567.76] 
+ 551 sec: 13943127 operations; 28861 current ops/sec; [READ AverageLatency(us)=10360.39] 
+ 553 sec: 14001871 operations; 29357.32 current ops/sec; [READ AverageLatency(us)=10182.54] 
+ 555 sec: 14060977 operations; 29553 current ops/sec; [READ AverageLatency(us)=10113.58] 
+ 557 sec: 14118001 operations; 28497.75 current ops/sec; [READ AverageLatency(us)=10495.46] 
+ 559 sec: 14175653 operations; 28826 current ops/sec; [READ AverageLatency(us)=10384.17] 
+ 561 sec: 14233155 operations; 28736.63 current ops/sec; [READ AverageLatency(us)=10398.03] 
+ 563 sec: 14290563 operations; 28704 current ops/sec; [READ AverageLatency(us)=10391.44] 
+ 565 sec: 14344528 operations; 26969.02 current ops/sec; [READ AverageLatency(us)=11098.64] 
+ 567 sec: 14402506 operations; 28989 current ops/sec; [READ AverageLatency(us)=10305.35] 
+ 569 sec: 14460238 operations; 28851.57 current ops/sec; [READ AverageLatency(us)=10362.59] 
+ 571 sec: 14519218 operations; 29490 current ops/sec; [READ AverageLatency(us)=10148.19] 
+ 573 sec: 14576491 operations; 28636.5 current ops/sec; [READ AverageLatency(us)=10435.53] 
+ 575 sec: 14633352 operations; 28416.29 current ops/sec; [READ AverageLatency(us)=10516.1] 
+ 577 sec: 14689563 operations; 28105.5 current ops/sec; [READ AverageLatency(us)=10616.48] 
+ 579 sec: 14746591 operations; 28499.75 current ops/sec; [READ AverageLatency(us)=10487.89] 
+ 581 sec: 14804685 operations; 29047 current ops/sec; [READ AverageLatency(us)=10275.82] 
+ 583 sec: 14862690 operations; 28988.01 current ops/sec; [READ AverageLatency(us)=10317.73] 
+ 585 sec: 14921042 operations; 29176 current ops/sec; [READ AverageLatency(us)=10229.37] 
+ 587 sec: 14979195 operations; 29076.5 current ops/sec; [READ AverageLatency(us)=10282.53] 
+ 589 sec: 15037077 operations; 28926.54 current ops/sec; [READ AverageLatency(us)=10344.46] 
+ 591 sec: 15093123 operations; 28023 current ops/sec; [READ AverageLatency(us)=10636.94] 
+ 593 sec: 15150713 operations; 28780.61 current ops/sec; [READ AverageLatency(us)=10360.13] 
+ 595 sec: 15207654 operations; 28470.5 current ops/sec; [READ AverageLatency(us)=10499.46] 
+ 597 sec: 15266479 operations; 29397.8 current ops/sec; [READ AverageLatency(us)=10165.04] 
+ 599 sec: 15325122 operations; 29321.5 current ops/sec; [READ AverageLatency(us)=10201.7] 
+ 601 sec: 15381188 operations; 27058.88 current ops/sec; [READ AverageLatency(us)=10602.29] 
+ 603 sec: 15439021 operations; 28902.05 current ops/sec; [READ AverageLatency(us)=10749.06] 
+ 605 sec: 15493652 operations; 27315.5 current ops/sec; [READ AverageLatency(us)=10949.37] 
+ 607 sec: 15550858 operations; 28588.71 current ops/sec; [READ AverageLatency(us)=10412.3] 
+ 609 sec: 15607451 operations; 28282.36 current ops/sec; [READ AverageLatency(us)=10583.78] 
+ 611 sec: 15663839 operations; 28194 current ops/sec; [READ AverageLatency(us)=10496.96] 
+ 613 sec: 15721473 operations; 28802.6 current ops/sec; [READ AverageLatency(us)=10372.11] 
+ 615 sec: 15778384 operations; 28455.5 current ops/sec; [READ AverageLatency(us)=10500.32] 
+ 617 sec: 15833731 operations; 27673.5 current ops/sec; [READ AverageLatency(us)=10759.09] 
+ 619 sec: 15890720 operations; 28480.26 current ops/sec; [READ AverageLatency(us)=10489] 
+ 621 sec: 15947315 operations; 28297.5 current ops/sec; [READ AverageLatency(us)=10543.08] 
+ 623 sec: 16005012 operations; 28834.08 current ops/sec; [READ AverageLatency(us)=10347.25] 
+ 625 sec: 16061414 operations; 28201 current ops/sec; [READ AverageLatency(us)=10455.58] 
+ 627 sec: 16119294 operations; 28940 current ops/sec; [READ AverageLatency(us)=10329.49] 
+ 629 sec: 16175885 operations; 28281.36 current ops/sec; [READ AverageLatency(us)=10543.06] 
+ 631 sec: 16231227 operations; 27671 current ops/sec; [READ AverageLatency(us)=10725.27] 
+ 633 sec: 16286428 operations; 27586.71 current ops/sec; [READ AverageLatency(us)=10805.92] 
+ 635 sec: 16341235 operations; 27403.5 current ops/sec; [READ AverageLatency(us)=10883.83] 
+ 637 sec: 16395115 operations; 26926.54 current ops/sec; [READ AverageLatency(us)=10946.85] 
+ 639 sec: 16453207 operations; 29046 current ops/sec; [READ AverageLatency(us)=10132.59] 
+ 641 sec: 16502527 operations; 24647.68 current ops/sec; [READ AverageLatency(us)=12072.68] 
+ 643 sec: 16553974 operations; 25723.5 current ops/sec; [READ AverageLatency(us)=11015.11] 
+ 645 sec: 16606424 operations; 26225 current ops/sec; [READ AverageLatency(us)=11250.69] 
+ 647 sec: 16658304 operations; 25927.04 current ops/sec; [READ AverageLatency(us)=11389.25] 
+ 649 sec: 16711451 operations; 26573.5 current ops/sec; [READ AverageLatency(us)=11081.71] 
+ 651 sec: 16762604 operations; 25563.72 current ops/sec; [READ AverageLatency(us)=11142.24] 
+ 653 sec: 16815098 operations; 26247 current ops/sec; [READ AverageLatency(us)=11083.31] 
+ 655 sec: 16864265 operations; 24571.21 current ops/sec; [READ AverageLatency(us)=11623.86] 
+ 657 sec: 16914233 operations; 24984 current ops/sec; [READ AverageLatency(us)=11826.74] 
+ 659 sec: 16964970 operations; 25368.5 current ops/sec; [READ AverageLatency(us)=11673.63] 
+ 661 sec: 17017560 operations; 26281.86 current ops/sec; [READ AverageLatency(us)=11231.17] 
+ 663 sec: 17068229 operations; 25334.5 current ops/sec; [READ AverageLatency(us)=11739.32] 
+ 665 sec: 17119550 operations; 25660.5 current ops/sec; [READ AverageLatency(us)=11545.66] 
+ 667 sec: 17172328 operations; 26375.81 current ops/sec; [READ AverageLatency(us)=11202.2] 
+ 669 sec: 17225570 operations; 26621 current ops/sec; [READ AverageLatency(us)=11074.56] 
+ 671 sec: 17278117 operations; 26260.37 current ops/sec; [READ AverageLatency(us)=11351.61] 
+ 673 sec: 17332040 operations; 26948.03 current ops/sec; [READ AverageLatency(us)=11044.91] 
+ 675 sec: 17386773 operations; 27339.16 current ops/sec; [READ AverageLatency(us)=10922.59] 
+ 677 sec: 17440953 operations; 27076.46 current ops/sec; [READ AverageLatency(us)=10835.62] 
+ 679 sec: 17493084 operations; 26052.47 current ops/sec; [READ AverageLatency(us)=11465.98] 
+ 681 sec: 17543122 operations; 25019 current ops/sec; [READ AverageLatency(us)=11909.57] 
+ 683 sec: 17595450 operations; 26150.92 current ops/sec; [READ AverageLatency(us)=11385.37] 
+ 685 sec: 17644460 operations; 24492.75 current ops/sec; [READ AverageLatency(us)=12100.71] 
+ 687 sec: 17696536 operations; 26024.99 current ops/sec; [READ AverageLatency(us)=11452.76] 
+ 689 sec: 17744439 operations; 23939.53 current ops/sec; [READ AverageLatency(us)=12434.87] 
+ 691 sec: 17794801 operations; 25181 current ops/sec; [READ AverageLatency(us)=11737.15] 
+ 693 sec: 17846744 operations; 25958.52 current ops/sec; [READ AverageLatency(us)=11455.14] 
+ 695 sec: 17897653 operations; 25454.5 current ops/sec; [READ AverageLatency(us)=11662.94] 
+ 697 sec: 17948820 operations; 25570.71 current ops/sec; [READ AverageLatency(us)=11671.09] 
+ 699 sec: 18001375 operations; 26277.5 current ops/sec; [READ AverageLatency(us)=11341.39] 
+ 701 sec: 18053997 operations; 26311 current ops/sec; [READ AverageLatency(us)=11306.95] 
+ 703 sec: 18106195 operations; 26085.96 current ops/sec; [READ AverageLatency(us)=11456.16] 
+ 705 sec: 18159172 operations; 26488.5 current ops/sec; [READ AverageLatency(us)=11262.65] 
+ 707 sec: 18212599 operations; 26700.15 current ops/sec; [READ AverageLatency(us)=11161.52] 
+ 709 sec: 18266312 operations; 26843.08 current ops/sec; [READ AverageLatency(us)=11053.56] 
+ 711 sec: 18318837 operations; 26236.26 current ops/sec; [READ AverageLatency(us)=11361.4] 
+ 713 sec: 18373541 operations; 27338.33 current ops/sec; [READ AverageLatency(us)=10845.67] 
+ 715 sec: 18427161 operations; 26796.6 current ops/sec; [READ AverageLatency(us)=11012.77] 
+ 717 sec: 18479800 operations; 26306.35 current ops/sec; [READ AverageLatency(us)=11277.74] 
+ 719 sec: 18534693 operations; 27405.39 current ops/sec; [READ AverageLatency(us)=10888.49] 
+ 721 sec: 18589812 operations; 27545.73 current ops/sec; [READ AverageLatency(us)=10857.58] 
+ 723 sec: 18639849 operations; 25006 current ops/sec; [READ AverageLatency(us)=11876.13] 
+ 725 sec: 18690078 operations; 25089.41 current ops/sec; [READ AverageLatency(us)=11812.05] 
+ 727 sec: 18740785 operations; 25340.83 current ops/sec; [READ AverageLatency(us)=11728.89] 
+ 729 sec: 18792281 operations; 25735.13 current ops/sec; [READ AverageLatency(us)=11552.66] 
+ 731 sec: 18842747 operations; 25207.79 current ops/sec; [READ AverageLatency(us)=11817.84] 
+ 733 sec: 18895571 operations; 26398.8 current ops/sec; [READ AverageLatency(us)=11216.28] 
+ 735 sec: 18949543 operations; 26959.04 current ops/sec; [READ AverageLatency(us)=10867.91] 
+ 737 sec: 19003047 operations; 26725.27 current ops/sec; [READ AverageLatency(us)=11159.07] 
+ 739 sec: 19055697 operations; 26311.84 current ops/sec; [READ AverageLatency(us)=11176.04] 
+ 741 sec: 19109468 operations; 26872.06 current ops/sec; [READ AverageLatency(us)=10959.85] 
+ 743 sec: 19160387 operations; 25434.07 current ops/sec; [READ AverageLatency(us)=11663.54] 
+ 745 sec: 19214650 operations; 27131.5 current ops/sec; [READ AverageLatency(us)=10804.87] 
+ 747 sec: 19267302 operations; 26312.84 current ops/sec; [READ AverageLatency(us)=11340.03] 
+ 749 sec: 19321562 operations; 27130 current ops/sec; [READ AverageLatency(us)=10853.97] 
+ 751 sec: 19371821 operations; 25116.94 current ops/sec; [READ AverageLatency(us)=11863.79] 
+ 753 sec: 19425460 operations; 26819.5 current ops/sec; [READ AverageLatency(us)=11019.65] 
+ 755 sec: 19480176 operations; 27344.33 current ops/sec; [READ AverageLatency(us)=10864.27] 
+ 757 sec: 19533462 operations; 26629.69 current ops/sec; [READ AverageLatency(us)=11082.06] 
+ 759 sec: 19587949 operations; 27243.5 current ops/sec; [READ AverageLatency(us)=10818.14] 
+ 761 sec: 19642474 operations; 27248.88 current ops/sec; [READ AverageLatency(us)=10941.83] 
+ 763 sec: 19696447 operations; 26986.5 current ops/sec; [READ AverageLatency(us)=10991.19] 
+ 765 sec: 19744944 operations; 24236.38 current ops/sec; [READ AverageLatency(us)=12280.37] 
+ 767 sec: 19793613 operations; 24334.5 current ops/sec; [READ AverageLatency(us)=12058.93] 
+ 769 sec: 19844595 operations; 25478.26 current ops/sec; [READ AverageLatency(us)=11120.31] 
+ 771 sec: 19895886 operations; 25645.5 current ops/sec; [READ AverageLatency(us)=11409.59] 
+ 773 sec: 19943086 operations; 23505.98 current ops/sec; [READ AverageLatency(us)=12248.73] [CLEANUP AverageLatency(us)=14.8] 
+ 775 sec: 19969445 operations; 13172.91 current ops/sec; [READ AverageLatency(us)=20850.22] [CLEANUP AverageLatency(us)=3.06] 
+ 777 sec: 20000000 operations; 20181.64 current ops/sec; [READ AverageLatency(us)=5921.24] [CLEANUP AverageLatency(us)=4.02] 

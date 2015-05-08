@@ -1,0 +1,3398 @@
+YCSB Client 0.1
+Command line: -db com.yahoo.ycsb.db.CassandraCQLClient -s -P workloads/russ_8692 -t
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Connected to cluster: cstar_perf M6BIPFMYG4
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Warmup execution time: 0
+Warmup operations: 0
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Warmup execution time: 0
+Warmup operations: 0
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Warmup execution time: 0
+Warmup operations: 0
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Warmup execution time: 0
+Warmup operations: 0
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Warmup execution time: 0
+Warmup operations: 0
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Warmup execution time: 0
+Warmup operations: 0
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Connected to cluster: cstar_perf M6BIPFMYG4
+Datacenter: DC1; Host: node1/172.31.2.84; Rack: r1
+Datacenter: DC1; Host: node2/172.31.2.85; Rack: r1
+Datacenter: DC1; Host: node3/172.31.2.86; Rack: r1
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup execution time: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup operations: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup execution time: 0
+Warmup operations: 0
+Warmup operations: 0
+Warmup execution time: 0
+Warmup operations: 0
+ 0 sec: 0 operations; [READ AverageLatency(us)=437404.58] 
+ 2 sec: 24592 operations; 12120.26 current ops/sec; [READ AverageLatency(us)=49835] 
+ 4 sec: 60842 operations; 18106.89 current ops/sec; [READ AverageLatency(us)=3603] 
+ 6 sec: 107108 operations; 23133 current ops/sec;  
+ 8 sec: 152360 operations; 21205.25 current ops/sec;  
+ 10 sec: 193079 operations; 20349.33 current ops/sec;  
+ 12 sec: 208098 operations; 7509.5 current ops/sec;  
+ 14 sec: 235328 operations; 13601.4 current ops/sec; [READ AverageLatency(us)=6432.25] 
+ 16 sec: 280855 operations; 22752.12 current ops/sec; [READ AverageLatency(us)=3690.25] 
+ 18 sec: 294413 operations; 6775.61 current ops/sec; [READ AverageLatency(us)=6173.67] 
+ 20 sec: 340713 operations; 23150 current ops/sec; [READ AverageLatency(us)=6560.6] 
+ 22 sec: 388457 operations; 23860.07 current ops/sec; [READ AverageLatency(us)=15710] 
+ 24 sec: 425727 operations; 18625.69 current ops/sec;  
+ 26 sec: 450620 operations; 12440.28 current ops/sec; [READ AverageLatency(us)=12471.8] 
+ 28 sec: 500892 operations; 25136 current ops/sec; [READ AverageLatency(us)=7871.4] 
+[READ], 0, 34573.28343843346, 12052.0
+[READ], 1000, 22998.83504825716, 12537.0
+[READ], 2000, 17598.705151320024, 15530.0
+[READ], 3000, 13744.015466285538, 19591.0
+[READ], 4000, 12258.89748771414, 21773.0
+[READ], 5000, 10810.512873036912, 24897.0
+[READ], 6000, 11415.666382652409, 23473.0
+[READ], 7000, 11370.571910961035, 22507.0
+[READ], 8000, 20061.771628116552, 13316.0
+[READ], 9000, 12841.270440251572, 21783.0
+[READ], 10000, 10986.990314174738, 20339.0
+[READ], 11000, 520217.4, 300.0
+[READ], 12000, 944841.628125, 320.0
+[READ], 13000, 21717.206992022526, 21310.0
+[READ], 14000, 10583.531788311233, 25717.0
+[READ], 15000, 15290.625703365538, 18838.0
+[READ], 16000, 13099.026382978724, 11750.0
+[READ], 17000, 128126.434795764, 3305.0
+[READ], 18000, 9594.083258582728, 24526.0
+[READ], 19000, 10799.43368549725, 22906.0
+[READ], 20000, 10990.637395143487, 22650.0
+[READ], 21000, 9815.36875436937, 24317.0
+[READ], 22000, 10139.764939728135, 23394.0
+[READ], 23000, 11847.60249516025, 18596.0
+[READ], 24000, 368637.0566502463, 812.0
+[READ], 25000, 16330.872056628305, 20767.0
+[READ], 26000, 10739.516835016835, 23760.0
+[READ], 27000, 9614.822454112084, 26641.0
+[READ], 28000, 10496.009725824379, 21592.0
+ 30 sec: 544545 operations; 21815.59 current ops/sec; [READ AverageLatency(us)=13802] 
+ 32 sec: 594029 operations; 24717.28 current ops/sec; [READ AverageLatency(us)=22402] 
+ 34 sec: 647702 operations; 26823.09 current ops/sec; [READ AverageLatency(us)=113795] 
+ 36 sec: 701943 operations; 27066.37 current ops/sec; [READ AverageLatency(us)=38140.5] 
+ 38 sec: 750810 operations; 24421.29 current ops/sec;  
+ 40 sec: 804693 operations; 26914.59 current ops/sec; [READ AverageLatency(us)=17710] 
+ 42 sec: 858814 operations; 27033.47 current ops/sec;  
+ 44 sec: 912902 operations; 27030.48 current ops/sec; [READ AverageLatency(us)=42752] 
+ 46 sec: 969256 operations; 28106.73 current ops/sec;  
+ 48 sec: 1023726 operations; 27194.21 current ops/sec; [READ AverageLatency(us)=17838.67] 
+ 50 sec: 1072536 operations; 24380.62 current ops/sec; [READ AverageLatency(us)=25999] 
+ 52 sec: 1127283 operations; 27346.15 current ops/sec;  
+ 54 sec: 1176214 operations; 24441.06 current ops/sec; [READ AverageLatency(us)=5901.5] 
+ 56 sec: 1231867 operations; 27812.59 current ops/sec;  
+ 58 sec: 1287485 operations; 27781.22 current ops/sec; [READ AverageLatency(us)=27747.33] 
+[READ], 29000, 15110.93040743779, 21942.0
+[READ], 30000, 11441.943337613387, 24143.0
+[READ], 31000, 10810.292564785663, 24774.0
+[READ], 32000, 9090.971442673812, 28364.0
+[READ], 33000, 10199.82511808624, 26252.0
+[READ], 34000, 10941.014462409368, 25791.0
+[READ], 35000, 10400.773977419953, 27015.0
+[READ], 36000, 9620.702411298656, 29030.0
+[READ], 37000, 13452.038737446199, 20213.0
+[READ], 38000, 10907.128486172329, 25637.0
+[READ], 39000, 10347.620242120187, 27507.0
+[READ], 40000, 10622.928717289366, 26444.0
+[READ], 41000, 9097.662211548502, 28731.0
+[READ], 42000, 10535.49030365375, 26247.0
+[READ], 43000, 10028.971849173553, 27104.0
+[READ], 44000, 9348.452345803478, 27773.0
+[READ], 45000, 9159.087062535858, 27888.0
+[READ], 46000, 9265.10489849134, 26845.0
+[READ], 47000, 9145.231410560564, 29506.0
+[READ], 48000, 9906.674055357758, 26121.0
+[READ], 49000, 10081.306537508035, 21782.0
+[READ], 50000, 9379.85580559404, 26707.0
+[READ], 51000, 9512.886597938144, 28033.0
+[READ], 52000, 10888.700129272036, 24754.0
+[READ], 53000, 11978.43999830264, 23566.0
+[READ], 54000, 9491.461403320067, 27891.0
+[READ], 55000, 8916.27927379503, 27926.0
+[READ], 56000, 9487.391192274179, 27544.0
+[READ], 57000, 9243.296363703896, 26923.0
+[READ], 58000, 9509.795792857642, 28618.0
+ 60 sec: 1344161 operations; 28309.69 current ops/sec; [READ AverageLatency(us)=19676] 
+ 62 sec: 1399610 operations; 27696.8 current ops/sec; [READ AverageLatency(us)=24882.4] 
+ 64 sec: 1414550 operations; 7443.95 current ops/sec;  
+ 66 sec: 1414566 operations; 8 current ops/sec;  
+ 68 sec: 1414677 operations; 55.5 current ops/sec;  
+Error reading key: user78684770
+Error reading key: user37059313
+Error reading key: user67097127
+Error reading key: user52711949
+Error reading key: user11171384
+Error reading key: user71771009
+Error reading key: user50135745
+Error reading key: user61854683
+Error reading key: user72279699
+Error reading key: user7560331
+Error reading key: user87187493
+Error reading key: user43005522
+Error reading key: user38502904
+Error reading key: user40538452
+Error reading key: user41918238
+Error reading key: user14323251
+Error reading key: user69723103
+Error reading key: user65872040
+Error reading key: user74764382
+Error reading key: user56779239
+Error reading key: user65915560
+Error reading key: user30138920
+Error reading key: user8993106
+Error reading key: user79152861
+Error reading key: user23847563
+Error reading key: user93160696
+Error reading key: user38414569
+Error reading key: user56170830
+Error reading key: user13114130
+Error reading key: user29106915
+Error reading key: user5048181
+Error reading key: user48814669
+Error reading key: user31959211
+Error reading key: user90877400
+Error reading key: user66639775
+Error reading key: user25714524
+Error reading key: user59895302
+Error reading key: user17236176
+Error reading key: user92927702
+Error reading key: user48182345
+Error reading key: user82205449
+Error reading key: user41227708
+Error reading key: user47223571
+Error reading key: user73671062
+Error reading key: user5958797
+Error reading key: user42161284
+Error reading key: user74236256
+Error reading key: user8540663
+Error reading key: user61852902
+Error reading key: user46159236
+Error reading key: user57300718
+Error reading key: user77831569
+Error reading key: user2625582
+Error reading key: user35902360
+Error reading key: user43140295
+Error reading key: user1382421
+Error reading key: user12640708
+Error reading key: user51527789
+Error reading key: user64886035
+Error reading key: user18384791
+Error reading key: user83395312
+Error reading key: user89355280
+Error reading key: user5447847
+Error reading key: user56710812
+Error reading key: user78459829
+Error reading key: user12762558
+Error reading key: user74896852
+Error reading key: user10402806
+Error reading key: user66766281
+Error reading key: user93720878
+Error reading key: user80029774
+Error reading key: user17975924
+Error reading key: user37145748
+Error reading key: user81005398
+Error reading key: user43628078
+Error reading key: user90423941
+Error reading key: user77991139
+Error reading key: user35536162
+Error reading key: user4191938
+Error reading key: user22367556
+Error reading key: user84465173
+Error reading key: user17395934
+Error reading key: user93368884
+Error reading key: user11929634
+Error reading key: user85699558
+Error reading key: user86909228
+Error reading key: user58258651
+Error reading key: user82575786
+Error reading key: user90938593
+Error reading key: user25825599
+Error reading key: user59687476
+Error reading key: user33361148
+Error reading key: user84843212
+Error reading key: user57582082
+Error reading key: user35720195
+Error reading key: user85092639
+Error reading key: user61078360
+Error reading key: user93772624
+Error reading key: user40702316
+Error reading key: user63680856
+Error reading key: user18009698
+Error reading key: user42461182
+Error reading key: user18602597
+Error reading key: user88727144
+Error reading key: user40391047
+Error reading key: user25021593
+Error reading key: user96750086
+Error reading key: user61040224
+Error reading key: user87757654
+Error reading key: user28700030
+Error reading key: user69080960
+Error reading key: user84775796
+Error reading key: user97448379
+Error reading key: user34010361
+Error reading key: user8782766
+Error reading key: user54287428
+ 70 sec: 1421709 operations; 3514.24 current ops/sec; [READ AverageLatency(us)=8250.7] 
+ 72 sec: 1470420 operations; 24343.33 current ops/sec;  
+ 74 sec: 1522608 operations; 26094 current ops/sec;  
+ 76 sec: 1577994 operations; 27679.16 current ops/sec;  
+ 78 sec: 1633068 operations; 27537 current ops/sec; [READ AverageLatency(us)=8432.67] 
+ 80 sec: 1686860 operations; 26896 current ops/sec; [READ AverageLatency(us)=9178.67] 
+ 82 sec: 1740300 operations; 26706.65 current ops/sec;  
+ 84 sec: 1789258 operations; 24479 current ops/sec;  
+ 86 sec: 1844354 operations; 27534.23 current ops/sec; [READ AverageLatency(us)=9259.71] 
+ 88 sec: 1898316 operations; 26967.52 current ops/sec; [READ AverageLatency(us)=10585.42] 
+[READ], 59000, 9060.486789232247, 28121.0
+[READ], 60000, 9595.453956808064, 27181.0
+[READ], 61000, 8794.492817335318, 28889.0
+[READ], 62000, 8920.958090021188, 19351.0
+[READ], 63000, 109309.1603773585, 636.0
+[READ], 64000, 948523.0, 3.0
+[READ], 65000, 2133632.8, 15.0
+[READ], 66000, 3556209.4375, 16.0
+[READ], 67000, 4655118.136363637, 88.0
+[READ], 68000, 4982140.889502763, 181.0
+[READ], 69000, 293124.0324074074, 2160.0
+[READ], 70000, 13457.121818352587, 21294.0
+[READ], 71000, 10499.216022889843, 26562.0
+[READ], 72000, 10596.208377249483, 25617.0
+[READ], 73000, 10218.219934041774, 27290.0
+[READ], 74000, 9727.137573740734, 26444.0
+[READ], 75000, 9249.513664744618, 29309.0
+[READ], 76000, 9655.905805243447, 26700.0
+[READ], 77000, 9929.74995578508, 28271.0
+[READ], 78000, 9392.26873649494, 26379.0
+[READ], 79000, 10110.8512340554, 26498.0
+[READ], 80000, 9651.151584601612, 27925.0
+[READ], 81000, 9580.06386028441, 26511.0
+[READ], 82000, 11216.984677823886, 21929.0
+[READ], 83000, 9391.951985018726, 26700.0
+[READ], 84000, 8372.769139187532, 27718.0
+[READ], 85000, 8524.284811051824, 27362.0
+[READ], 86000, 8978.692399350064, 27695.0
+[READ], 87000, 8724.718171142846, 26399.0
+[READ], 88000, 8368.238618181818, 27500.0
+ 90 sec: 1953451 operations; 27553.72 current ops/sec; [READ AverageLatency(us)=7891.14] 
+ 92 sec: 2008306 operations; 27427.5 current ops/sec; [READ AverageLatency(us)=3887] 
+ 94 sec: 2060256 operations; 25962.02 current ops/sec;  
+ 96 sec: 2114245 operations; 26994.5 current ops/sec; [READ AverageLatency(us)=4434.67] 
+ 98 sec: 2164580 operations; 25154.92 current ops/sec; [READ AverageLatency(us)=5235.25] 
+ 100 sec: 2217656 operations; 26524.74 current ops/sec;  
+ 102 sec: 2274435 operations; 28389.5 current ops/sec; [READ AverageLatency(us)=5193.2] 
+ 104 sec: 2330444 operations; 27990.5 current ops/sec; [READ AverageLatency(us)=4168.67] 
+ 106 sec: 2384833 operations; 27180.91 current ops/sec; [READ AverageLatency(us)=7365.67] 
+ 108 sec: 2440644 operations; 27905.5 current ops/sec;  
+ 110 sec: 2491379 operations; 25354.82 current ops/sec; [READ AverageLatency(us)=3373.14] 
+ 112 sec: 2546366 operations; 27493.5 current ops/sec; [READ AverageLatency(us)=12872.5] 
+ 114 sec: 2604151 operations; 28878.06 current ops/sec; [READ AverageLatency(us)=43814] 
+ 116 sec: 2660579 operations; 28214 current ops/sec; [READ AverageLatency(us)=2811] 
+ 118 sec: 2716479 operations; 27936.03 current ops/sec; [READ AverageLatency(us)=7772] 
+[READ], 89000, 8675.282800219338, 27355.0
+[READ], 90000, 8250.746209412102, 27964.0
+[READ], 91000, 8555.653800238759, 27643.0
+[READ], 92000, 9933.686549569728, 25449.0
+[READ], 93000, 8512.048636726622, 26297.0
+[READ], 94000, 8659.298458923095, 27059.0
+[READ], 95000, 8997.699618656497, 27272.0
+[READ], 96000, 11737.681015794364, 22603.0
+[READ], 97000, 9752.075886153309, 28635.0
+[READ], 98000, 10895.448286714662, 25419.0
+[READ], 99000, 10222.139377142441, 27422.0
+[READ], 100000, 9493.935961104358, 28795.0
+[READ], 101000, 9777.8073286052, 27918.0
+[READ], 102000, 8935.380119948204, 29346.0
+[READ], 103000, 9976.5207960644, 26832.0
+[READ], 104000, 9728.116085234773, 26515.0
+[READ], 105000, 9590.04942814879, 27717.0
+[READ], 106000, 9695.890374331551, 27302.0
+[READ], 107000, 9163.158182510295, 28897.0
+[READ], 108000, 9534.001009481919, 27737.0
+[READ], 109000, 10360.310399932714, 23779.0
+[READ], 110000, 10273.826846194463, 26514.0
+[READ], 111000, 10069.793585706964, 27314.0
+[READ], 112000, 9272.006005586592, 28640.0
+[READ], 113000, 8870.093086666897, 28973.0
+[READ], 114000, 8917.15647000845, 28408.0
+[READ], 115000, 8982.468171089335, 27962.0
+[READ], 116000, 8975.449077701018, 28082.0
+[READ], 117000, 9035.860774471137, 27890.0
+[READ], 118000, 8458.002745783262, 28043.0
+ 120 sec: 2773192 operations; 28342.33 current ops/sec; [READ AverageLatency(us)=6281.33] 
+ 122 sec: 2828793 operations; 27786.61 current ops/sec; [READ AverageLatency(us)=6753.5] 
+ 124 sec: 2880184 operations; 25682.66 current ops/sec; [READ AverageLatency(us)=45710.25] 
+ 126 sec: 2936158 operations; 27973.01 current ops/sec; [READ AverageLatency(us)=4980.43] 
+ 128 sec: 2994055 operations; 28934.03 current ops/sec; [READ AverageLatency(us)=37376] 
+ 130 sec: 3048679 operations; 27284.72 current ops/sec;  
+ 132 sec: 3104611 operations; 27952.02 current ops/sec; [READ AverageLatency(us)=10311] 
+ 134 sec: 3159196 operations; 27238.02 current ops/sec; [READ AverageLatency(us)=11911.33] 
+ 136 sec: 3215082 operations; 27915.08 current ops/sec; [READ AverageLatency(us)=19886] 
+ 138 sec: 3266190 operations; 25541.23 current ops/sec; [READ AverageLatency(us)=138112] 
+ 140 sec: 3321726 operations; 27740.26 current ops/sec; [READ AverageLatency(us)=7417] 
+ 142 sec: 3375185 operations; 26702.8 current ops/sec; [READ AverageLatency(us)=13572] 
+ 144 sec: 3429259 operations; 27009.99 current ops/sec; [READ AverageLatency(us)=23310] 
+ 146 sec: 3487027 operations; 28869.57 current ops/sec; [READ AverageLatency(us)=18023] 
+ 148 sec: 3539063 operations; 25992.01 current ops/sec; [READ AverageLatency(us)=29370] 
+[READ], 119000, 9744.816157159365, 28557.0
+[READ], 120000, 8444.555870592512, 27510.0
+[READ], 121000, 9404.279271217381, 27937.0
+[READ], 122000, 8562.16540421917, 28252.0
+[READ], 123000, 11089.22643145074, 23071.0
+[READ], 124000, 8772.875030518642, 28671.0
+[READ], 125000, 8768.424505405605, 27194.0
+[READ], 126000, 8242.759198377169, 28592.0
+[READ], 127000, 8417.270653301071, 28930.0
+[READ], 128000, 9459.48711803475, 28373.0
+[READ], 129000, 8828.093604980193, 26505.0
+[READ], 130000, 9339.941496793608, 27913.0
+[READ], 131000, 8131.677706822527, 27717.0
+[READ], 132000, 8011.445438476246, 27721.0
+[READ], 133000, 8156.841832990901, 27256.0
+[READ], 134000, 8726.232953909312, 26795.0
+[READ], 135000, 7905.002423774062, 28468.0
+[READ], 136000, 10104.219532120313, 26930.0
+[READ], 137000, 9748.351190229767, 24155.0
+[READ], 138000, 8668.686333728832, 27813.0
+[READ], 139000, 8888.595023970325, 28577.0
+[READ], 140000, 8645.347183641976, 25920.0
+[READ], 141000, 8346.471402563908, 26366.0
+[READ], 142000, 9167.134940585009, 26256.0
+[READ], 143000, 7753.936285059093, 28345.0
+[READ], 144000, 8585.521608579089, 27975.0
+[READ], 145000, 7892.866650405937, 28699.0
+[READ], 146000, 8534.954111192112, 26063.0
+[READ], 147000, 8994.291617776475, 27272.0
+[READ], 148000, 8598.71350219006, 26255.0
+ 150 sec: 3593869 operations; 27389.31 current ops/sec; [READ AverageLatency(us)=9150] 
+ 153 sec: 3646471 operations; 26248.5 current ops/sec; [READ AverageLatency(us)=45381.5] 
+ 155 sec: 3700357 operations; 26916.08 current ops/sec;  
+ 157 sec: 3759745 operations; 29664.34 current ops/sec; [READ AverageLatency(us)=8479] 
+ 159 sec: 3819455 operations; 29810.28 current ops/sec; [READ AverageLatency(us)=52750] 
+ 161 sec: 3875850 operations; 28183.41 current ops/sec; [READ AverageLatency(us)=14158.5] 
+ 163 sec: 3933120 operations; 28620.69 current ops/sec;  
+ 165 sec: 3988208 operations; 27530.23 current ops/sec;  
+ 167 sec: 4045613 operations; 28688.16 current ops/sec; [READ AverageLatency(us)=52339] 
+ 169 sec: 4096358 operations; 25347.15 current ops/sec; [READ AverageLatency(us)=49528] 
+ 171 sec: 4152024 operations; 27805.19 current ops/sec;  
+ 173 sec: 4209247 operations; 28597.2 current ops/sec;  
+ 175 sec: 4262087 operations; 26393.61 current ops/sec;  
+ 177 sec: 4318573 operations; 28214.79 current ops/sec; [READ AverageLatency(us)=33376] 
+ 179 sec: 4373348 operations; 27360.14 current ops/sec;  
+[READ], 149000, 9086.380532285566, 26978.0
+[READ], 150000, 9364.401745053767, 26131.0
+[READ], 151000, 8990.363104868364, 27196.0
+[READ], 152000, 12372.797589747943, 23566.0
+[READ], 153000, 10572.041372926013, 28086.0
+[READ], 154000, 10044.491766061263, 29512.0
+[READ], 155000, 9699.277833871836, 29712.0
+[READ], 156000, 9571.189916805324, 30050.0
+[READ], 157000, 9289.880602522813, 29808.0
+[READ], 158000, 9942.981344841988, 28732.0
+[READ], 159000, 10216.778699305809, 27370.0
+[READ], 160000, 10531.740283661817, 27145.0
+[READ], 161000, 9435.899886915453, 30066.0
+[READ], 162000, 9563.381819495627, 27678.0
+[READ], 163000, 9758.302525523912, 27915.0
+[READ], 164000, 9416.504238150132, 29494.0
+[READ], 165000, 8775.94592327888, 27424.0
+[READ], 166000, 13184.70550678372, 21301.0
+[READ], 167000, 9373.047170820408, 28047.0
+[READ], 168000, 9930.763271004003, 27221.0
+[READ], 169000, 9600.919103723963, 28518.0
+[READ], 170000, 9335.990472493737, 28339.0
+[READ], 171000, 9455.087485161337, 27799.0
+[READ], 172000, 9777.437248939445, 26637.0
+[READ], 173000, 8827.070659654819, 28333.0
+[READ], 174000, 9377.688639603812, 26654.0
+[READ], 175000, 9211.542509533321, 27535.0
+[READ], 176000, 9866.302152685308, 27036.0
+[READ], 177000, 9645.782919780066, 28372.0
+[READ], 178000, 9088.24282600799, 27530.0
+ 181 sec: 4428472 operations; 27534.47 current ops/sec; [READ AverageLatency(us)=39000] 
+ 183 sec: 4481320 operations; 26410.79 current ops/sec; [READ AverageLatency(us)=29665.33] 
+ 185 sec: 4537691 operations; 28157.34 current ops/sec; [READ AverageLatency(us)=24844] 
+ 187 sec: 4593678 operations; 27965.53 current ops/sec; [READ AverageLatency(us)=8198.5] 
+ 189 sec: 4649137 operations; 27715.64 current ops/sec; [READ AverageLatency(us)=27583] 
+ 191 sec: 4703489 operations; 27148.85 current ops/sec; [READ AverageLatency(us)=7455] 
+ 193 sec: 4758556 operations; 27519.74 current ops/sec; [READ AverageLatency(us)=34807] 
+ 195 sec: 4811758 operations; 26574.43 current ops/sec; [READ AverageLatency(us)=25516.5] 
+ 197 sec: 4865228 operations; 26721.64 current ops/sec; [READ AverageLatency(us)=11679.67] 
+ 199 sec: 4914591 operations; 24669.17 current ops/sec; [READ AverageLatency(us)=36320.25] 
+ 201 sec: 4971804 operations; 28592.2 current ops/sec; [READ AverageLatency(us)=12761.5] 
+ 203 sec: 5027120 operations; 27644.18 current ops/sec; [READ AverageLatency(us)=9871.2] 
+ 205 sec: 5083265 operations; 28058.47 current ops/sec; [READ AverageLatency(us)=10146.5] 
+ 207 sec: 5140436 operations; 28556.94 current ops/sec; [READ AverageLatency(us)=10375.67] 
+ 209 sec: 5196634 operations; 28099 current ops/sec;  
+[READ], 179000, 8782.569687545205, 27652.0
+[READ], 180000, 9241.253881874909, 27564.0
+[READ], 181000, 10653.66291856139, 24190.0
+[READ], 182000, 9209.350805622214, 29170.0
+[READ], 183000, 8462.323803802388, 28298.0
+[READ], 184000, 8923.809036869294, 28262.0
+[READ], 185000, 9488.141356036202, 26076.0
+[READ], 186000, 9284.467324513844, 27666.0
+[READ], 187000, 9015.067316906228, 29220.0
+[READ], 188000, 9068.910736964332, 27559.0
+[READ], 189000, 10365.22808, 25000.0
+[READ], 190000, 9473.11008394432, 28233.0
+[READ], 191000, 9057.336053015997, 28067.0
+[READ], 192000, 8852.37416371852, 28549.0
+[READ], 193000, 9318.232306967246, 25462.0
+[READ], 194000, 9630.93047639924, 27372.0
+[READ], 195000, 10338.129944446764, 23941.0
+[READ], 196000, 10383.98023159636, 24180.0
+[READ], 197000, 8863.524524820077, 27095.0
+[READ], 198000, 9344.033546563523, 26888.0
+[READ], 199000, 9160.933073731712, 27478.0
+[READ], 200000, 10087.27741078606, 28611.0
+[READ], 201000, 8295.249195971019, 28295.0
+[READ], 202000, 8328.775508736608, 27814.0
+[READ], 203000, 9897.696854352198, 27848.0
+[READ], 204000, 8900.048623690285, 28155.0
+[READ], 205000, 9162.616706289173, 27762.0
+[READ], 206000, 8007.495310126164, 30278.0
+[READ], 207000, 9285.641682355867, 28151.0
+[READ], 208000, 9630.138599900918, 26241.0
+ 211 sec: 5249478 operations; 26408.8 current ops/sec; [READ AverageLatency(us)=7160] 
+ 213 sec: 5287793 operations; 19147.93 current ops/sec; [READ AverageLatency(us)=572276.33] 
+ 215 sec: 5288046 operations; 126.5 current ops/sec;  
+ 217 sec: 5288046 operations; 0 current ops/sec;  
+Error reading key: user58645945
+Error reading key: user68721140
+Error reading key: user98859377
+Error reading key: user28320369
+Error reading key: user90863753
+Error reading key: user2431505
+Error reading key: user25377846
+Error reading key: user88756856
+Error reading key: user76686536
+Error reading key: user55984809
+Error reading key: user25806239
+Error reading key: user37042763
+Error reading key: user58952684
+Error reading key: user9124761
+Error reading key: user98671182
+Error reading key: user85911461
+Error reading key: user58987365
+Error reading key: user73998238
+Error reading key: user27941335
+Error reading key: user51576822
+Error reading key: user60574796
+Error reading key: user95166139
+Error reading key: user97918086
+Error reading key: user14985414
+Error reading key: user80957391
+Error reading key: user58149955
+Error reading key: user32057396
+Error reading key: user25956902
+Error reading key: user72981738
+Error reading key: user10009043
+Error reading key: user58734055
+Error reading key: user38438153
+Error reading key: user59686838
+Error reading key: user24685786
+Error reading key: user79931759
+Error reading key: user96297563
+Error reading key: user331657
+Error reading key: user31358750
+Error reading key: user57756414
+Error reading key: user48115589
+Error reading key: user652020
+Error reading key: user83039883
+Error reading key: user71184814
+Error reading key: user9708988
+Error reading key: user9931979
+Error reading key: user37191887
+Error reading key: user51225817
+Error reading key: user45232294
+Error reading key: user16899455
+Error reading key: user83761757
+Error reading key: user75987052
+Error reading key: user63773816
+Error reading key: user98273144
+Error reading key: user86225929
+Error reading key: user40597964
+Error reading key: user7983678
+Error reading key: user58142810
+Error reading key: user13201338
+Error reading key: user45043650
+Error reading key: user4125230
+Error reading key: user14480739
+Error reading key: user32749796
+Error reading key: user85710728
+Error reading key: user56563380
+Error reading key: user72870475
+Error reading key: user24464655
+Error reading key: user40706814
+Error reading key: user89499255
+Error reading key: user68225463
+Error reading key: user67861828
+Error reading key: user28015543
+Error reading key: user77214788
+Error reading key: user20540828
+Error reading key: user72851160
+Error reading key: user53696330
+Error reading key: user40239346
+Error reading key: user68231304
+Error reading key: user98304844
+Error reading key: user44000184
+Error reading key: user91215911
+Error reading key: user30833213
+Error reading key: user30567022
+Error reading key: user92057737
+Error reading key: user98416713
+Error reading key: user96075336
+Error reading key: user70361117
+Error reading key: user25281604
+Error reading key: user18424263
+Error reading key: user52024545
+Error reading key: user22018780
+Error reading key: user25326175
+Error reading key: user79202272
+Error reading key: user86064737
+Error reading key: user24955991
+Error reading key: user68616045
+Error reading key: user87604838
+Error reading key: user19786352
+Error reading key: user86154889
+Error reading key: user25065048
+Error reading key: user43419991
+Error reading key: user96386293
+Error reading key: user69500877
+Error reading key: user59497250
+Error reading key: user72402864
+Error reading key: user73207438
+Error reading key: user51326869
+Error reading key: user53713656
+Error reading key: user61261844
+Error reading key: user96072964
+Error reading key: user19851877
+Error reading key: user76385455
+Error reading key: user78164196
+Error reading key: user31036364
+Error reading key: user31338833
+Error reading key: user39018971
+Error reading key: user47081748
+Error reading key: user30304908
+Error reading key: user84784062
+Error reading key: user22315142
+Error reading key: user15980045
+Error reading key: user26454140
+Error reading key: user92296994
+Error reading key: user20499884
+Error reading key: user45552966
+Error reading key: user73502097
+Error reading key: user68483025
+Error reading key: user48254274
+Error reading key: user66502089
+Error reading key: user28766406
+Error reading key: user74740013
+Error reading key: user12741688
+Error reading key: user47572831
+Error reading key: user97319880
+Error reading key: user71486122
+Error reading key: user96362425
+Error reading key: user63397428
+Error reading key: user92795617
+Error reading key: user32523892
+Error reading key: user8524494
+Error reading key: user51609129
+Error reading key: user33279168
+Error reading key: user89517967
+Error reading key: user97226611
+Error reading key: user65626282
+Error reading key: user49869616
+Error reading key: user53488426
+Error reading key: user13591067
+Error reading key: user53915227
+Error reading key: user33424833
+Error reading key: user94175992
+Error reading key: user75134970
+Error reading key: user61786684
+Error reading key: user50396238
+Error reading key: user54072726
+Error reading key: user88584133
+Error reading key: user55857506
+Error reading key: user34562159
+Error reading key: user99707450
+Error reading key: user40715638
+Error reading key: user8171130
+Error reading key: user99297880
+Error reading key: user19397799
+Error reading key: user82408714
+Error reading key: user73756083
+Error reading key: user58228821
+Error reading key: user12543532
+Error reading key: user504720
+Error reading key: user59973377
+Error reading key: user14471053
+Error reading key: user62606620
+Error reading key: user53083262
+Error reading key: user85466402
+Error reading key: user39815263
+Error reading key: user90203826
+Error reading key: user96752437
+Error reading key: user82741210
+Error reading key: user1607085
+Error reading key: user49941117
+Error reading key: user7296433
+Error reading key: user84839117
+Error reading key: user63152491
+Error reading key: user55984078
+Error reading key: user89045226
+Error reading key: user26326782
+Error reading key: user46487378
+Error reading key: user42757507
+Error reading key: user21537616
+Error reading key: user3456191
+Error reading key: user19058539
+Error reading key: user28297686
+Error reading key: user4597518
+Error reading key: user22197395
+Error reading key: user93644765
+Error reading key: user31593084
+Error reading key: user16711503
+Error reading key: user92510437
+Error reading key: user51598388
+Error reading key: user66060389
+Error reading key: user33334303
+Error reading key: user51964833
+Error reading key: user42810390
+Error reading key: user67529076
+Error reading key: user40886694
+Error reading key: user20816865
+Error reading key: user53761187
+Error reading key: user97486320
+Error reading key: user38181009
+Error reading key: user29089635
+Error reading key: user37765985
+Error reading key: user12977197
+Error reading key: user45310077
+Error reading key: user96710632
+Error reading key: user33853660
+Error reading key: user34894820
+Error reading key: user17563772
+Error reading key: user50796988
+Error reading key: user86856926
+Error reading key: user2081999
+Error reading key: user60602342
+Error reading key: user63947730
+Error reading key: user36851492
+Error reading key: user4063436
+Error reading key: user11690152
+Error reading key: user49215054
+Error reading key: user98131362
+Error reading key: user75114071
+Error reading key: user27187856
+Error reading key: user65611486
+Error reading key: user69366602
+Error reading key: user71175431
+Error reading key: user6304367
+Error reading key: user8886198
+Error reading key: user48081743
+Error reading key: user59221017
+Error reading key: user80804798
+Error reading key: user18704846
+Error reading key: user18489712
+Error reading key: user99503247
+Error reading key: user18324265
+Error reading key: user88827368
+Error reading key: user91019764
+Error reading key: user69886717
+Error reading key: user83114637
+Error reading key: user30997743
+Error reading key: user35254634
+Error reading key: user38386038
+Error reading key: user11688107
+Error reading key: user33055590
+Error reading key: user76621714
+Error reading key: user54845678
+Error reading key: user40518789
+Error reading key: user71635131
+Error reading key: user52277202
+Error reading key: user87085302
+Error reading key: user74923738
+Error reading key: user59469058
+Error reading key: user77651376
+Error reading key: user68984945
+Error reading key: user37086525
+Error reading key: user17344207
+Error reading key: user44810845
+Error reading key: user50392659
+Error reading key: user30260534
+Error reading key: user69024756
+Error reading key: user70911058
+Error reading key: user12221305
+Error reading key: user80994613
+Error reading key: user12715288
+Error reading key: user46799197
+Error reading key: user64353042
+Error reading key: user63762759
+Error reading key: user9480651
+Error reading key: user69386359
+Error reading key: user61062986
+Error reading key: user86142379
+Error reading key: user74835925
+ 219 sec: 5288322 operations; 137.93 current ops/sec;  
+Error reading key: user32645752
+Error reading key: user70648765
+Error reading key: user88032882
+Error reading key: user10207296
+Error reading key: user45522530
+Error reading key: user10582129
+Error reading key: user19797483
+Error reading key: user34502522
+Error reading key: user75373642
+Error reading key: user66314837
+Error reading key: user6187626
+ 221 sec: 5288334 operations; 6 current ops/sec;  
+Error reading key: user83516759
+Error reading key: user13901942
+Error reading key: user83443095
+Error reading key: user89967315
+Error reading key: user49543883
+Error reading key: user62495446
+Error reading key: user55876493
+Error reading key: user31284501
+Error reading key: user6905374
+Error reading key: user85175140
+Error reading key: user9271684
+ 223 sec: 5288713 operations; 189.41 current ops/sec;  
+ 225 sec: 5331515 operations; 21401 current ops/sec; [READ AverageLatency(us)=10188.88] 
+ 227 sec: 5380942 operations; 24701.15 current ops/sec;  
+ 229 sec: 5432941 operations; 25986.51 current ops/sec; [READ AverageLatency(us)=4986.75] 
+ 231 sec: 5483196 operations; 25114.94 current ops/sec; [READ AverageLatency(us)=6922] 
+ 233 sec: 5534308 operations; 25543.23 current ops/sec; [READ AverageLatency(us)=17865.33] 
+ 235 sec: 5585904 operations; 25785.11 current ops/sec;  
+ 237 sec: 5635052 operations; 24561.72 current ops/sec; [READ AverageLatency(us)=5675.54] 
+ 239 sec: 5685939 operations; 25430.78 current ops/sec; [READ AverageLatency(us)=13356] 
+[READ], 209000, 9804.121496456186, 24832.0
+[READ], 210000, 8984.080343731443, 28627.0
+[READ], 211000, 8631.576851557893, 22049.0
+[READ], 212000, 573025.8219178083, 292.0
+[READ], 217000, 5193013.547101449, 276.0
+[READ], 218000, 6311883.0, 7.0
+[READ], 219000, 7722906.6, 5.0
+[READ], 220000, 5578966.115384615, 26.0
+[READ], 221000, 4174120.6721311477, 61.0
+[READ], 222000, 96548.49815247719, 13261.0
+[READ], 223000, 10204.371085723678, 24334.0
+[READ], 224000, 8749.026904933238, 25014.0
+[READ], 225000, 8841.109508899142, 24272.0
+[READ], 226000, 8756.960495855425, 26782.0
+[READ], 227000, 9217.454904259477, 25590.0
+[READ], 228000, 7949.076574877405, 26510.0
+[READ], 229000, 8828.642603203814, 23909.0
+[READ], 230000, 8374.61750078939, 25336.0
+[READ], 231000, 8755.5996191383, 25206.0
+[READ], 232000, 8644.337016366242, 26518.0
+[READ], 233000, 8507.942883668362, 24774.0
+[READ], 234000, 8150.780458383595, 24870.0
+[READ], 235000, 8782.070419618078, 24141.0
+[READ], 236000, 9003.40732294438, 23679.0
+[READ], 237000, 8451.549698683133, 26882.0
+[READ], 238000, 10574.603031694993, 21770.0
+ 241 sec: 5734943 operations; 24489.76 current ops/sec; [READ AverageLatency(us)=30028] 
+ 243 sec: 5788482 operations; 26756.12 current ops/sec; [READ AverageLatency(us)=24284.5] 
+ 245 sec: 5844457 operations; 27973.51 current ops/sec; [READ AverageLatency(us)=25637.28] 
+ 247 sec: 5898603 operations; 27018.96 current ops/sec; [READ AverageLatency(us)=29659.5] 
+ 249 sec: 5953243 operations; 27306.35 current ops/sec;  
+ 251 sec: 6006269 operations; 26499.75 current ops/sec; [READ AverageLatency(us)=8576.33] 
+ 253 sec: 6060079 operations; 26878.12 current ops/sec; [READ AverageLatency(us)=15080.4] 
+ 255 sec: 6116270 operations; 27171.66 current ops/sec;  
+ 257 sec: 6165116 operations; 24398.6 current ops/sec; [READ AverageLatency(us)=9984.5] 
+ 259 sec: 6218340 operations; 26612 current ops/sec; [READ AverageLatency(us)=11922.25] 
+ 261 sec: 6269607 operations; 25620.69 current ops/sec; [READ AverageLatency(us)=51252] 
+ 263 sec: 6322216 operations; 26278.22 current ops/sec; [READ AverageLatency(us)=24006.33] 
+ 265 sec: 6377050 operations; 27403.3 current ops/sec; [READ AverageLatency(us)=12988.5] 
+ 267 sec: 6431230 operations; 27062.94 current ops/sec; [READ AverageLatency(us)=15219] 
+ 269 sec: 6484910 operations; 26813.19 current ops/sec; [READ AverageLatency(us)=13103.5] 
+[READ], 239000, 10157.725603196557, 26028.0
+[READ], 240000, 8606.874675643454, 28518.0
+[READ], 241000, 10782.08407541115, 24930.0
+[READ], 242000, 8613.271304854086, 27482.0
+[READ], 243000, 8967.333652890215, 28164.0
+[READ], 244000, 8965.81813645113, 28054.0
+[READ], 245000, 9174.136446956389, 26186.0
+[READ], 246000, 9809.54041790171, 27327.0
+[READ], 247000, 9272.537642397227, 28266.0
+[READ], 248000, 9382.47247913377, 26598.0
+[READ], 249000, 10411.025314440376, 25124.0
+[READ], 250000, 9554.62771809355, 27087.0
+[READ], 251000, 8610.094516305338, 27445.0
+[READ], 252000, 8991.416802817414, 27543.0
+[READ], 253000, 9007.103881883368, 28311.0
+[READ], 254000, 12550.806531395114, 19812.0
+[READ], 255000, 9060.919388772007, 27093.0
+[READ], 256000, 8962.597047774447, 26353.0
+[READ], 257000, 8803.60650474068, 26473.0
+[READ], 258000, 8951.40088159667, 24501.0
+[READ], 259000, 9267.916274377942, 26766.0
+[READ], 260000, 9356.173260828802, 26665.0
+[READ], 261000, 9119.221010051484, 24474.0
+[READ], 262000, 8218.790659884131, 28308.0
+[READ], 263000, 8876.602942819893, 26845.0
+[READ], 264000, 8119.476496350365, 27400.0
+[READ], 265000, 8754.485577454412, 27145.0
+[READ], 266000, 9221.874270733328, 27082.0
+[READ], 267000, 8698.611625227635, 26907.0
+[READ], 268000, 8419.17256569371, 26106.0
+ 271 sec: 6536354 operations; 25709.15 current ops/sec; [READ AverageLatency(us)=30347] 
+ 273 sec: 6587519 operations; 25556.94 current ops/sec; [READ AverageLatency(us)=17070.5] 
+ 275 sec: 6640204 operations; 26329.34 current ops/sec; [READ AverageLatency(us)=14929.33] 
+ 277 sec: 6692402 operations; 26085.96 current ops/sec; [READ AverageLatency(us)=15920] 
+ 279 sec: 6745959 operations; 26751.75 current ops/sec; [READ AverageLatency(us)=12402] 
+ 281 sec: 6801300 operations; 27656.67 current ops/sec; [READ AverageLatency(us)=14356] 
+ 283 sec: 6854676 operations; 26674.66 current ops/sec; [READ AverageLatency(us)=15331] 
+ 285 sec: 6908800 operations; 27048.48 current ops/sec; [READ AverageLatency(us)=6445.5] 
+ 287 sec: 6961955 operations; 26564.22 current ops/sec; [READ AverageLatency(us)=7075.5] 
+ 289 sec: 7014094 operations; 26043.46 current ops/sec; [READ AverageLatency(us)=12385.5] 
+ 291 sec: 7067333 operations; 26619.5 current ops/sec; [READ AverageLatency(us)=9715] 
+ 293 sec: 7120309 operations; 26474.76 current ops/sec; [READ AverageLatency(us)=33928] 
+ 295 sec: 7172039 operations; 25852.07 current ops/sec; [READ AverageLatency(us)=5781.67] 
+ 297 sec: 7224705 operations; 26319.84 current ops/sec; [READ AverageLatency(us)=9591] 
+ 299 sec: 7278048 operations; 26658.17 current ops/sec; [READ AverageLatency(us)=8009] 
+[READ], 269000, 9255.445541022593, 25230.0
+[READ], 270000, 9114.090574895916, 22578.0
+[READ], 271000, 9003.096088435374, 27048.0
+[READ], 272000, 8757.50408709358, 27281.0
+[READ], 273000, 8887.906796116506, 27295.0
+[READ], 274000, 8908.74039962535, 25624.0
+[READ], 275000, 8737.279038400507, 25208.0
+[READ], 276000, 8138.711768132828, 27464.0
+[READ], 277000, 8334.725380483438, 26808.0
+[READ], 278000, 8818.046126354195, 26861.0
+[READ], 279000, 8825.107614852108, 27013.0
+[READ], 280000, 8783.520665472994, 26808.0
+[READ], 281000, 8195.288259345794, 27392.0
+[READ], 282000, 8180.227694005149, 27190.0
+[READ], 283000, 9499.390978016536, 26247.0
+[READ], 284000, 7981.2211079812205, 26625.0
+[READ], 285000, 9525.718426422794, 26462.0
+[READ], 286000, 9703.202476477536, 24551.0
+[READ], 287000, 8900.539006582023, 27803.0
+[READ], 288000, 8859.45965312271, 24562.0
+[READ], 289000, 8111.940021964785, 28227.0
+[READ], 290000, 8476.980596960795, 27573.0
+[READ], 291000, 8579.027041100986, 26885.0
+[READ], 292000, 9232.445141717231, 24062.0
+[READ], 293000, 8564.451079432783, 26727.0
+[READ], 294000, 8412.613221800493, 27137.0
+[READ], 295000, 9517.237850155188, 25453.0
+[READ], 296000, 9082.73773825664, 25078.0
+[READ], 297000, 9040.310544205768, 28537.0
+[READ], 298000, 8793.287670161164, 25564.0
+ 301 sec: 7329951 operations; 25938.53 current ops/sec; [READ AverageLatency(us)=6982] 
+ 303 sec: 7380578 operations; 25313.5 current ops/sec; [READ AverageLatency(us)=7881.75] 
+ 305 sec: 7430361 operations; 24879.06 current ops/sec; [READ AverageLatency(us)=4396] 
+ 307 sec: 7482504 operations; 26058.47 current ops/sec; [READ AverageLatency(us)=6144.17] 
+ 309 sec: 7534774 operations; 26135 current ops/sec; [READ AverageLatency(us)=5757.5] 
+ 311 sec: 7589448 operations; 27323.34 current ops/sec; [READ AverageLatency(us)=9550.06] 
+ 313 sec: 7642864 operations; 26708 current ops/sec; [READ AverageLatency(us)=8277.7] 
+ 315 sec: 7697052 operations; 27080.46 current ops/sec; [READ AverageLatency(us)=4768.67] 
+ 317 sec: 7748536 operations; 25742 current ops/sec; [READ AverageLatency(us)=17068] 
+ 319 sec: 7801377 operations; 26407.3 current ops/sec; [READ AverageLatency(us)=8661.89] 
+ 321 sec: 7850906 operations; 24764.5 current ops/sec; [READ AverageLatency(us)=6328.5] 
+ 323 sec: 7901532 operations; 25300.35 current ops/sec; [READ AverageLatency(us)=8894] 
+ 325 sec: 7953663 operations; 26065.5 current ops/sec; [READ AverageLatency(us)=7113] 
+ 327 sec: 8005857 operations; 26083.96 current ops/sec;  
+ 329 sec: 8059844 operations; 26993.5 current ops/sec; [READ AverageLatency(us)=5826.67] 
+[READ], 299000, 8365.04264739272, 26426.0
+[READ], 300000, 9445.65298921662, 25224.0
+[READ], 301000, 8909.549950917466, 26486.0
+[READ], 302000, 10142.461839530333, 22484.0
+[READ], 303000, 8834.64421937703, 26165.0
+[READ], 304000, 9167.608856230523, 25993.0
+[READ], 305000, 9713.356001775017, 27042.0
+[READ], 306000, 10946.854645662814, 24313.0
+[READ], 307000, 9505.113654245048, 27962.0
+[READ], 308000, 9833.086920529802, 26576.0
+[READ], 309000, 10611.959129667744, 27208.0
+[READ], 310000, 10212.235089861488, 26207.0
+[READ], 311000, 8611.496992753624, 27600.0
+[READ], 312000, 9337.067588843905, 26676.0
+[READ], 313000, 9087.838998692609, 26006.0
+[READ], 314000, 8897.806603245663, 26805.0
+[READ], 315000, 9127.15493695514, 26727.0
+[READ], 316000, 8682.275546555667, 26667.0
+[READ], 317000, 8122.134716667327, 25253.0
+[READ], 318000, 8115.991240168487, 26827.0
+[READ], 319000, 10109.533540149267, 22242.0
+[READ], 320000, 7948.4146172875435, 27488.0
+[READ], 321000, 8657.069186731089, 24629.0
+[READ], 322000, 8440.366838193253, 26235.0
+[READ], 323000, 8790.63936838756, 25142.0
+[READ], 324000, 8170.853932165486, 26830.0
+[READ], 325000, 8064.5415935951205, 26230.0
+[READ], 326000, 8445.603734519382, 26081.0
+[READ], 327000, 8332.523419550878, 26986.0
+[READ], 328000, 8305.962707696894, 26842.0
+ 331 sec: 8112535 operations; 26345.5 current ops/sec; [READ AverageLatency(us)=8877.86] 
+ 333 sec: 8165862 operations; 26650.17 current ops/sec; [READ AverageLatency(us)=8946.43] 
+ 335 sec: 8218345 operations; 26241.5 current ops/sec; [READ AverageLatency(us)=4924] 
+ 337 sec: 8266862 operations; 24246.38 current ops/sec; [READ AverageLatency(us)=3037] 
+ 339 sec: 8317589 operations; 25363.5 current ops/sec; [READ AverageLatency(us)=5671.38] 
+ 341 sec: 8370079 operations; 26231.88 current ops/sec; [READ AverageLatency(us)=6075.67] 
+ 343 sec: 8416807 operations; 23352.32 current ops/sec; [READ AverageLatency(us)=3811] 
+ 345 sec: 8466724 operations; 24958.5 current ops/sec; [READ AverageLatency(us)=8060.8] 
+ 347 sec: 8516402 operations; 24826.59 current ops/sec; [READ AverageLatency(us)=11988.14] 
+ 349 sec: 8567160 operations; 25379 current ops/sec; [READ AverageLatency(us)=34083.17] 
+ 351 sec: 8619574 operations; 26193.9 current ops/sec; [READ AverageLatency(us)=7064] 
+ 353 sec: 8670771 operations; 25598.5 current ops/sec; [READ AverageLatency(us)=5433.5] 
+ 355 sec: 8718780 operations; 23992.5 current ops/sec; [READ AverageLatency(us)=4206.17] 
+ 357 sec: 8774421 operations; 27806.6 current ops/sec; [READ AverageLatency(us)=7021.8] 
+ 359 sec: 8826671 operations; 26125 current ops/sec; [READ AverageLatency(us)=8247.89] 
+[READ], 329000, 7645.2199439388705, 26043.0
+[READ], 330000, 7822.244929967902, 27416.0
+[READ], 331000, 8496.6505304049, 26772.0
+[READ], 332000, 8526.522235886856, 25207.0
+[READ], 333000, 8253.64043954361, 26118.0
+[READ], 334000, 8652.677416960474, 26945.0
+[READ], 335000, 8924.469344515559, 22655.0
+[READ], 336000, 8187.40142644647, 26219.0
+[READ], 337000, 9143.893530098383, 23988.0
+[READ], 338000, 8899.622461038482, 27078.0
+[READ], 339000, 8809.302523900573, 26150.0
+[READ], 340000, 7988.068738543576, 24004.0
+[READ], 341000, 8283.162518424931, 23745.0
+[READ], 342000, 8908.726004555068, 24588.0
+[READ], 343000, 8145.514349423958, 24217.0
+[READ], 344000, 8564.26358335009, 24865.0
+[READ], 345000, 8236.114517618094, 25996.0
+[READ], 346000, 8775.011215864759, 24608.0
+[READ], 347000, 8694.226133976503, 25706.0
+[READ], 348000, 7967.163751292041, 25154.0
+[READ], 349000, 8749.044218714598, 26482.0
+[READ], 350000, 8574.229569932966, 26554.0
+[READ], 351000, 8465.08412573674, 25450.0
+[READ], 352000, 8270.69871461178, 24973.0
+[READ], 353000, 10170.122422857143, 21875.0
+[READ], 354000, 8746.495418515016, 27502.0
+[READ], 355000, 8239.4071938794, 27579.0
+[READ], 356000, 8637.126309420262, 26443.0
+[READ], 357000, 8724.358869300455, 26603.0
+[READ], 358000, 8898.841076465058, 25528.0
+ 361 sec: 8879343 operations; 26322.84 current ops/sec; [READ AverageLatency(us)=6414] 
+ 363 sec: 8932058 operations; 26344.33 current ops/sec;  
+ 365 sec: 8984775 operations; 26358.5 current ops/sec; [READ AverageLatency(us)=8072.44] 
+ 367 sec: 9038282 operations; 26740.13 current ops/sec; [READ AverageLatency(us)=7559.71] 
+ 369 sec: 9087581 operations; 24649.5 current ops/sec; [READ AverageLatency(us)=6305.29] 
+ 371 sec: 9137360 operations; 24877.06 current ops/sec; [READ AverageLatency(us)=8012.67] 
+ 373 sec: 9187895 operations; 25254.87 current ops/sec; [READ AverageLatency(us)=5190] 
+ 375 sec: 9239560 operations; 25819.59 current ops/sec; [READ AverageLatency(us)=4523.25] 
+ 377 sec: 9290809 operations; 25624.5 current ops/sec; [READ AverageLatency(us)=11153.5] 
+ 379 sec: 9343085 operations; 26124.94 current ops/sec; [READ AverageLatency(us)=5551.5] 
+ 381 sec: 9394704 operations; 25796.6 current ops/sec; [READ AverageLatency(us)=5709] 
+ 383 sec: 9448295 operations; 26782.11 current ops/sec; [READ AverageLatency(us)=24230] 
+ 385 sec: 9500278 operations; 25965.53 current ops/sec; [READ AverageLatency(us)=8922.5] 
+ 387 sec: 9549173 operations; 24435.28 current ops/sec; [READ AverageLatency(us)=7486] 
+ 389 sec: 9600528 operations; 25664.67 current ops/sec; [READ AverageLatency(us)=16258] 
+[READ], 359000, 8448.471232569442, 26749.0
+[READ], 360000, 8674.617772631884, 27638.0
+[READ], 361000, 8447.46673953779, 25616.0
+[READ], 362000, 8031.313320825516, 26650.0
+[READ], 363000, 8436.267131512686, 25815.0
+[READ], 364000, 8745.35815692967, 27541.0
+[READ], 365000, 8092.672200304675, 25601.0
+[READ], 366000, 8790.53366186799, 25771.0
+[READ], 367000, 8657.039836157739, 24902.0
+[READ], 368000, 8411.835120076848, 26025.0
+[READ], 369000, 8843.998970230294, 21364.0
+[READ], 370000, 10692.027132240179, 25431.0
+[READ], 371000, 8959.098599721492, 25852.0
+[READ], 372000, 8896.487081598025, 25932.0
+[READ], 373000, 8934.410312825026, 24998.0
+[READ], 374000, 8609.103696213908, 26703.0
+[READ], 375000, 8590.520198555228, 24779.0
+[READ], 376000, 8726.479972690031, 26364.0
+[READ], 377000, 8436.639630266896, 24991.0
+[READ], 378000, 8630.994194052626, 26869.0
+[READ], 379000, 8400.550984107344, 25861.0
+[READ], 380000, 8453.608424811031, 26327.0
+[READ], 381000, 8668.180996497571, 26553.0
+[READ], 382000, 8042.528820551284, 26665.0
+[READ], 383000, 7711.338880370966, 26741.0
+[READ], 384000, 9159.555275960409, 23844.0
+[READ], 385000, 8619.216890201385, 24381.0
+[READ], 386000, 8224.947975536115, 25834.0
+[READ], 387000, 10179.164817364543, 24694.0
+[READ], 388000, 9240.613451561867, 27179.0
+ 391 sec: 9656413 operations; 27914.59 current ops/sec; [READ AverageLatency(us)=15726.14] 
+ 393 sec: 9712452 operations; 27991.51 current ops/sec; [READ AverageLatency(us)=13790.5] 
+ 395 sec: 9768674 operations; 28096.95 current ops/sec; [READ AverageLatency(us)=12045] 
+ 397 sec: 9824176 operations; 27737.13 current ops/sec;  
+ 399 sec: 9880773 operations; 28284.36 current ops/sec; [READ AverageLatency(us)=12159.25] 
+ 401 sec: 9937001 operations; 28099.95 current ops/sec; [READ AverageLatency(us)=8528] 
+ 403 sec: 9991685 operations; 27314.69 current ops/sec; [READ AverageLatency(us)=6718] 
+ 405 sec: 10044619 operations; 26453.77 current ops/sec; [READ AverageLatency(us)=17836] 
+ 407 sec: 10100334 operations; 27843.58 current ops/sec; [READ AverageLatency(us)=26975.6] 
+ 409 sec: 10156597 operations; 28103.4 current ops/sec;  
+ 411 sec: 10211592 operations; 27483.76 current ops/sec; [READ AverageLatency(us)=6353.5] 
+ 413 sec: 10267258 operations; 27819.09 current ops/sec;  
+ 415 sec: 10323743 operations; 28242.5 current ops/sec; [READ AverageLatency(us)=7654.5] 
+ 417 sec: 10379946 operations; 28087.46 current ops/sec;  
+ 419 sec: 10436006 operations; 28015.99 current ops/sec; [READ AverageLatency(us)=8578.6] 
+[READ], 389000, 8711.41287522604, 27650.0
+[READ], 390000, 9056.479889534061, 28244.0
+[READ], 391000, 8953.471213244378, 28329.0
+[READ], 392000, 9080.774937253496, 27890.0
+[READ], 393000, 8582.212345157657, 28416.0
+[READ], 394000, 9156.015329968219, 26745.0
+[READ], 395000, 9151.041171354016, 27592.0
+[READ], 396000, 8438.958455136362, 29077.0
+[READ], 397000, 7962.232900700454, 29124.0
+[READ], 398000, 8665.114610354025, 27371.0
+[READ], 399000, 8952.459398800545, 27179.0
+[READ], 400000, 8540.739713099283, 26490.0
+[READ], 401000, 8647.504605356384, 28228.0
+[READ], 402000, 9158.041240666284, 26115.0
+[READ], 403000, 9322.005396022792, 26501.0
+[READ], 404000, 8474.799652062771, 28166.0
+[READ], 405000, 8303.183222799786, 27895.0
+[READ], 406000, 8670.16350846971, 27864.0
+[READ], 407000, 8248.5718062279, 29127.0
+[READ], 408000, 8432.515905311206, 28261.0
+[READ], 409000, 9968.703579122415, 26459.0
+[READ], 410000, 8493.568473733945, 28573.0
+[READ], 411000, 9250.911734431293, 27202.0
+[READ], 412000, 8005.739113774124, 28706.0
+[READ], 413000, 9127.248726046078, 27866.0
+[READ], 414000, 8201.079681705254, 27773.0
+[READ], 415000, 8778.860465916521, 29061.0
+[READ], 416000, 8770.982225197085, 26892.0
+[READ], 417000, 8569.287221359153, 27679.0
+[READ], 418000, 9684.66689602137, 24707.0
+ 421 sec: 10488060 operations; 26013.99 current ops/sec; [READ AverageLatency(us)=36945.5] 
+ 423 sec: 10544349 operations; 28130.43 current ops/sec; [READ AverageLatency(us)=8671] 
+ 425 sec: 10598604 operations; 27113.94 current ops/sec;  
+ 427 sec: 10652732 operations; 27050.47 current ops/sec; [READ AverageLatency(us)=6005] 
+ 429 sec: 10706643 operations; 26942.03 current ops/sec; [READ AverageLatency(us)=6331.5] 
+ 431 sec: 10759966 operations; 26648.18 current ops/sec; [READ AverageLatency(us)=7606.8] 
+ 433 sec: 10814489 operations; 27247.88 current ops/sec; [READ AverageLatency(us)=4867.5] 
+ 435 sec: 10868007 operations; 26745.63 current ops/sec; [READ AverageLatency(us)=9167.6] 
+ 437 sec: 10918241 operations; 25117 current ops/sec; [READ AverageLatency(us)=4859.14] 
+ 439 sec: 10972637 operations; 27184.41 current ops/sec; [READ AverageLatency(us)=11568.6] 
+ 441 sec: 11028449 operations; 27892.05 current ops/sec; [READ AverageLatency(us)=9122.14] 
+ 443 sec: 11083595 operations; 27559.22 current ops/sec;  
+ 445 sec: 11137591 operations; 26984.51 current ops/sec; [READ AverageLatency(us)=7102.5] 
+ 447 sec: 11190155 operations; 26268.87 current ops/sec; [READ AverageLatency(us)=7386.5] 
+ 449 sec: 11244289 operations; 27053.47 current ops/sec; [READ AverageLatency(us)=9521.25] 
+[READ], 419000, 8221.156611800809, 28676.0
+[READ], 420000, 8320.146478074374, 28209.0
+[READ], 421000, 8429.001228089763, 26871.0
+[READ], 422000, 8288.703059053332, 28669.0
+[READ], 423000, 8786.300344840372, 26969.0
+[READ], 424000, 8097.343554942662, 27556.0
+[READ], 425000, 8198.99114782029, 26999.0
+[READ], 426000, 8328.704128440368, 26160.0
+[READ], 427000, 8487.934178678515, 27681.0
+[READ], 428000, 8200.881318844342, 26963.0
+[READ], 429000, 8269.913192482958, 26553.0
+[READ], 430000, 8380.525733793462, 26949.0
+[READ], 431000, 8505.335620780965, 26813.0
+[READ], 432000, 8032.481421469342, 27155.0
+[READ], 433000, 7608.528809967482, 27369.0
+[READ], 434000, 8290.555601148953, 26807.0
+[READ], 435000, 10626.786201363819, 22437.0
+[READ], 436000, 8560.571296467542, 27035.0
+[READ], 437000, 9003.483605341245, 26960.0
+[READ], 438000, 8644.986697553613, 28491.0
+[READ], 439000, 8719.427702386523, 27781.0
+[READ], 440000, 8307.916688237252, 27043.0
+[READ], 441000, 7990.979179101857, 28481.0
+[READ], 442000, 8630.373347454532, 27382.0
+[READ], 443000, 8830.294858909934, 25870.0
+[READ], 444000, 9066.894435697553, 26041.0
+[READ], 445000, 8001.423303888869, 27283.0
+[READ], 446000, 8777.531699286628, 27335.0
+[READ], 447000, 8875.047588104884, 26162.0
+[READ], 448000, 8990.719215715792, 26572.0
+ 451 sec: 11296606 operations; 26145.43 current ops/sec; [READ AverageLatency(us)=7607.29] 
+ 453 sec: 11348302 operations; 25835.08 current ops/sec; [READ AverageLatency(us)=8710] 
+ 455 sec: 11403016 operations; 27343.33 current ops/sec; [READ AverageLatency(us)=7395.83] 
+ 457 sec: 11456400 operations; 26692 current ops/sec; [READ AverageLatency(us)=6785.71] 
+ 459 sec: 11510239 operations; 26906.05 current ops/sec; [READ AverageLatency(us)=6450.75] 
+ 461 sec: 11564569 operations; 27165 current ops/sec; [READ AverageLatency(us)=8061.6] 
+ 463 sec: 11617825 operations; 26614.69 current ops/sec; [READ AverageLatency(us)=6561.2] 
+ 465 sec: 11672422 operations; 27284.86 current ops/sec; [READ AverageLatency(us)=7354.33] 
+ 467 sec: 11726815 operations; 27182.91 current ops/sec; [READ AverageLatency(us)=6559] 
+ 469 sec: 11778929 operations; 26057 current ops/sec; [READ AverageLatency(us)=7239.75] 
+ 471 sec: 11832960 operations; 27002 current ops/sec; [READ AverageLatency(us)=7500.75] 
+ 473 sec: 11885336 operations; 26174.91 current ops/sec; [READ AverageLatency(us)=9084] 
+ 475 sec: 11939234 operations; 26949 current ops/sec; [READ AverageLatency(us)=5884.43] 
+ 477 sec: 11991987 operations; 26363.32 current ops/sec; [READ AverageLatency(us)=8546] 
+ 479 sec: 12045565 operations; 26775.61 current ops/sec; [READ AverageLatency(us)=7123] 
+[READ], 449000, 8596.531017462514, 26743.0
+[READ], 450000, 8449.79267885621, 26963.0
+[READ], 451000, 9826.322838731998, 23123.0
+[READ], 452000, 8679.61340734717, 28283.0
+[READ], 453000, 9078.402989525479, 26827.0
+[READ], 454000, 8411.29224567731, 28281.0
+[READ], 455000, 9521.92197427553, 25812.0
+[READ], 456000, 8830.458320939917, 26896.0
+[READ], 457000, 8961.899370833646, 26702.0
+[READ], 458000, 8498.549944710652, 27130.0
+[READ], 459000, 8860.872871900083, 27783.0
+[READ], 460000, 9483.525036460866, 26741.0
+[READ], 461000, 8681.651357873367, 26107.0
+[READ], 462000, 8884.37074999044, 26147.0
+[READ], 463000, 8517.021090201168, 27738.0
+[READ], 464000, 8331.144637659527, 26798.0
+[READ], 465000, 8719.335025754232, 27180.0
+[READ], 466000, 8894.128043736288, 27803.0
+[READ], 467000, 9207.26831452624, 27915.0
+[READ], 468000, 9842.891307005746, 24537.0
+[READ], 469000, 8362.299645713869, 27379.0
+[READ], 470000, 8913.667120993809, 25679.0
+[READ], 471000, 8360.264963752988, 26347.0
+[READ], 472000, 8636.551860265912, 26851.0
+[READ], 473000, 8337.275395876904, 26776.0
+[READ], 474000, 8532.616806402439, 26240.0
+[READ], 475000, 8590.35331028782, 26614.0
+[READ], 476000, 8462.610620134632, 26591.0
+[READ], 477000, 8095.393441395575, 26713.0
+[READ], 478000, 9116.155680380924, 26882.0
+ 481 sec: 12098996 operations; 26702.15 current ops/sec; [READ AverageLatency(us)=7207] 
+ 483 sec: 12151785 operations; 26394.5 current ops/sec; [READ AverageLatency(us)=6907.75] 
+ 485 sec: 12206821 operations; 27504.25 current ops/sec; [READ AverageLatency(us)=6788.17] 
+ 487 sec: 12257319 operations; 25249 current ops/sec; [READ AverageLatency(us)=5653.14] 
+ 489 sec: 12311670 operations; 27161.92 current ops/sec; [READ AverageLatency(us)=7285.62] 
+ 491 sec: 12367421 operations; 27861.57 current ops/sec; [READ AverageLatency(us)=6260.6] 
+ 493 sec: 12422346 operations; 27462.5 current ops/sec; [READ AverageLatency(us)=9276.43] 
+ 495 sec: 12474810 operations; 26218.89 current ops/sec;  
+ 497 sec: 12527742 operations; 26466 current ops/sec; [READ AverageLatency(us)=5532.78] 
+ 499 sec: 12581351 operations; 26791.1 current ops/sec; [READ AverageLatency(us)=5577.8] 
+ 501 sec: 12635448 operations; 27048.5 current ops/sec; [READ AverageLatency(us)=4173] 
+ 503 sec: 12683448 operations; 23988.01 current ops/sec; [READ AverageLatency(us)=4878] 
+ 505 sec: 12735844 operations; 26198 current ops/sec; [READ AverageLatency(us)=8915.67] 
+ 507 sec: 12788756 operations; 26442.78 current ops/sec; [READ AverageLatency(us)=23527] 
+ 509 sec: 12841946 operations; 26581.71 current ops/sec; [READ AverageLatency(us)=10048.33] 
+[READ], 479000, 7774.415072266878, 26499.0
+[READ], 480000, 8581.563903056476, 26861.0
+[READ], 481000, 7728.34882223737, 26406.0
+[READ], 482000, 8974.438952633127, 27192.0
+[READ], 483000, 8178.078631605821, 27419.0
+[READ], 484000, 8026.393912298349, 26841.0
+[READ], 485000, 9708.0907291039, 23234.0
+[READ], 486000, 9096.263548902343, 26921.0
+[READ], 487000, 8870.523020941631, 26932.0
+[READ], 488000, 8823.587678389846, 28519.0
+[READ], 489000, 8970.899713055955, 27880.0
+[READ], 490000, 8372.694054705215, 28224.0
+[READ], 491000, 8591.314791265488, 27523.0
+[READ], 492000, 8666.153489785069, 26334.0
+[READ], 493000, 9063.644367129296, 26443.0
+[READ], 494000, 8479.687408829175, 26050.0
+[READ], 495000, 8814.970387502844, 26374.0
+[READ], 496000, 8303.211752191615, 27263.0
+[READ], 497000, 8275.752779327013, 26895.0
+[READ], 498000, 8825.587051824017, 25548.0
+[READ], 499000, 8751.008783759158, 27437.0
+[READ], 500000, 7979.140418929403, 27069.0
+[READ], 501000, 10869.131123579613, 21209.0
+[READ], 502000, 7680.793823762301, 26521.0
+[READ], 503000, 8363.322462640099, 25696.0
+[READ], 504000, 8167.734254204374, 27293.0
+[READ], 505000, 8422.715177694876, 25465.0
+[READ], 506000, 7946.089946692695, 26638.0
+[READ], 507000, 7780.105098156304, 26794.0
+[READ], 508000, 8040.578508467137, 27341.0
+ 511 sec: 12895021 operations; 26510.99 current ops/sec; [READ AverageLatency(us)=7496] 
+ 513 sec: 12948247 operations; 26586.41 current ops/sec; [READ AverageLatency(us)=7824.67] 
+ 515 sec: 13000488 operations; 26107.45 current ops/sec;  
+ 517 sec: 13054487 operations; 26986.01 current ops/sec; [READ AverageLatency(us)=9172] 
+ 519 sec: 13107526 operations; 26493.01 current ops/sec; [READ AverageLatency(us)=21184.75] 
+ 521 sec: 13161952 operations; 27199.4 current ops/sec; [READ AverageLatency(us)=38350.5] 
+ 523 sec: 13218343 operations; 28167.33 current ops/sec; [READ AverageLatency(us)=33275.5] 
+ 525 sec: 13275628 operations; 28628.19 current ops/sec; [READ AverageLatency(us)=28322.67] 
+ 527 sec: 13332164 operations; 28253.87 current ops/sec;  
+ 529 sec: 13390014 operations; 28910.54 current ops/sec;  
+ 531 sec: 13446605 operations; 28267.23 current ops/sec; [READ AverageLatency(us)=11687.5] 
+ 533 sec: 13503524 operations; 28431.07 current ops/sec;  
+ 535 sec: 13558946 operations; 27683.32 current ops/sec; [READ AverageLatency(us)=10882] 
+ 537 sec: 13612668 operations; 26820.77 current ops/sec;  
+ 539 sec: 13671043 operations; 29158.34 current ops/sec;  
+[READ], 509000, 8159.305158147088, 25862.0
+[READ], 510000, 8169.126397444673, 26298.0
+[READ], 511000, 8093.077277926039, 26230.0
+[READ], 512000, 7733.214589337176, 27760.0
+[READ], 513000, 8236.007539226943, 26130.0
+[READ], 514000, 8358.49860788863, 25860.0
+[READ], 515000, 7825.482563371831, 26668.0
+[READ], 516000, 7660.122059942739, 27593.0
+[READ], 517000, 7843.907963185274, 27489.0
+[READ], 518000, 8310.970113851992, 23188.0
+[READ], 519000, 11155.457270135425, 28060.0
+[READ], 520000, 9239.048847861814, 28599.0
+[READ], 521000, 9374.30463735283, 29133.0
+[READ], 522000, 9566.053301455593, 28442.0
+[READ], 523000, 9593.527294274498, 27002.0
+[READ], 524000, 8972.350857377554, 29217.0
+[READ], 525000, 9194.816442337635, 28901.0
+[READ], 526000, 8973.453890184439, 28302.0
+[READ], 527000, 9186.287434340678, 29318.0
+[READ], 528000, 9250.406842086624, 28237.0
+[READ], 529000, 9061.175686561699, 27310.0
+[READ], 530000, 8989.351988012684, 28697.0
+[READ], 531000, 8773.313338968723, 29575.0
+[READ], 532000, 9166.285256063718, 27747.0
+[READ], 533000, 8679.717624808194, 28023.0
+[READ], 534000, 8311.357949467869, 24618.0
+[READ], 535000, 11048.97398222477, 27904.0
+[READ], 536000, 9507.100575500137, 29192.0
+[READ], 537000, 9182.575829542413, 29896.0
+[READ], 538000, 9746.934510801419, 27913.0
+ 541 sec: 13728358 operations; 28643.18 current ops/sec;  
+ 543 sec: 13786215 operations; 28914.04 current ops/sec; [READ AverageLatency(us)=19142.67] 
+ 545 sec: 13843640 operations; 28669.5 current ops/sec; [READ AverageLatency(us)=41579] 
+ 547 sec: 13901424 operations; 28863.14 current ops/sec;  
+ 549 sec: 13957966 operations; 28228.66 current ops/sec; [READ AverageLatency(us)=15105] 
+ 551 sec: 14016246 operations; 29125.44 current ops/sec; [READ AverageLatency(us)=10844] 
+ 553 sec: 14069990 operations; 26845.15 current ops/sec; [READ AverageLatency(us)=40546.67] 
+ 555 sec: 14128989 operations; 29470.03 current ops/sec;  
+ 557 sec: 14186953 operations; 28938.59 current ops/sec; [READ AverageLatency(us)=11786.67] 
+ 559 sec: 14243374 operations; 28196.4 current ops/sec;  
+ 561 sec: 14300681 operations; 28639.18 current ops/sec; [READ AverageLatency(us)=6554] 
+ 563 sec: 14357229 operations; 28245.75 current ops/sec; [READ AverageLatency(us)=13480] 
+ 565 sec: 14413827 operations; 28284.86 current ops/sec; [READ AverageLatency(us)=14122] 
+ 567 sec: 14469888 operations; 28016.49 current ops/sec; [READ AverageLatency(us)=9921.33] 
+ 569 sec: 14521805 operations; 25932.57 current ops/sec;  
+[READ], 539000, 9299.68384483782, 28641.0
+[READ], 540000, 9462.441034633932, 29653.0
+[READ], 541000, 9418.532721093354, 27658.0
+[READ], 542000, 9475.476565726083, 29060.0
+[READ], 543000, 8702.808893826163, 29706.0
+[READ], 544000, 9328.54567068843, 28180.0
+[READ], 545000, 8657.368268434135, 28968.0
+[READ], 546000, 8464.533785635966, 29184.0
+[READ], 547000, 9500.424984921592, 26528.0
+[READ], 548000, 8344.944202027144, 29105.0
+[READ], 549000, 8272.387182095626, 29490.0
+[READ], 550000, 9407.724237912389, 25522.0
+[READ], 551000, 8375.107663844019, 28106.0
+[READ], 552000, 8775.323073780259, 29371.0
+[READ], 553000, 8296.759032049757, 29423.0
+[READ], 554000, 7908.447832024582, 29290.0
+[READ], 555000, 8506.764479684203, 29386.0
+[READ], 556000, 7982.730988366143, 29311.0
+[READ], 557000, 9006.033739000188, 26705.0
+[READ], 558000, 9168.487742780242, 27494.0
+[READ], 559000, 8250.030369582375, 29141.0
+[READ], 560000, 8449.566591950754, 29891.0
+[READ], 561000, 8428.637071869736, 28496.0
+[READ], 562000, 8261.848923750456, 27410.0
+[READ], 563000, 8243.76605454743, 27609.0
+[READ], 564000, 7806.444984760796, 29201.0
+[READ], 565000, 8291.703170338527, 27915.0
+[READ], 566000, 9935.875111471423, 24670.0
+[READ], 567000, 8022.480093930636, 27680.0
+[READ], 568000, 8734.111303431668, 26576.0
+ 571 sec: 14576987 operations; 27563.44 current ops/sec; [READ AverageLatency(us)=5815.5] 
+ 573 sec: 14634861 operations; 28922.54 current ops/sec; [READ AverageLatency(us)=13904] 
+ 575 sec: 14690913 operations; 28011.99 current ops/sec; [READ AverageLatency(us)=22805.33] 
+ 577 sec: 14746493 operations; 27776.11 current ops/sec; [READ AverageLatency(us)=20950.4] 
+ 579 sec: 14803181 operations; 28329.84 current ops/sec; [READ AverageLatency(us)=21533.33] 
+ 581 sec: 14857842 operations; 27316.84 current ops/sec;  
+ 583 sec: 14914566 operations; 28347.83 current ops/sec; [READ AverageLatency(us)=4770.67] 
+ 585 sec: 14964736 operations; 25072.46 current ops/sec; [READ AverageLatency(us)=8219] 
+ 587 sec: 15021418 operations; 28326.84 current ops/sec; [READ AverageLatency(us)=9109.6] 
+ 589 sec: 15075649 operations; 27101.95 current ops/sec; [READ AverageLatency(us)=9490.5] 
+ 591 sec: 15132705 operations; 28513.74 current ops/sec; [READ AverageLatency(us)=7621.75] 
+ 593 sec: 15187812 operations; 27539.73 current ops/sec; [READ AverageLatency(us)=10205.67] 
+ 595 sec: 15242065 operations; 27112.94 current ops/sec; [READ AverageLatency(us)=7230.25] 
+ 597 sec: 15298395 operations; 28150.92 current ops/sec; [READ AverageLatency(us)=5787.67] 
+ 599 sec: 15353247 operations; 27412.29 current ops/sec; [READ AverageLatency(us)=8348.33] 
+[READ], 569000, 8702.725160740294, 28151.0
+[READ], 570000, 7810.124851410252, 27761.0
+[READ], 571000, 8649.996267123288, 29200.0
+[READ], 572000, 8491.469618874773, 27550.0
+[READ], 573000, 8213.56912888795, 28389.0
+[READ], 574000, 8064.879198565418, 28998.0
+[READ], 575000, 8637.46122235505, 26768.0
+[READ], 576000, 8480.953224486891, 28113.0
+[READ], 577000, 7851.653938368239, 28362.0
+[READ], 578000, 8100.839262233911, 28139.0
+[READ], 579000, 8098.035591644012, 27956.0
+[READ], 580000, 8539.365224972518, 26381.0
+[READ], 581000, 8074.946544605996, 27855.0
+[READ], 582000, 7872.110495274639, 28146.0
+[READ], 583000, 9373.366465863453, 24900.0
+[READ], 584000, 8253.989822263798, 26725.0
+[READ], 585000, 8589.320428826682, 26864.0
+[READ], 586000, 8299.033479866363, 28435.0
+[READ], 587000, 7729.098331015299, 28760.0
+[READ], 588000, 8594.820819112629, 26370.0
+[READ], 589000, 8085.883733684326, 27351.0
+[READ], 590000, 8169.793930583318, 27515.0
+[READ], 591000, 7909.291447461965, 28132.0
+[READ], 592000, 7964.152258607982, 28491.0
+[READ], 593000, 8135.501832049652, 26746.0
+[READ], 594000, 8777.498050995959, 27963.0
+[READ], 595000, 8158.566753150481, 26980.0
+[READ], 596000, 7675.072765436417, 28585.0
+[READ], 597000, 8104.797954866009, 28360.0
+[READ], 598000, 8464.999400187442, 26675.0
+ 601 sec: 15404701 operations; 25714.14 current ops/sec; [READ AverageLatency(us)=6192] 
+ 603 sec: 15458138 operations; 26705.15 current ops/sec; [READ AverageLatency(us)=4182.33] 
+ 605 sec: 15513948 operations; 27891.05 current ops/sec; [READ AverageLatency(us)=14779] 
+ 607 sec: 15565455 operations; 25740.63 current ops/sec; [READ AverageLatency(us)=8113.67] 
+ 609 sec: 15618307 operations; 26412.79 current ops/sec; [READ AverageLatency(us)=6472.29] 
+ 611 sec: 15674388 operations; 28040.5 current ops/sec; [READ AverageLatency(us)=6470.5] 
+ 613 sec: 15725461 operations; 25523.74 current ops/sec; [READ AverageLatency(us)=7968.67] 
+ 615 sec: 15779130 operations; 26821.09 current ops/sec; [READ AverageLatency(us)=8699.44] 
+ 617 sec: 15833329 operations; 27085.96 current ops/sec; [READ AverageLatency(us)=6419.12] 
+ 619 sec: 15882504 operations; 24587.5 current ops/sec; [READ AverageLatency(us)=6019.29] 
+ 621 sec: 15935128 operations; 26298.85 current ops/sec; [READ AverageLatency(us)=4604] 
+ 623 sec: 15988609 operations; 26740.5 current ops/sec; [READ AverageLatency(us)=11408.29] 
+ 625 sec: 16042694 operations; 27028.99 current ops/sec; [READ AverageLatency(us)=6605.91] 
+ 627 sec: 16096800 operations; 27053 current ops/sec; [READ AverageLatency(us)=5771] 
+ 629 sec: 16151319 operations; 27245.88 current ops/sec; [READ AverageLatency(us)=6242.75] 
+[READ], 599000, 10267.036830605966, 22427.0
+[READ], 600000, 7741.026508782599, 27953.0
+[READ], 601000, 7387.165389946743, 27414.0
+[READ], 602000, 8080.252738740733, 27111.0
+[READ], 603000, 9086.745607333844, 27489.0
+[READ], 604000, 8517.589750250492, 26947.0
+[READ], 605000, 8882.395475327132, 25372.0
+[READ], 606000, 7704.393263094294, 26481.0
+[READ], 607000, 7936.376829031632, 25765.0
+[READ], 608000, 8139.779147406266, 27258.0
+[READ], 609000, 8221.17386827623, 28165.0
+[READ], 610000, 8114.169299181785, 28110.0
+[READ], 611000, 8966.316728471364, 24270.0
+[READ], 612000, 7918.599222848261, 25735.0
+[READ], 613000, 7775.035113280396, 27454.0
+[READ], 614000, 7994.155153973815, 27115.0
+[READ], 615000, 8354.531812865496, 25650.0
+[READ], 616000, 8012.61314247571, 26966.0
+[READ], 617000, 9186.689300059825, 23402.0
+[READ], 618000, 8210.308371546595, 26387.0
+[READ], 619000, 8195.005467235362, 25790.0
+[READ], 620000, 8312.181208535054, 27885.0
+[READ], 621000, 8013.424580584355, 26525.0
+[READ], 622000, 8350.789574256669, 26166.0
+[READ], 623000, 8231.83605375038, 26344.0
+[READ], 624000, 7701.043505351122, 27284.0
+[READ], 625000, 7642.171932158298, 27063.0
+[READ], 626000, 8531.843059429308, 27966.0
+[READ], 627000, 7654.9038911092675, 26522.0
+[READ], 628000, 7595.3755813540665, 28167.0
+ 631 sec: 16203541 operations; 26111 current ops/sec;  
+ 633 sec: 16259319 operations; 27875.06 current ops/sec;  
+ 635 sec: 16307116 operations; 23898.5 current ops/sec; [READ AverageLatency(us)=7044] 
+ 637 sec: 16364042 operations; 28448.78 current ops/sec; [READ AverageLatency(us)=7156.38] 
+ 639 sec: 16420459 operations; 28208.5 current ops/sec; [READ AverageLatency(us)=7693.25] 
+ 641 sec: 16475061 operations; 27287.36 current ops/sec; [READ AverageLatency(us)=10014.33] 
+ 643 sec: 16532485 operations; 28712 current ops/sec; [READ AverageLatency(us)=4497] 
+ 645 sec: 16587616 operations; 27551.72 current ops/sec;  
+ 647 sec: 16643565 operations; 27974.5 current ops/sec; [READ AverageLatency(us)=8180.71] 
+ 649 sec: 16700304 operations; 28355.32 current ops/sec; [READ AverageLatency(us)=7734.5] 
+ 651 sec: 16755533 operations; 27614.5 current ops/sec; [READ AverageLatency(us)=5422.12] 
+ 653 sec: 16810832 operations; 27635.68 current ops/sec; [READ AverageLatency(us)=6774.6] 
+ 655 sec: 16870925 operations; 30046.5 current ops/sec;  
+ 657 sec: 16928402 operations; 28724.14 current ops/sec; [READ AverageLatency(us)=12804] 
+ 659 sec: 16986321 operations; 28959.5 current ops/sec;  
+[READ], 629000, 7907.504090858146, 26767.0
+[READ], 630000, 8135.633809891809, 25880.0
+[READ], 631000, 7425.058885155883, 27681.0
+[READ], 632000, 7680.204370761116, 26540.0
+[READ], 633000, 7841.792672835327, 26586.0
+[READ], 634000, 11805.409778661595, 23132.0
+[READ], 635000, 9309.893246264684, 28177.0
+[READ], 636000, 8992.243869832893, 28425.0
+[READ], 637000, 8995.99118788684, 28597.0
+[READ], 638000, 9483.412209616423, 27765.0
+[READ], 639000, 9585.755013306345, 26679.0
+[READ], 640000, 9414.893750898893, 27812.0
+[READ], 641000, 8861.543781234603, 28414.0
+[READ], 642000, 8957.230810888874, 27698.0
+[READ], 643000, 8499.221139191153, 28213.0
+[READ], 644000, 9005.478012282065, 28334.0
+[READ], 645000, 8887.137700631854, 27538.0
+[READ], 646000, 8673.981136680613, 28680.0
+[READ], 647000, 8631.033680805176, 27820.0
+[READ], 648000, 8744.709556031208, 28966.0
+[READ], 649000, 8916.928513997515, 27362.0
+[READ], 650000, 11252.796795607277, 24404.0
+[READ], 651000, 9862.594556922326, 28697.0
+[READ], 652000, 9329.668296712374, 30265.0
+[READ], 653000, 9435.812849533955, 30040.0
+[READ], 654000, 9360.511781837437, 30216.0
+[READ], 655000, 8805.781676997934, 30006.0
+[READ], 656000, 9432.058429434377, 27315.0
+[READ], 657000, 9114.408395760693, 28967.0
+[READ], 658000, 10200.737093829865, 27390.0
+ 661 sec: 17043407 operations; 28528.74 current ops/sec;  
+ 663 sec: 17100668 operations; 28630.5 current ops/sec; [READ AverageLatency(us)=7986] 
+ 665 sec: 17159237 operations; 29269.87 current ops/sec;  
+ 667 sec: 17216011 operations; 28387 current ops/sec; [READ AverageLatency(us)=7188.22] 
+ 669 sec: 17269278 operations; 26620.19 current ops/sec; [READ AverageLatency(us)=6078.75] 
+ 671 sec: 17327269 operations; 28995.5 current ops/sec; [READ AverageLatency(us)=6382.6] 
+ 673 sec: 17385340 operations; 29020.99 current ops/sec; [READ AverageLatency(us)=7197.4] 
+ 675 sec: 17443540 operations; 29100 current ops/sec; [READ AverageLatency(us)=6769.67] 
+ 677 sec: 17500406 operations; 28404.6 current ops/sec; [READ AverageLatency(us)=13594.25] 
+ 679 sec: 17558493 operations; 29043.5 current ops/sec; [READ AverageLatency(us)=5659] 
+ 681 sec: 17615852 operations; 28665.17 current ops/sec; [READ AverageLatency(us)=19415.14] 
+ 683 sec: 17672743 operations; 28445.5 current ops/sec; [READ AverageLatency(us)=7060] 
+ 685 sec: 17727544 operations; 27373.13 current ops/sec; [READ AverageLatency(us)=9963] 
+ 687 sec: 17782533 operations; 27480.76 current ops/sec; [READ AverageLatency(us)=9424.62] 
+ 689 sec: 17838708 operations; 28073.46 current ops/sec; [READ AverageLatency(us)=9505] 
+[READ], 659000, 9638.441495353421, 28408.0
+[READ], 660000, 8469.118526696106, 29892.0
+[READ], 661000, 9187.036031966643, 28780.0
+[READ], 662000, 9034.166504076371, 28702.0
+[READ], 663000, 8528.314670301585, 29345.0
+[READ], 664000, 8921.066783646254, 28495.0
+[READ], 665000, 8317.467046546753, 29132.0
+[READ], 666000, 9733.605031803265, 24683.0
+[READ], 667000, 9354.041265768656, 28062.0
+[READ], 668000, 8803.054882050219, 28953.0
+[READ], 669000, 8623.273333567342, 28489.0
+[READ], 670000, 9225.7831850689, 28665.0
+[READ], 671000, 9188.3964899229, 29572.0
+[READ], 672000, 8407.640056407787, 29074.0
+[READ], 673000, 8707.069567279998, 29511.0
+[READ], 674000, 8881.237728618707, 28705.0
+[READ], 675000, 8850.748165655425, 28348.0
+[READ], 676000, 8461.919135759026, 28418.0
+[READ], 677000, 8872.042335613569, 28652.0
+[READ], 678000, 9021.917334634418, 28694.0
+[READ], 679000, 8533.146910423002, 28936.0
+[READ], 680000, 8116.95440603784, 29017.0
+[READ], 681000, 8909.401645796064, 27950.0
+[READ], 682000, 8643.626389577284, 28246.0
+[READ], 683000, 9624.843322049546, 25996.0
+[READ], 684000, 8335.96936346386, 28985.0
+[READ], 685000, 9030.111383153664, 27365.0
+[READ], 686000, 9297.650832702499, 26420.0
+[READ], 687000, 8335.641807390659, 28306.0
+[READ], 688000, 8325.9851430208, 27933.0
+ 691 sec: 17893740 operations; 27516 current ops/sec; [READ AverageLatency(us)=7159] 
+ 693 sec: 17949769 operations; 28000.5 current ops/sec; [READ AverageLatency(us)=7807.83] 
+ 695 sec: 18005948 operations; 28075.46 current ops/sec; [READ AverageLatency(us)=8226] 
+ 697 sec: 18061239 operations; 27645.5 current ops/sec;  
+ 699 sec: 18118793 operations; 28762.62 current ops/sec; [READ AverageLatency(us)=7031.5] 
+ 701 sec: 18169895 operations; 25551 current ops/sec; [READ AverageLatency(us)=6677.44] 
+ 703 sec: 18225626 operations; 27851.57 current ops/sec; [READ AverageLatency(us)=6699] 
+ 705 sec: 18280072 operations; 27223 current ops/sec; [READ AverageLatency(us)=5287.4] 
+ 707 sec: 18335192 operations; 27546.23 current ops/sec; [READ AverageLatency(us)=7944.75] 
+ 709 sec: 18390122 operations; 27465 current ops/sec; [READ AverageLatency(us)=5094.75] 
+ 711 sec: 18446293 operations; 28071.46 current ops/sec; [READ AverageLatency(us)=7306.8] 
+ 713 sec: 18499455 operations; 26567.72 current ops/sec; [READ AverageLatency(us)=5661.33] 
+ 715 sec: 18554773 operations; 27659 current ops/sec; [READ AverageLatency(us)=6048.57] 
+ 717 sec: 18609115 operations; 27157.42 current ops/sec; [READ AverageLatency(us)=7082.8] 
+ 719 sec: 18659553 operations; 25206.4 current ops/sec; [READ AverageLatency(us)=7135.67] 
+[READ], 689000, 8794.67876253588, 28219.0
+[READ], 690000, 8570.786198573001, 28171.0
+[READ], 691000, 8870.58399850802, 26810.0
+[READ], 692000, 8464.277000069993, 28574.0
+[READ], 693000, 8192.296956904134, 28425.0
+[READ], 694000, 8032.0161370231435, 28258.0
+[READ], 695000, 8242.700145778044, 26753.0
+[READ], 696000, 8131.09926961163, 28478.0
+[READ], 697000, 8268.417114495978, 29215.0
+[READ], 698000, 8759.58035556498, 28293.0
+[READ], 699000, 10614.932191047334, 23345.0
+[READ], 700000, 8568.177932695817, 27398.0
+[READ], 701000, 7803.689503857315, 28258.0
+[READ], 702000, 8406.028044120827, 27742.0
+[READ], 703000, 8467.05734602592, 26157.0
+[READ], 704000, 8243.881840262895, 27996.0
+[READ], 705000, 8711.912861688745, 27026.0
+[READ], 706000, 8301.306327637087, 29142.0
+[READ], 707000, 8150.457055214724, 27710.0
+[READ], 708000, 8577.898402203857, 27225.0
+[READ], 709000, 7758.245287637699, 28595.0
+[READ], 710000, 9040.548422237554, 27539.0
+[READ], 711000, 8190.520878715156, 27085.0
+[READ], 712000, 8259.322220940516, 26007.0
+[READ], 713000, 8654.528562096248, 27554.0
+[READ], 714000, 8344.820938681694, 26974.0
+[READ], 715000, 7754.267327441228, 27947.0
+[READ], 716000, 8686.239407383287, 24569.0
+[READ], 717000, 8518.296149265581, 25190.0
+[READ], 718000, 7946.702114562966, 27618.0
+ 721 sec: 18713175 operations; 26811 current ops/sec; [READ AverageLatency(us)=4453.38] 
+ 723 sec: 18767978 operations; 27387.81 current ops/sec;  
+ 725 sec: 18819585 operations; 25803.5 current ops/sec; [READ AverageLatency(us)=5720.33] 
+ 727 sec: 18875365 operations; 27876.06 current ops/sec;  
+ 729 sec: 18928693 operations; 26664 current ops/sec; [READ AverageLatency(us)=5956.8] 
+ 731 sec: 18983667 operations; 27473.26 current ops/sec; [READ AverageLatency(us)=5234] 
+ 733 sec: 19038433 operations; 27383 current ops/sec; [READ AverageLatency(us)=10622.83] 
+ 735 sec: 19090316 operations; 25928.54 current ops/sec; [READ AverageLatency(us)=11037.2] 
+ 737 sec: 19144644 operations; 27150.42 current ops/sec; [READ AverageLatency(us)=10563] 
+ 739 sec: 19197845 operations; 26587.21 current ops/sec;  
+ 741 sec: 19251492 operations; 26810.09 current ops/sec;  
+ 743 sec: 19303841 operations; 26148.35 current ops/sec;  
+ 745 sec: 19356502 operations; 26317.34 current ops/sec; [READ AverageLatency(us)=15176] 
+ 747 sec: 19410974 operations; 27208.79 current ops/sec;  
+ 749 sec: 19463768 operations; 26383.81 current ops/sec;  
+[READ], 719000, 7586.081919209737, 28345.0
+[READ], 720000, 8390.973498498499, 26640.0
+[READ], 721000, 7870.687086282763, 26135.0
+[READ], 722000, 8901.59484108345, 25548.0
+[READ], 723000, 7546.625950034547, 27499.0
+[READ], 724000, 7999.745709660011, 27795.0
+[READ], 725000, 8176.63376945224, 27439.0
+[READ], 726000, 8142.081722352591, 26847.0
+[READ], 727000, 8303.267428400732, 26781.0
+[READ], 728000, 7594.245457136749, 28066.0
+[READ], 729000, 8361.796069442356, 26612.0
+[READ], 730000, 7759.80701314517, 27919.0
+[READ], 731000, 8225.984270575638, 27083.0
+[READ], 732000, 7617.49564852679, 28611.0
+[READ], 733000, 9291.727232052064, 24585.0
+[READ], 734000, 7964.448831379488, 27126.0
+[READ], 735000, 8161.288995826911, 26599.0
+[READ], 736000, 7978.155085374907, 26940.0
+[READ], 737000, 8370.943399732421, 26908.0
+[READ], 738000, 8164.2166567208715, 26812.0
+[READ], 739000, 8635.318563106795, 25750.0
+[READ], 740000, 8282.470999588646, 26741.0
+[READ], 741000, 7852.811802291422, 27232.0
+[READ], 742000, 8330.757023654596, 26126.0
+[READ], 743000, 8248.939921706478, 25034.0
+[READ], 744000, 7998.184435596844, 27126.0
+[READ], 745000, 7514.493583917991, 27509.0
+[READ], 746000, 8761.002988011514, 27443.0
+[READ], 747000, 8359.396731585419, 25211.0
+[READ], 748000, 8333.638838754272, 26041.0
+ 751 sec: 19514933 operations; 25569.72 current ops/sec;  
+ 753 sec: 19562895 operations; 23981 current ops/sec; [READ AverageLatency(us)=7486.5] 
+ 755 sec: 19613839 operations; 25459.27 current ops/sec;  
+ 757 sec: 19664285 operations; 25223 current ops/sec; [READ AverageLatency(us)=6853.33] 
+ 759 sec: 19716370 operations; 26029.49 current ops/sec; [READ AverageLatency(us)=14156.83] 
+ 761 sec: 19767011 operations; 25320.5 current ops/sec;  
+ 763 sec: 19817037 operations; 24988.01 current ops/sec; [READ AverageLatency(us)=4782.67]  
+ 765 sec: 19863605 operations; 23272.36 current ops/sec; [READ AverageLatency(us)=6857]  
+ 767 sec: 19907700 operations; 22036.48 current ops/sec; [READ AverageLatency(us)=58789.67]  
+ 769 sec: 19946693 operations; 19477.02 current ops/sec; [READ AverageLatency(us)=56177]  
+ 771 sec: 19995843 operations; 24550.45 current ops/sec; [READ AverageLatency(us)=6089]  
+ 772 sec: 20000000 operations; 5484.17 current ops/sec;   
+[READ], 749000, 8062.215281801677, 25887.0
+[READ], 750000, 8227.376860278895, 25601.0
+[READ], 751000, 7980.707705271042, 21362.0
+[READ], 752000, 8090.229761716901, 25348.0
+[READ], 753000, 8494.188230926304, 26935.0
+[READ], 754000, 8373.86237117585, 24646.0
+[READ], 755000, 8671.543135454509, 25049.0
+[READ], 756000, 7759.994245051911, 25717.0
+[READ], 757000, 8392.114224467923, 26124.0
+[READ], 758000, 8153.210924146314, 26327.0
+[READ], 759000, 7898.097113884555, 25640.0
+[READ], 760000, 8212.592641577492, 24951.0
+[READ], 761000, 8325.587605958357, 24302.0
+[READ], 762000, 8986.24003744861, 24567.0
+[READ], 763000, 8712.294583054254, 23888.0
+[READ], 764000, 9929.23338884993, 22816.0
+[READ], 765000, 10859.962931073549, 22067.0
+[READ], 766000, 14099.640117035111, 18456.0
+[READ], 767000, 16516.909537975836, 16471.0
+[READ], 768000, 6989.655687462571, 28387.0
+[READ], 769000, 5937.055299539171, 24955.0
+[READ], 770000, 3542.011022320198, 14516.0
+[CLEANUP], 0, 13.5, 2.0
+[CLEANUP], 1000, 38.0, 1.0
+[CLEANUP], 2000, 48.0, 2.0
+[CLEANUP], 3000, 5.75, 4.0
+[CLEANUP], 4000, 8.428571428571429, 7.0
+[CLEANUP], 5000, 4.4, 10.0
+[CLEANUP], 6000, 7.918032786885246, 61.0
+[CLEANUP], 7000, 7.1313131313131315, 99.0
+[CLEANUP], 8000, 4.541666666666667, 96.0
+[READ], 771000, 3054.02277904328, 878.0
+[READ], Operations, 20000000
+[READ], Retries, 0
+[READ], AverageLatency(us), 9300.98474015
+[READ], MinLatency(us), 1397
+[READ], MaxLatency(us), 8998685
+[READ], Return=-1, 414
+[READ], Return=0, 19999586
+[CLEANUP], 9000, 4.611111111111111, 18.0
+[CLEANUP], Operations, 300
+[CLEANUP], Retries, 0
+[CLEANUP], AverageLatency(us), 6.65
+[CLEANUP], MinLatency(us), 1
+[CLEANUP], MaxLatency(us), 118
+[OVERALL], Reconnections, 0.0
+[OVERALL], RunTime(ms), 772113.0
+[OVERALL], Operations, 2.0E7
+[OVERALL], Throughput(ops/sec), 25902.944258159103
+java -cp /home/ubuntu/ycsb/guava-17.0.jar:/home/automaton/YCSB/dynamodb/conf:/home/automaton/YCSB/jdbc/src/main/conf:/home/automaton/YCSB/cassandra/target/cassandra-binding-0.1.4.jar:/home/automaton/YCSB/cassandra/target/archive-tmp/cassandra-binding-0.1.4.jar:/home/automaton/YCSB/core/target/core-0.1.4.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/maven-compat-3.2.5.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/commons-io-2.2.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/aether-transport-wagon-1.0.0.v20140518.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/aopalliance-1.0.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/wagon-file-2.8.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/wagon-http-2.8-shaded.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/plexus-utils-3.0.20.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/jsoup-1.7.2.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/maven-core-3.2.5.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/wagon-provider-api-2.8.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/slf4j-api-1.7.5.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/plexus-cipher-1.7.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/maven-aether-provider-3.2.5.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/aether-api-1.0.0.v20140518.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/sisu-guice-3.2.3-no_aop.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/commons-cli-1.2.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/cdi-api-1.0.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/slf4j-simple-1.7.5.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/plexus-component-annotations-1.5.5.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/org.eclipse.sisu.plexus-0.3.0.M1.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/guava-18.0.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/maven-model-builder-3.2.5.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/aether-util-1.0.0.v20140518.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/maven-plugin-api-3.2.5.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/org.eclipse.sisu.inject-0.3.0.M1.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/aether-impl-1.0.0.v20140518.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/plexus-interpolation-1.21.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/maven-settings-3.2.5.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/wagon-http-shared-2.8.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/maven-model-3.2.5.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/plexus-sec-dispatcher-1.3.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/maven-settings-builder-3.2.5.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/maven-embedder-3.2.5.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/commons-lang-2.6.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/aether-spi-1.0.0.v20140518.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/javax.inject-1.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/aether-connector-basic-1.0.0.v20140518.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/jsr250-api-1.0.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/maven-artifact-3.2.5.jar:/home/automaton/YCSB/apache-maven-3.2.5/lib/maven-repository-metadata-3.2.5.jar:/home/automaton/YCSB/apache-maven-3.2.5/conf:/home/automaton/YCSB/apache-maven-3.2.5/boot/plexus-classworlds-2.5.2.jar:/home/automaton/YCSB/accumulo/src/main/conf:/home/automaton/YCSB/hbase/src/main/conf:/home/automaton/YCSB/fabric/conf com.yahoo.ycsb.Client -db com.yahoo.ycsb.db.CassandraCQLClient -s -P workloads/russ_8692 -t
