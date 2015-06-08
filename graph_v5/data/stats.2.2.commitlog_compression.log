@@ -100208,6 +100208,6 @@
             "type": "stress"
         }
     ], 
-    "subtitle": "", 
+    "subtitle": "1 c3.8xlarge (2 SSD sriped)",
     "title": "Test C* Compressed Commitlog"
 }
