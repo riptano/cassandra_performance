@@ -4,6 +4,30 @@
             "env": "JVM_OPTS=\"$JVM_OPTS -Xms8192M\"\nJVM_OPTS=\"$JVM_OPTS -Xmx8192M\"\nJVM_OPTS=\"$JVM_OPTS -Xmn2048M\"", 
             "git_id": "a6bfca18ccd733a7a03d0c35622044d30f50a847", 
             "java_home": "~/fab/jvms/jdk1.8.0_45", 
+            "label": "C* Write Without MV", 
+            "last_log": "0c7f5a00-259a-11e5-815d-0a9d47829dcd", 
+            "revision": "carlyeks/ticket/6477-4"
+        },
+          {
+            "env": "JVM_OPTS=\"$JVM_OPTS -Xms8192M\"\nJVM_OPTS=\"$JVM_OPTS -Xmx8192M\"\nJVM_OPTS=\"$JVM_OPTS -Xmn2048M\"", 
+            "git_id": "a6bfca18ccd733a7a03d0c35622044d30f50a847", 
+            "java_home": "~/fab/jvms/jdk1.8.0_45", 
+            "label": "C* Write With 1 MV", 
+            "last_log": "0c7f5a00-259a-11e5-815d-0a9d47829dcd", 
+            "revision": "carlyeks/ticket/6477-4"
+        },
+                {
+            "env": "JVM_OPTS=\"$JVM_OPTS -Xms8192M\"\nJVM_OPTS=\"$JVM_OPTS -Xmx8192M\"\nJVM_OPTS=\"$JVM_OPTS -Xmn2048M\"", 
+            "git_id": "a6bfca18ccd733a7a03d0c35622044d30f50a847", 
+            "java_home": "~/fab/jvms/jdk1.8.0_45", 
+            "label": "C* Write With 3 MV", 
+            "last_log": "0c7f5a00-259a-11e5-815d-0a9d47829dcd", 
+            "revision": "carlyeks/ticket/6477-4"
+        },
+                {
+            "env": "JVM_OPTS=\"$JVM_OPTS -Xms8192M\"\nJVM_OPTS=\"$JVM_OPTS -Xmx8192M\"\nJVM_OPTS=\"$JVM_OPTS -Xmn2048M\"", 
+            "git_id": "a6bfca18ccd733a7a03d0c35622044d30f50a847", 
+            "java_home": "~/fab/jvms/jdk1.8.0_45", 
             "label": "C* Write With 5 MV", 
             "last_log": "0c7f5a00-259a-11e5-815d-0a9d47829dcd", 
             "revision": "carlyeks/ticket/6477-4"
