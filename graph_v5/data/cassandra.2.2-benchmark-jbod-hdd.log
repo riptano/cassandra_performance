@@ -14890,5 +14890,5 @@
         }
     ], 
     "subtitle": "Single disk VS JBOD", 
-    "title": "C* 2.2 JBOD Benchmark (SSD)"
+    "title": "C* 2.2 JBOD Benchmark (HDD)"
 }
