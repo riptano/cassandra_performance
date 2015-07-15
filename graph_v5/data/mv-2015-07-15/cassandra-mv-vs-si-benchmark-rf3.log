@@ -52409,6 +52409,6 @@
             "type": "stress"
         }
     ], 
-    "subtitle": "", 
+    "subtitle": "RF=3", 
     "title": "Materialized Views vs Secondary Indexes - Write Benchmark"
 }
