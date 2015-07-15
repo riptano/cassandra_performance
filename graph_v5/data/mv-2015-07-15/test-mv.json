@@ -1,0 +1,32 @@
+{
+    "revisions": [
+        {
+            "label": "C* MV",
+            "revision": "tjake/6477perf",
+            "env": "JVM_OPTS=\"$JVM_OPTS -Xms8192M\"\nJVM_OPTS=\"$JVM_OPTS -Xmx8192M\"\nJVM_OPTS=\"$JVM_OPTS -Xmn2048M\"",
+            "java_home": "~/fab/jvms/jdk1.8.0_45",
+            "yaml": {
+                "start_rpc": true
+            }
+        }
+    ],
+    "operations": [
+        {
+            "type": "stress",
+            "command": "user profile=/home/automaton/users.yaml ops\\(insert=1\\) n=1 -rate threads=300",
+            "wait_for_compaction": true
+        },
+        {
+            "type": "cqlsh",
+            "script": "CREATE MATERIALIZED VIEW perftesting.users_by_first_name AS SELECT * FROM perftesting.users PRIMARY KEY (first_name);",
+            "node": "node1"
+        },
+        {
+            "type": "stress",
+            "command": "user profile=/home/automaton/users.yaml ops\\(insert=1\\) n=20000000 -rate threads=300",
+            "wait_for_compaction": false
+        }
+    ],
+    "title": "Materialized Views vs Secondary Indexes - Write Benchmark",
+    "log":"cassandra-mv-vs-si-benchmark.log"
+}
