@@ -109547,6 +109547,6 @@
             "type": "stress"
         }
     ], 
-    "subtitle": "", 
-    "title": "Materialized Views vs Secondary Indexes - Write Benchmark"
+    "subtitle": "RF=3, Batchlog 5", 
+    "title": "Materialized Views vs Batchlog - Write Benchmark"
 }
