@@ -4,7 +4,29 @@
             "env": "JVM_OPTS=\"$JVM_OPTS -Xms8192M\"\nJVM_OPTS=\"$JVM_OPTS -Xmx8192M\"\nJVM_OPTS=\"$JVM_OPTS -Xmn2048M\"", 
             "git_id": "df3b6027bc90c658963e7bf72933b1507c6c6beb", 
             "java_home": "~/fab/jvms/jdk1.8.0_45", 
-            "label": "C* 1 MV Batchlog", 
+            "label": "C* Stock", 
+            "last_log": "d5f497f0-36f3-11e5-a3a9-12b4a302100d", 
+            "revision": "apache/trunk", 
+            "yaml": {
+                "start_rpc": true
+            }
+        },
+                {
+            "env": "JVM_OPTS=\"$JVM_OPTS -Xms8192M\"\nJVM_OPTS=\"$JVM_OPTS -Xmx8192M\"\nJVM_OPTS=\"$JVM_OPTS -Xmn2048M\"", 
+            "git_id": "df3b6027bc90c658963e7bf72933b1507c6c6beb", 
+            "java_home": "~/fab/jvms/jdk1.8.0_45", 
+            "label": "C* Counter", 
+            "last_log": "d5f497f0-36f3-11e5-a3a9-12b4a302100d", 
+            "revision": "apache/trunk", 
+            "yaml": {
+                "start_rpc": true
+            }
+        },
+        {
+            "env": "JVM_OPTS=\"$JVM_OPTS -Xms8192M\"\nJVM_OPTS=\"$JVM_OPTS -Xmx8192M\"\nJVM_OPTS=\"$JVM_OPTS -Xmn2048M\"", 
+            "git_id": "df3b6027bc90c658963e7bf72933b1507c6c6beb", 
+            "java_home": "~/fab/jvms/jdk1.8.0_45", 
+            "label": "C* 1 MV", 
             "last_log": "d5f497f0-36f3-11e5-a3a9-12b4a302100d", 
             "revision": "apache/trunk", 
             "yaml": {
@@ -81790,7 +81812,7 @@
             "total gc mb": "1832866", 
             "total gc time (s)": "213", 
             "type": "stress"
-        } 
+        }, 
         {
             "Total errors": "0 [insert:0]", 
             "Total operation time": "00:20:34", 
