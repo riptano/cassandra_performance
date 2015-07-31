@@ -4123,7 +4123,7 @@
                     1640.0
                 ]
             ], 
-            "label": "C* cassandra-2.2 - Single Disk", 
+            "label": "C* cassandra-2.2 - JBOD", 
             "latency 95th percentile": "48.6 [WRITE:48.6]", 
             "latency 99.9th percentile": "8178.8 [WRITE:8178.8]", 
             "latency 99th percentile": "222.9 [WRITE:222.9]", 
@@ -4617,7 +4617,7 @@
                     0.0
                 ]
             ], 
-            "label": "C* cassandra-2.2 - Single Disk", 
+            "label": "C* cassandra-2.2 - JBOD", 
             "latency 95th percentile": "20.4 [READ:20.9, WRITE:20.1]", 
             "latency 99.9th percentile": "3080.5 [READ:2005.2, WRITE:6894.5]", 
             "latency 99th percentile": "205.2 [READ:208.8, WRITE:86.2]", 
