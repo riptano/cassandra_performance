@@ -28,8 +28,8 @@ def create_json_stats(args):
         collecting_aggregates = False
         collecting_values = False
 
-        # Regex that matches 2.0 or 2.1 stress intervals:
-        start_of_intervals_re = re.compile('(partitions|ops|total|total ops).*,.*(op/s|interval_op_rate|adj row/s),.*(pk/s|key/s|interval_key_rate|op/s)')
+        # Regex that matches trunk stress output:
+        start_of_intervals_re = re.compile('type,.*total ops,.*op/s,.*pk/s')
 
         for line in log:
             if line.startswith("Results:"):
@@ -40,10 +40,13 @@ def create_json_stats(args):
                     collecting_values = True
                     continue
                 if collecting_values:
-                    try:
-                        stats['intervals'].append([float(x) for x in line.split(",")])
-                    except:
-                        pass
+                    line_parts = [l.strip() for l in line.split(',')]
+                    # Only capture total metrics for now
+                    if line_parts[0] == 'total':
+                        try:
+                            stats['intervals'].append([float(x) for x in line_parts[1:]])
+                        except:
+                            pass
                     continue
                 continue
             if line.startswith("END") or line == "":
