@@ -17,7 +17,7 @@ var drawGraph = function() {
     ymax = query.ymax;
 
     //Stress-ng (2.1) metrics:
-    var stress_metrics = [
+    var default_stress_metrics = [
         'total_ops',
         'op_rate',
         'key_rate',
@@ -36,7 +36,7 @@ var drawGraph = function() {
         'gc_sdv_ms',
         'gc_mb'
     ];
-    var stress_metric_names = {
+    var default_stress_metric_names = {
         'total_ops': 'Total operations',
         'op_rate': 'Operations / Second',
         'key_rate': 'Key rate',
@@ -78,26 +78,28 @@ var drawGraph = function() {
     console.log(show_aggregates);
     updateURLBar();
 
-    var metric_index = stress_metrics.indexOf(metric);
-    var time_index = stress_metrics.indexOf('elapsed_time');
-
     /// Add dropdown controls to select chart criteria / options:
     var chart_controls = $('<div id="chart_controls"/>');
     var chart_controls_tbl = $('<table/>');
     chart_controls.append(chart_controls_tbl);
     $('body').append(chart_controls);
     var metric_selector = $('<select id="metric_selector"/>');
-    $.each(stress_metric_names, function(k,v) {
-        if (k == 'elapsed_time') {
-            return; //Elapsed time makes no sense to graph, skip it.
-        }
-        var option = $('<option/>').attr('value', k).text(v);
-        if (metric == k) {
-            option.attr('selected','selected');
-        }
-        metric_selector.append(option);
 
-    });
+    var redrawMetricSelector = function(metric_names) {
+        metric_selector.children().remove();
+        $.each(metric_names, function(k,v) {
+            if (k == 'elapsed_time') {
+                return; //Elapsed time makes no sense to graph, skip it.
+            }
+            var option = $('<option/>').attr('value', k).text(v);
+            if (metric == k) {
+                option.attr('selected','selected');
+            }
+            metric_selector.append(option);
+        });
+    }
+    redrawMetricSelector(default_stress_metric_names);
+    
     chart_controls_tbl.append('<tr><td><label for="metric_selector"/>Choose metric:</label></td><td id="metric_selector_td"></td></tr>')
     $('#metric_selector_td').append(metric_selector);
 
@@ -137,7 +139,56 @@ var drawGraph = function() {
         var data_by_title = {};
         //Keep track of what operations are availble from the test:
         var operations = {};
+        var metrics;
+        var metric_index;
+        var metric_names;
+        var time_index;
+        var time_column;
 
+        var loaded_json_metrics = false;
+        //Take metric names from the json data, but if not present use
+        //stress defaults:
+        if (raw_data.metrics != undefined && raw_data.metrics.length > 0) {
+            metrics = raw_data.metrics;
+            loaded_json_metrics = true;
+        } else {
+            metrics = default_stress_metrics;
+        }
+        if (raw_data.metric_names != undefined) {
+            metric_names = raw_data.metric_names;
+        } else {
+            if (metrics == raw_data.metrics) {
+                metric_names = {};
+                $.each(metrics, function(i, v) {
+                    metric_names[v] = v;
+                });
+            } else {
+                metric_names = default_stress_metric_names;
+            }
+        }
+        if (raw_data.time_column != undefined) {
+            time_column = raw_data.time_column;
+        } else {
+            time_column = 'elapsed_time';
+        }
+
+        redrawMetricSelector(metric_names);
+        time_index = metrics.indexOf(time_column);
+        metric_index = metrics.indexOf(metric);
+
+        //If we loaded metrics from the json itself, and the currently
+        //selected metric is not one of the ones it offers, we need to
+        //reload the graph:
+        console.log(metric);
+        if (loaded_json_metrics) {
+            if (metrics.indexOf(metric) < 0) {
+                metric = query.metric = metrics[0]
+                metric_index = metrics.indexOf(metric);
+                graph_callback();
+            }
+        }
+
+        
         raw_data.stats.forEach(function(d) {
             // Make a copy of d so we never modify raw_data
             d = $.extend({}, d);
@@ -159,7 +210,7 @@ var drawGraph = function() {
             });
             d.intervals = new_intervals;
         });
-
+        
         //Fill operations available from test:
         operation_selector.children().remove();
         $.each(operations, function(k) {
@@ -177,7 +228,7 @@ var drawGraph = function() {
             } else {
                 //This metric is not reported by stress, so compute it ourselves:
                 if (metric == 'num_timeouts') {
-                    return d[stress_metrics.indexOf('interval_op_rate')] - d[stress_metrics.indexOf('interval_key_rate')];
+                    return d[metrics.indexOf('interval_op_rate')] - d[metrics.indexOf('interval_key_rate')];
                 }
             }
         };
@@ -345,7 +396,7 @@ var drawGraph = function() {
             .attr("y", height + 30 )
             .style("text-anchor", "middle")
             .style("font-size", "1.2em")
-            .text(stress_metric_names['elapsed_time']);
+            .text(metric_names[time_column]);
 
         // y-axis
         svg.append("g")
@@ -357,7 +408,7 @@ var drawGraph = function() {
             .attr("dy", ".91em")
             .style("font-size", "1.2em")
             .style("text-anchor", "end")
-            .text(stress_metric_names[metric]);
+            .text(metric_names[metric]);
 
         var trial = svg.selectAll(".trial")
             .data(data)
@@ -490,7 +541,7 @@ var drawGraph = function() {
         metric_selector.unbind().change(function(e) {
             // change the metric in the url to reload the page:
             metric = query.metric = this.value;
-            metric_index = stress_metrics.indexOf(metric);
+            metric_index = metrics.indexOf(metric);
             graph_callback();
             defaultZoom();
         });
