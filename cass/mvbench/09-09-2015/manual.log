@@ -1,0 +1,2541 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building MV Bench Java Library 0.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default-cli) @ mvbench >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce-maven) @ mvbench ---
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default-cli) @ mvbench <<<
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default-cli) @ mvbench ---
+Writing output to: /home/automaton/mvbench/./reports/manual
+Writing for 1000000 iterations to manual schema.
+9/9/15 9:11:45 PM ==============================================================
+
+-- Timers ----------------------------------------------------------------------
+add
+             count = 14603
+         mean rate = 486.56 calls/second
+     1-minute rate = 213.07 calls/second
+     5-minute rate = 62.08 calls/second
+    15-minute rate = 32.27 calls/second
+               min = 91.34 milliseconds
+               max = 7451.53 milliseconds
+              mean = 2988.40 milliseconds
+            stddev = 1728.41 milliseconds
+            median = 2938.61 milliseconds
+              75% <= 4232.02 milliseconds
+              95% <= 6092.52 milliseconds
+              98% <= 6505.56 milliseconds
+              99% <= 6816.07 milliseconds
+            99.9% <= 7450.78 milliseconds
+delete
+             count = 7216
+         mean rate = 240.41 calls/second
+     1-minute rate = 100.73 calls/second
+     5-minute rate = 23.19 calls/second
+    15-minute rate = 7.92 calls/second
+               min = 111.37 milliseconds
+               max = 8470.61 milliseconds
+              mean = 3119.14 milliseconds
+            stddev = 1888.92 milliseconds
+            median = 2971.55 milliseconds
+              75% <= 4466.29 milliseconds
+              95% <= 6649.91 milliseconds
+              98% <= 7500.91 milliseconds
+              99% <= 7958.17 milliseconds
+            99.9% <= 8469.64 milliseconds
+error
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+read
+             count = 14473
+         mean rate = 482.15 calls/second
+     1-minute rate = 207.38 calls/second
+     5-minute rate = 55.17 calls/second
+    15-minute rate = 25.17 calls/second
+               min = 84.29 milliseconds
+               max = 7262.44 milliseconds
+              mean = 2893.97 milliseconds
+            stddev = 1659.21 milliseconds
+            median = 2846.54 milliseconds
+              75% <= 4112.40 milliseconds
+              95% <= 5990.86 milliseconds
+              98% <= 6287.64 milliseconds
+              99% <= 6570.64 milliseconds
+            99.9% <= 7261.28 milliseconds
+total
+             count = 28996
+         mean rate = 965.89 calls/second
+     1-minute rate = 413.86 calls/second
+     5-minute rate = 108.33 calls/second
+    15-minute rate = 48.07 calls/second
+               min = 88.37 milliseconds
+               max = 8404.93 milliseconds
+              mean = 3088.65 milliseconds
+            stddev = 1786.20 milliseconds
+            median = 3021.00 milliseconds
+              75% <= 4382.14 milliseconds
+              95% <= 6255.94 milliseconds
+              98% <= 6792.59 milliseconds
+              99% <= 7116.38 milliseconds
+            99.9% <= 8402.26 milliseconds
+update
+             count = 7177
+         mean rate = 239.06 calls/second
+     1-minute rate = 100.06 calls/second
+     5-minute rate = 23.06 calls/second
+    15-minute rate = 7.88 calls/second
+               min = 163.89 milliseconds
+               max = 8352.70 milliseconds
+              mean = 3168.77 milliseconds
+            stddev = 1820.16 milliseconds
+            median = 3037.20 milliseconds
+              75% <= 4493.00 milliseconds
+              95% <= 6450.49 milliseconds
+              98% <= 6955.95 milliseconds
+              99% <= 7830.65 milliseconds
+            99.9% <= 8346.66 milliseconds
+
+
+9/9/15 9:12:15 PM ==============================================================
+
+-- Timers ----------------------------------------------------------------------
+add
+             count = 35073
+         mean rate = 584.44 calls/second
+     1-minute rate = 397.96 calls/second
+     5-minute rate = 121.11 calls/second
+    15-minute rate = 53.58 calls/second
+               min = 81.86 milliseconds
+               max = 7406.11 milliseconds
+              mean = 2629.23 milliseconds
+            stddev = 1540.32 milliseconds
+            median = 2504.40 milliseconds
+              75% <= 3810.55 milliseconds
+              95% <= 5278.96 milliseconds
+              98% <= 5940.07 milliseconds
+              99% <= 6330.47 milliseconds
+            99.9% <= 7405.50 milliseconds
+delete
+             count = 17340
+         mean rate = 288.94 calls/second
+     1-minute rate = 193.94 calls/second
+     5-minute rate = 53.10 calls/second
+    15-minute rate = 18.72 calls/second
+               min = 126.35 milliseconds
+               max = 8437.08 milliseconds
+              mean = 2789.41 milliseconds
+            stddev = 1630.46 milliseconds
+            median = 2700.99 milliseconds
+              75% <= 4032.12 milliseconds
+              95% <= 5406.17 milliseconds
+              98% <= 6573.68 milliseconds
+              99% <= 6959.26 milliseconds
+            99.9% <= 8430.90 milliseconds
+error
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+read
+             count = 34716
+         mean rate = 578.46 calls/second
+     1-minute rate = 391.30 calls/second
+     5-minute rate = 114.13 calls/second
+    15-minute rate = 46.46 calls/second
+               min = 30.04 milliseconds
+               max = 7222.44 milliseconds
+              mean = 2551.81 milliseconds
+            stddev = 1521.57 milliseconds
+            median = 2446.81 milliseconds
+              75% <= 3666.73 milliseconds
+              95% <= 5137.37 milliseconds
+              98% <= 6036.54 milliseconds
+              99% <= 6204.89 milliseconds
+            99.9% <= 7220.81 milliseconds
+total
+             count = 69740
+         mean rate = 1162.02 calls/second
+     1-minute rate = 785.75 calls/second
+     5-minute rate = 227.26 calls/second
+    15-minute rate = 91.02 calls/second
+               min = 61.40 milliseconds
+               max = 7375.34 milliseconds
+              mean = 2774.83 milliseconds
+            stddev = 1595.20 milliseconds
+            median = 2637.05 milliseconds
+              75% <= 4040.81 milliseconds
+              95% <= 5437.29 milliseconds
+              98% <= 6130.47 milliseconds
+              99% <= 6432.82 milliseconds
+            99.9% <= 7374.35 milliseconds
+update
+             count = 17327
+         mean rate = 288.70 calls/second
+     1-minute rate = 193.86 calls/second
+     5-minute rate = 53.06 calls/second
+    15-minute rate = 18.71 calls/second
+               min = 133.45 milliseconds
+               max = 8144.53 milliseconds
+              mean = 2843.24 milliseconds
+            stddev = 1594.27 milliseconds
+            median = 2683.55 milliseconds
+              75% <= 4085.44 milliseconds
+              95% <= 5541.96 milliseconds
+              98% <= 6344.29 milliseconds
+              99% <= 6736.64 milliseconds
+            99.9% <= 8140.24 milliseconds
+
+
+9/9/15 9:12:45 PM ==============================================================
+
+-- Timers ----------------------------------------------------------------------
+add
+             count = 53484
+         mean rate = 594.20 calls/second
+     1-minute rate = 480.70 calls/second
+     5-minute rate = 167.88 calls/second
+    15-minute rate = 71.93 calls/second
+               min = 82.12 milliseconds
+               max = 7406.11 milliseconds
+              mean = 2376.08 milliseconds
+            stddev = 1470.65 milliseconds
+            median = 2215.31 milliseconds
+              75% <= 3436.27 milliseconds
+              95% <= 4920.47 milliseconds
+              98% <= 5566.24 milliseconds
+              99% <= 6174.23 milliseconds
+            99.9% <= 7405.50 milliseconds
+delete
+             count = 26516
+         mean rate = 294.58 calls/second
+     1-minute rate = 236.73 calls/second
+     5-minute rate = 77.09 calls/second
+    15-minute rate = 28.13 calls/second
+               min = 61.21 milliseconds
+               max = 8437.08 milliseconds
+              mean = 2652.57 milliseconds
+            stddev = 1584.61 milliseconds
+            median = 2540.49 milliseconds
+              75% <= 3833.26 milliseconds
+              95% <= 5291.25 milliseconds
+              98% <= 5856.55 milliseconds
+              99% <= 6661.59 milliseconds
+            99.9% <= 8419.91 milliseconds
+error
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+read
+             count = 52993
+         mean rate = 588.73 calls/second
+     1-minute rate = 474.97 calls/second
+     5-minute rate = 161.14 calls/second
+    15-minute rate = 64.90 calls/second
+               min = 40.57 milliseconds
+               max = 7222.44 milliseconds
+              mean = 2453.37 milliseconds
+            stddev = 1453.12 milliseconds
+            median = 2356.56 milliseconds
+              75% <= 3579.61 milliseconds
+              95% <= 4875.62 milliseconds
+              98% <= 5274.15 milliseconds
+              99% <= 5979.73 milliseconds
+            99.9% <= 7206.53 milliseconds
+total
+             count = 106282
+         mean rate = 1180.74 calls/second
+     1-minute rate = 951.49 calls/second
+     5-minute rate = 321.34 calls/second
+    15-minute rate = 127.94 calls/second
+               min = 61.40 milliseconds
+               max = 7375.34 milliseconds
+              mean = 2579.42 milliseconds
+            stddev = 1531.34 milliseconds
+            median = 2425.07 milliseconds
+              75% <= 3823.95 milliseconds
+              95% <= 5152.10 milliseconds
+              98% <= 5630.28 milliseconds
+              99% <= 6033.43 milliseconds
+            99.9% <= 7374.35 milliseconds
+update
+             count = 26282
+         mean rate = 291.98 calls/second
+     1-minute rate = 234.07 calls/second
+     5-minute rate = 76.37 calls/second
+    15-minute rate = 27.88 calls/second
+               min = 128.21 milliseconds
+               max = 6749.93 milliseconds
+              mean = 2711.41 milliseconds
+            stddev = 1531.21 milliseconds
+            median = 2591.05 milliseconds
+              75% <= 3981.47 milliseconds
+              95% <= 5111.15 milliseconds
+              98% <= 5729.75 milliseconds
+              99% <= 6184.11 milliseconds
+            99.9% <= 6749.80 milliseconds
+
+
+9/9/15 9:13:15 PM ==============================================================
+
+-- Timers ----------------------------------------------------------------------
+add
+             count = 73059
+         mean rate = 608.77 calls/second
+     1-minute rate = 542.82 calls/second
+     5-minute rate = 213.72 calls/second
+    15-minute rate = 90.93 calls/second
+               min = 50.28 milliseconds
+               max = 7106.29 milliseconds
+              mean = 2391.42 milliseconds
+            stddev = 1505.21 milliseconds
+            median = 2261.79 milliseconds
+              75% <= 3517.83 milliseconds
+              95% <= 5013.84 milliseconds
+              98% <= 5683.37 milliseconds
+              99% <= 5887.93 milliseconds
+            99.9% <= 7093.42 milliseconds
+delete
+             count = 36251
+         mean rate = 302.06 calls/second
+     1-minute rate = 268.12 calls/second
+     5-minute rate = 100.47 calls/second
+    15-minute rate = 37.83 calls/second
+               min = 76.31 milliseconds
+               max = 7844.97 milliseconds
+              mean = 2630.27 milliseconds
+            stddev = 1579.02 milliseconds
+            median = 2541.87 milliseconds
+              75% <= 3881.78 milliseconds
+              95% <= 5224.26 milliseconds
+              98% <= 5846.50 milliseconds
+              99% <= 6225.90 milliseconds
+            99.9% <= 7838.71 milliseconds
+error
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+read
+             count = 72299
+         mean rate = 602.43 calls/second
+     1-minute rate = 535.64 calls/second
+     5-minute rate = 206.76 calls/second
+    15-minute rate = 83.84 calls/second
+               min = 31.61 milliseconds
+               max = 7222.44 milliseconds
+              mean = 2442.25 milliseconds
+            stddev = 1492.09 milliseconds
+            median = 2305.84 milliseconds
+              75% <= 3622.35 milliseconds
+              95% <= 5034.84 milliseconds
+              98% <= 5553.18 milliseconds
+              99% <= 5901.23 milliseconds
+            99.9% <= 7203.34 milliseconds
+total
+             count = 145219
+         mean rate = 1210.03 calls/second
+     1-minute rate = 1076.11 calls/second
+     5-minute rate = 413.67 calls/second
+    15-minute rate = 166.23 calls/second
+               min = 61.40 milliseconds
+               max = 7375.34 milliseconds
+              mean = 2630.23 milliseconds
+            stddev = 1563.46 milliseconds
+            median = 2521.34 milliseconds
+              75% <= 3938.28 milliseconds
+              95% <= 5230.44 milliseconds
+              98% <= 5680.27 milliseconds
+              99% <= 5962.48 milliseconds
+            99.9% <= 7367.86 milliseconds
+update
+             count = 35909
+         mean rate = 299.21 calls/second
+     1-minute rate = 265.17 calls/second
+     5-minute rate = 99.48 calls/second
+    15-minute rate = 37.47 calls/second
+               min = 109.39 milliseconds
+               max = 6745.30 milliseconds
+              mean = 2721.69 milliseconds
+            stddev = 1542.77 milliseconds
+            median = 2622.81 milliseconds
+              75% <= 3963.13 milliseconds
+              95% <= 5213.68 milliseconds
+              98% <= 5870.11 milliseconds
+              99% <= 6205.72 milliseconds
+            99.9% <= 6742.86 milliseconds
+
+
+9/9/15 9:13:45 PM ==============================================================
+
+-- Timers ----------------------------------------------------------------------
+add
+             count = 93632
+         mean rate = 624.17 calls/second
+     1-minute rate = 594.97 calls/second
+     5-minute rate = 258.42 calls/second
+    15-minute rate = 110.41 calls/second
+               min = 46.95 milliseconds
+               max = 6662.56 milliseconds
+              mean = 2305.42 milliseconds
+            stddev = 1462.87 milliseconds
+            median = 2214.55 milliseconds
+              75% <= 3331.06 milliseconds
+              95% <= 4925.03 milliseconds
+              98% <= 5390.34 milliseconds
+              99% <= 5748.69 milliseconds
+            99.9% <= 6656.82 milliseconds
+delete
+             count = 46632
+         mean rate = 310.86 calls/second
+     1-minute rate = 296.60 calls/second
+     5-minute rate = 123.73 calls/second
+    15-minute rate = 47.92 calls/second
+               min = 39.01 milliseconds
+               max = 7844.97 milliseconds
+              mean = 2472.35 milliseconds
+            stddev = 1555.60 milliseconds
+            median = 2328.67 milliseconds
+              75% <= 3708.96 milliseconds
+              95% <= 5152.17 milliseconds
+              98% <= 5604.14 milliseconds
+              99% <= 5848.10 milliseconds
+            99.9% <= 7799.23 milliseconds
+error
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+read
+             count = 92936
+         mean rate = 619.52 calls/second
+     1-minute rate = 591.37 calls/second
+     5-minute rate = 252.33 calls/second
+    15-minute rate = 103.62 calls/second
+               min = 31.61 milliseconds
+               max = 7222.44 milliseconds
+              mean = 2349.90 milliseconds
+            stddev = 1480.33 milliseconds
+            median = 2157.13 milliseconds
+              75% <= 3446.02 milliseconds
+              95% <= 5024.59 milliseconds
+              98% <= 5386.59 milliseconds
+              99% <= 5779.44 milliseconds
+            99.9% <= 7203.34 milliseconds
+total
+             count = 186374
+         mean rate = 1242.39 calls/second
+     1-minute rate = 1183.98 calls/second
+     5-minute rate = 504.41 calls/second
+    15-minute rate = 205.70 calls/second
+               min = 61.40 milliseconds
+               max = 7375.34 milliseconds
+              mean = 2403.88 milliseconds
+            stddev = 1501.00 milliseconds
+            median = 2315.94 milliseconds
+              75% <= 3459.53 milliseconds
+              95% <= 5015.88 milliseconds
+              98% <= 5486.06 milliseconds
+              99% <= 5887.86 milliseconds
+            99.9% <= 7367.86 milliseconds
+update
+             count = 46110
+         mean rate = 307.37 calls/second
+     1-minute rate = 292.40 calls/second
+     5-minute rate = 122.26 calls/second
+    15-minute rate = 47.37 calls/second
+               min = 109.39 milliseconds
+               max = 6602.50 milliseconds
+              mean = 2578.96 milliseconds
+            stddev = 1500.78 milliseconds
+            median = 2438.50 milliseconds
+              75% <= 3788.84 milliseconds
+              95% <= 5128.39 milliseconds
+              98% <= 5566.42 milliseconds
+              99% <= 5825.80 milliseconds
+            99.9% <= 6596.78 milliseconds
+
+
+9/9/15 9:14:15 PM ==============================================================
+
+-- Timers ----------------------------------------------------------------------
+add
+             count = 115002
+         mean rate = 638.86 calls/second
+     1-minute rate = 635.40 calls/second
+     5-minute rate = 301.32 calls/second
+    15-minute rate = 130.11 calls/second
+               min = 46.95 milliseconds
+               max = 6662.56 milliseconds
+              mean = 2225.03 milliseconds
+            stddev = 1415.33 milliseconds
+            median = 2104.19 milliseconds
+              75% <= 3246.63 milliseconds
+              95% <= 4660.24 milliseconds
+              98% <= 5169.06 milliseconds
+              99% <= 5433.58 milliseconds
+            99.9% <= 6649.37 milliseconds
+delete
+             count = 57351
+         mean rate = 318.60 calls/second
+     1-minute rate = 319.24 calls/second
+     5-minute rate = 145.89 calls/second
+    15-minute rate = 58.05 calls/second
+               min = 1.59 milliseconds
+               max = 7844.97 milliseconds
+              mean = 2408.03 milliseconds
+            stddev = 1476.32 milliseconds
+            median = 2301.57 milliseconds
+              75% <= 3544.83 milliseconds
+              95% <= 4938.01 milliseconds
+              98% <= 5441.58 milliseconds
+              99% <= 5738.13 milliseconds
+            99.9% <= 7793.33 milliseconds
+error
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+read
+             count = 114209
+         mean rate = 634.45 calls/second
+     1-minute rate = 632.27 calls/second
+     5-minute rate = 295.51 calls/second
+    15-minute rate = 123.43 calls/second
+               min = 24.97 milliseconds
+               max = 6563.79 milliseconds
+              mean = 2245.66 milliseconds
+            stddev = 1407.99 milliseconds
+            median = 2061.80 milliseconds
+              75% <= 3248.22 milliseconds
+              95% <= 4739.35 milliseconds
+              98% <= 5189.91 milliseconds
+              99% <= 5493.61 milliseconds
+            99.9% <= 6553.87 milliseconds
+total
+             count = 229163
+         mean rate = 1273.04 calls/second
+     1-minute rate = 1270.98 calls/second
+     5-minute rate = 591.71 calls/second
+    15-minute rate = 245.67 calls/second
+               min = 61.40 milliseconds
+               max = 6561.97 milliseconds
+              mean = 2360.07 milliseconds
+            stddev = 1408.75 milliseconds
+            median = 2226.68 milliseconds
+              75% <= 3359.27 milliseconds
+              95% <= 4839.59 milliseconds
+              98% <= 5379.31 milliseconds
+              99% <= 5735.79 milliseconds
+            99.9% <= 6547.94 milliseconds
+update
+             count = 56810
+         mean rate = 315.59 calls/second
+     1-minute rate = 316.34 calls/second
+     5-minute rate = 144.50 calls/second
+    15-minute rate = 57.50 calls/second
+               min = 87.57 milliseconds
+               max = 6405.35 milliseconds
+              mean = 2449.68 milliseconds
+            stddev = 1407.91 milliseconds
+            median = 2340.30 milliseconds
+              75% <= 3454.10 milliseconds
+              95% <= 4933.60 milliseconds
+              98% <= 5264.02 milliseconds
+              99% <= 5570.58 milliseconds
+            99.9% <= 6397.36 milliseconds
+
+
+9/9/15 9:14:45 PM ==============================================================
+
+-- Timers ----------------------------------------------------------------------
+add
+             count = 134769
+         mean rate = 641.73 calls/second
+     1-minute rate = 644.79 calls/second
+     5-minute rate = 335.35 calls/second
+    15-minute rate = 147.44 calls/second
+               min = 45.78 milliseconds
+               max = 5915.69 milliseconds
+              mean = 2286.21 milliseconds
+            stddev = 1371.12 milliseconds
+            median = 2172.93 milliseconds
+              75% <= 3314.95 milliseconds
+              95% <= 4608.19 milliseconds
+              98% <= 4957.29 milliseconds
+              99% <= 5191.78 milliseconds
+            99.9% <= 5913.13 milliseconds
+delete
+             count = 67336
+         mean rate = 320.63 calls/second
+     1-minute rate = 324.85 calls/second
+     5-minute rate = 163.69 calls/second
+    15-minute rate = 67.06 calls/second
+               min = 1.59 milliseconds
+               max = 7844.97 milliseconds
+              mean = 2490.35 milliseconds
+            stddev = 1470.04 milliseconds
+            median = 2417.11 milliseconds
+              75% <= 3682.60 milliseconds
+              95% <= 4899.94 milliseconds
+              98% <= 5395.76 milliseconds
+              99% <= 5617.05 milliseconds
+            99.9% <= 7793.33 milliseconds
+error
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+read
+             count = 134334
+         mean rate = 639.65 calls/second
+     1-minute rate = 647.87 calls/second
+     5-minute rate = 331.25 calls/second
+    15-minute rate = 141.38 calls/second
+               min = 26.22 milliseconds
+               max = 6563.79 milliseconds
+              mean = 2269.98 milliseconds
+            stddev = 1394.14 milliseconds
+            median = 2138.72 milliseconds
+              75% <= 3320.43 milliseconds
+              95% <= 4632.58 milliseconds
+              98% <= 5070.96 milliseconds
+              99% <= 5207.02 milliseconds
+            99.9% <= 6551.90 milliseconds
+total
+             count = 269032
+         mean rate = 1281.02 calls/second
+     1-minute rate = 1294.36 calls/second
+     5-minute rate = 661.88 calls/second
+    15-minute rate = 281.18 calls/second
+               min = 61.40 milliseconds
+               max = 6078.20 milliseconds
+              mean = 2434.13 milliseconds
+            stddev = 1420.74 milliseconds
+            median = 2378.59 milliseconds
+              75% <= 3528.36 milliseconds
+              95% <= 4835.47 milliseconds
+              98% <= 5157.82 milliseconds
+              99% <= 5469.36 milliseconds
+            99.9% <= 6073.81 milliseconds
+update
+             count = 66927
+         mean rate = 318.68 calls/second
+     1-minute rate = 324.72 calls/second
+     5-minute rate = 162.84 calls/second
+    15-minute rate = 66.67 calls/second
+               min = 99.82 milliseconds
+               max = 6405.35 milliseconds
+              mean = 2475.72 milliseconds
+            stddev = 1406.24 milliseconds
+            median = 2353.01 milliseconds
+              75% <= 3453.45 milliseconds
+              95% <= 4905.78 milliseconds
+              98% <= 5239.28 milliseconds
+              99% <= 5550.49 milliseconds
+            99.9% <= 6397.36 milliseconds
+
+
+9/9/15 9:15:15 PM ==============================================================
+
+-- Timers ----------------------------------------------------------------------
+add
+             count = 152400
+         mean rate = 634.97 calls/second
+     1-minute rate = 615.04 calls/second
+     5-minute rate = 359.02 calls/second
+    15-minute rate = 161.84 calls/second
+               min = 45.78 milliseconds
+               max = 5915.69 milliseconds
+              mean = 2237.58 milliseconds
+            stddev = 1424.95 milliseconds
+            median = 2114.17 milliseconds
+              75% <= 3356.28 milliseconds
+              95% <= 4677.74 milliseconds
+              98% <= 5065.63 milliseconds
+              99% <= 5289.57 milliseconds
+            99.9% <= 5913.13 milliseconds
+delete
+             count = 76085
+         mean rate = 317.01 calls/second
+     1-minute rate = 308.04 calls/second
+     5-minute rate = 175.69 calls/second
+    15-minute rate = 74.41 calls/second
+               min = 1.59 milliseconds
+               max = 7844.97 milliseconds
+              mean = 2469.13 milliseconds
+            stddev = 1506.90 milliseconds
+            median = 2367.24 milliseconds
+              75% <= 3786.88 milliseconds
+              95% <= 4913.85 milliseconds
+              98% <= 5262.60 milliseconds
+              99% <= 5612.23 milliseconds
+            99.9% <= 7788.67 milliseconds
+error
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+read
+             count = 151890
+         mean rate = 632.84 calls/second
+     1-minute rate = 616.07 calls/second
+     5-minute rate = 355.08 calls/second
+    15-minute rate = 155.89 calls/second
+               min = 26.22 milliseconds
+               max = 5942.61 milliseconds
+              mean = 2272.20 milliseconds
+            stddev = 1407.31 milliseconds
+            median = 2114.25 milliseconds
+              75% <= 3378.34 milliseconds
+              95% <= 4698.29 milliseconds
+              98% <= 5072.02 milliseconds
+              99% <= 5207.02 milliseconds
+            99.9% <= 5933.62 milliseconds
+total
+             count = 304055
+         mean rate = 1266.83 calls/second
+     1-minute rate = 1230.13 calls/second
+     5-minute rate = 709.32 calls/second
+    15-minute rate = 310.16 calls/second
+               min = 16.65 milliseconds
+               max = 5956.97 milliseconds
+              mean = 2435.23 milliseconds
+            stddev = 1455.46 milliseconds
+            median = 2288.44 milliseconds
+              75% <= 3663.33 milliseconds
+              95% <= 4874.03 milliseconds
+              98% <= 5196.42 milliseconds
+              99% <= 5464.38 milliseconds
+            99.9% <= 5956.08 milliseconds
+update
+             count = 75570
+         mean rate = 314.86 calls/second
+     1-minute rate = 307.05 calls/second
+     5-minute rate = 174.61 calls/second
+    15-minute rate = 73.92 calls/second
+               min = 153.43 milliseconds
+               max = 6405.35 milliseconds
+              mean = 2495.52 milliseconds
+            stddev = 1410.91 milliseconds
+            median = 2365.48 milliseconds
+              75% <= 3500.72 milliseconds
+              95% <= 4905.78 milliseconds
+              98% <= 5391.40 milliseconds
+              99% <= 5558.09 milliseconds
+            99.9% <= 6394.37 milliseconds
+
+
+9/9/15 9:15:45 PM ==============================================================
+
+-- Timers ----------------------------------------------------------------------
+add
+             count = 174975
+         mean rate = 648.03 calls/second
+     1-minute rate = 662.13 calls/second
+     5-minute rate = 396.11 calls/second
+    15-minute rate = 181.16 calls/second
+               min = 54.01 milliseconds
+               max = 5915.69 milliseconds
+              mean = 2303.42 milliseconds
+            stddev = 1388.64 milliseconds
+            median = 2226.73 milliseconds
+              75% <= 3437.24 milliseconds
+              95% <= 4597.57 milliseconds
+              98% <= 4880.11 milliseconds
+              99% <= 5112.15 milliseconds
+            99.9% <= 5913.13 milliseconds
+delete
+             count = 87721
+         mean rate = 324.88 calls/second
+     1-minute rate = 335.64 calls/second
+     5-minute rate = 195.69 calls/second
+    15-minute rate = 84.66 calls/second
+               min = 34.08 milliseconds
+               max = 7844.97 milliseconds
+              mean = 2403.96 milliseconds
+            stddev = 1465.03 milliseconds
+            median = 2353.31 milliseconds
+              75% <= 3572.62 milliseconds
+              95% <= 4864.81 milliseconds
+              98% <= 5081.77 milliseconds
+              99% <= 5383.55 milliseconds
+            99.9% <= 7783.09 milliseconds
+error
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+read
+             count = 174860
+         mean rate = 647.60 calls/second
+     1-minute rate = 667.96 calls/second
+     5-minute rate = 393.79 calls/second
+    15-minute rate = 175.84 calls/second
+               min = 38.53 milliseconds
+               max = 5632.73 milliseconds
+              mean = 2265.47 milliseconds
+            stddev = 1365.71 milliseconds
+            median = 2179.28 milliseconds
+              75% <= 3356.35 milliseconds
+              95% <= 4565.79 milliseconds
+              98% <= 4882.48 milliseconds
+              99% <= 5157.67 milliseconds
+            99.9% <= 5625.10 milliseconds
+total
+             count = 349791
+         mean rate = 1295.45 calls/second
+     1-minute rate = 1331.74 calls/second
+     5-minute rate = 786.17 calls/second
+    15-minute rate = 349.89 calls/second
+               min = 51.23 milliseconds
+               max = 5926.54 milliseconds
+              mean = 2413.33 milliseconds
+            stddev = 1430.74 milliseconds
+            median = 2350.23 milliseconds
+              75% <= 3606.06 milliseconds
+              95% <= 4803.37 milliseconds
+              98% <= 5104.51 milliseconds
+              99% <= 5375.28 milliseconds
+            99.9% <= 5925.59 milliseconds
+update
+             count = 87095
+         mean rate = 322.56 calls/second
+     1-minute rate = 333.97 calls/second
+     5-minute rate = 194.38 calls/second
+    15-minute rate = 84.07 calls/second
+               min = 161.47 milliseconds
+               max = 6405.35 milliseconds
+              mean = 2535.15 milliseconds
+            stddev = 1367.56 milliseconds
+            median = 2459.29 milliseconds
+              75% <= 3626.25 milliseconds
+              95% <= 4847.41 milliseconds
+              98% <= 5110.00 milliseconds
+              99% <= 5364.10 milliseconds
+            99.9% <= 6394.37 milliseconds
+
+
+9/9/15 9:16:15 PM ==============================================================
+
+-- Timers ----------------------------------------------------------------------
+add
+             count = 193972
+         mean rate = 646.55 calls/second
+     1-minute rate = 649.84 calls/second
+     5-minute rate = 418.64 calls/second
+    15-minute rate = 195.98 calls/second
+               min = 55.10 milliseconds
+               max = 5827.64 milliseconds
+              mean = 2210.31 milliseconds
+            stddev = 1357.01 milliseconds
+            median = 2145.39 milliseconds
+              75% <= 3257.14 milliseconds
+              95% <= 4580.24 milliseconds
+              98% <= 4871.02 milliseconds
+              99% <= 5133.40 milliseconds
+            99.9% <= 5818.70 milliseconds
+delete
+             count = 97146
+         mean rate = 323.81 calls/second
+     1-minute rate = 326.68 calls/second
+     5-minute rate = 206.94 calls/second
+    15-minute rate = 92.18 calls/second
+               min = 2.02 milliseconds
+               max = 7844.97 milliseconds
+              mean = 2428.24 milliseconds
+            stddev = 1461.24 milliseconds
+            median = 2357.80 milliseconds
+              75% <= 3521.08 milliseconds
+              95% <= 4878.50 milliseconds
+              98% <= 5207.24 milliseconds
+              99% <= 5533.29 milliseconds
+            99.9% <= 7787.52 milliseconds
+error
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+read
+             count = 193814
+         mean rate = 646.02 calls/second
+     1-minute rate = 652.67 calls/second
+     5-minute rate = 416.40 calls/second
+    15-minute rate = 190.78 calls/second
+               min = 1.56 milliseconds
+               max = 5632.73 milliseconds
+              mean = 2291.73 milliseconds
+            stddev = 1339.89 milliseconds
+            median = 2210.12 milliseconds
+              75% <= 3323.45 milliseconds
+              95% <= 4577.10 milliseconds
+              98% <= 4962.49 milliseconds
+              99% <= 5163.43 milliseconds
+            99.9% <= 5624.55 milliseconds
+total
+             count = 387660
+         mean rate = 1292.14 calls/second
+     1-minute rate = 1302.48 calls/second
+     5-minute rate = 831.40 calls/second
+    15-minute rate = 379.79 calls/second
+               min = 61.40 milliseconds
+               max = 5893.54 milliseconds
+              mean = 2375.67 milliseconds
+            stddev = 1397.04 milliseconds
+            median = 2325.35 milliseconds
+              75% <= 3492.88 milliseconds
+              95% <= 4718.55 milliseconds
+              98% <= 5094.29 milliseconds
+              99% <= 5253.88 milliseconds
+            99.9% <= 5892.27 milliseconds
+update
+             count = 96542
+         mean rate = 321.79 calls/second
+     1-minute rate = 325.95 calls/second
+     5-minute rate = 205.82 calls/second
+    15-minute rate = 91.63 calls/second
+               min = 158.19 milliseconds
+               max = 6405.35 milliseconds
+              mean = 2514.67 milliseconds
+            stddev = 1403.86 milliseconds
+            median = 2374.94 milliseconds
+              75% <= 3585.15 milliseconds
+              95% <= 4963.88 milliseconds
+              98% <= 5391.01 milliseconds
+              99% <= 5673.56 milliseconds
+            99.9% <= 6394.37 milliseconds
+
+
+9/9/15 9:16:45 PM ==============================================================
+
+-- Timers ----------------------------------------------------------------------
+add
+             count = 213656
+         mean rate = 647.42 calls/second
+     1-minute rate = 655.37 calls/second
+     5-minute rate = 441.38 calls/second
+    15-minute rate = 211.08 calls/second
+               min = 62.65 milliseconds
+               max = 5827.64 milliseconds
+              mean = 2310.19 milliseconds
+            stddev = 1409.62 milliseconds
+            median = 2238.44 milliseconds
+              75% <= 3414.98 milliseconds
+              95% <= 4691.45 milliseconds
+              98% <= 5025.23 milliseconds
+              99% <= 5370.90 milliseconds
+            99.9% <= 5822.09 milliseconds
+delete
+             count = 107239
+         mean rate = 324.96 calls/second
+     1-minute rate = 332.48 calls/second
+     5-minute rate = 219.35 calls/second
+    15-minute rate = 100.20 calls/second
+               min = 2.02 milliseconds
+               max = 7844.97 milliseconds
+              mean = 2522.20 milliseconds
+            stddev = 1493.18 milliseconds
+            median = 2446.53 milliseconds
+              75% <= 3742.31 milliseconds
+              95% <= 4955.68 milliseconds
+              98% <= 5438.37 milliseconds
+              99% <= 5709.41 milliseconds
+            99.9% <= 7793.34 milliseconds
+error
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+read
+             count = 213710
+         mean rate = 647.58 calls/second
+     1-minute rate = 660.24 calls/second
+     5-minute rate = 440.05 calls/second
+    15-minute rate = 206.29 calls/second
+               min = 68.74 milliseconds
+               max = 5637.77 milliseconds
+              mean = 2320.61 milliseconds
+            stddev = 1393.21 milliseconds
+            median = 2252.59 milliseconds
+              75% <= 3454.89 milliseconds
+              95% <= 4686.14 milliseconds
+              98% <= 5118.70 milliseconds
+              99% <= 5324.30 milliseconds
+            99.9% <= 5636.56 milliseconds
+total
+             count = 427222
+         mean rate = 1294.56 calls/second
+     1-minute rate = 1315.52 calls/second
+     5-minute rate = 878.09 calls/second
+    15-minute rate = 410.61 calls/second
+               min = 57.12 milliseconds
+               max = 5849.80 milliseconds
+              mean = 2432.79 milliseconds
+            stddev = 1454.53 milliseconds
+            median = 2360.49 milliseconds
+              75% <= 3589.68 milliseconds
+              95% <= 4859.50 milliseconds
+              98% <= 5225.56 milliseconds
+              99% <= 5461.82 milliseconds
+            99.9% <= 5846.06 milliseconds
+update
+             count = 106327
+         mean rate = 322.19 calls/second
+     1-minute rate = 327.67 calls/second
+     5-minute rate = 217.35 calls/second
+    15-minute rate = 99.33 calls/second
+               min = 117.94 milliseconds
+               max = 6139.47 milliseconds
+              mean = 2526.47 milliseconds
+            stddev = 1440.12 milliseconds
+            median = 2358.33 milliseconds
+              75% <= 3713.70 milliseconds
+              95% <= 4965.50 milliseconds
+              98% <= 5419.13 milliseconds
+              99% <= 5704.95 milliseconds
+            99.9% <= 6137.39 milliseconds
+
+
+9/9/15 9:17:15 PM ==============================================================
+
+-- Timers ----------------------------------------------------------------------
+add
+             count = 234027
+         mean rate = 650.06 calls/second
+     1-minute rate = 664.54 calls/second
+     5-minute rate = 463.99 calls/second
+    15-minute rate = 226.42 calls/second
+               min = 73.99 milliseconds
+               max = 5827.64 milliseconds
+              mean = 2376.73 milliseconds
+            stddev = 1388.82 milliseconds
+            median = 2335.68 milliseconds
+              75% <= 3502.79 milliseconds
+              95% <= 4640.04 milliseconds
+              98% <= 4948.68 milliseconds
+              99% <= 5134.86 milliseconds
+            99.9% <= 5821.76 milliseconds
+delete
+             count = 117530
+         mean rate = 326.46 calls/second
+     1-minute rate = 336.53 calls/second
+     5-minute rate = 231.12 calls/second
+    15-minute rate = 108.16 calls/second
+               min = 2.02 milliseconds
+               max = 7844.97 milliseconds
+              mean = 2549.78 milliseconds
+            stddev = 1493.96 milliseconds
+            median = 2489.42 milliseconds
+              75% <= 3786.95 milliseconds
+              95% <= 4955.68 milliseconds
+              98% <= 5295.07 milliseconds
+              99% <= 5691.37 milliseconds
+            99.9% <= 7793.34 milliseconds
+error
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+read
+             count = 233839
+         mean rate = 649.53 calls/second
+     1-minute rate = 664.23 calls/second
+     5-minute rate = 462.01 calls/second
+    15-minute rate = 221.52 calls/second
+               min = 72.12 milliseconds
+               max = 5595.54 milliseconds
+              mean = 2413.00 milliseconds
+            stddev = 1362.08 milliseconds
+            median = 2394.96 milliseconds
+              75% <= 3526.93 milliseconds
+              95% <= 4603.31 milliseconds
+              98% <= 4996.47 milliseconds
+              99% <= 5150.32 milliseconds
+            99.9% <= 5593.66 milliseconds
+total
+             count = 467822
+         mean rate = 1299.46 calls/second
+     1-minute rate = 1330.20 calls/second
+     5-minute rate = 923.31 calls/second
+    15-minute rate = 441.52 calls/second
+               min = 57.12 milliseconds
+               max = 5849.80 milliseconds
+              mean = 2496.92 milliseconds
+            stddev = 1450.50 milliseconds
+            median = 2460.54 milliseconds
+              75% <= 3700.71 milliseconds
+              95% <= 4786.35 milliseconds
+              98% <= 5157.98 milliseconds
+              99% <= 5439.63 milliseconds
+            99.9% <= 5846.06 milliseconds
+update
+             count = 116265
+         mean rate = 322.95 calls/second
+     1-minute rate = 329.13 calls/second
+     5-minute rate = 228.20 calls/second
+    15-minute rate = 106.93 calls/second
+               min = 117.94 milliseconds
+               max = 6139.47 milliseconds
+              mean = 2553.45 milliseconds
+            stddev = 1425.85 milliseconds
+            median = 2442.52 milliseconds
+              75% <= 3750.22 milliseconds
+              95% <= 4906.53 milliseconds
+              98% <= 5224.26 milliseconds
+              99% <= 5430.17 milliseconds
+            99.9% <= 6137.21 milliseconds
+
+
+9/9/15 9:17:45 PM ==============================================================
+
+-- Timers ----------------------------------------------------------------------
+add
+             count = 254960
+         mean rate = 653.73 calls/second
+     1-minute rate = 675.25 calls/second
+     5-minute rate = 486.11 calls/second
+    15-minute rate = 241.86 calls/second
+               min = 48.61 milliseconds
+               max = 5827.64 milliseconds
+              mean = 2412.82 milliseconds
+            stddev = 1404.37 milliseconds
+            median = 2351.49 milliseconds
+              75% <= 3507.30 milliseconds
+              95% <= 4699.90 milliseconds
+              98% <= 5033.63 milliseconds
+              99% <= 5276.50 milliseconds
+            99.9% <= 5824.70 milliseconds
+delete
+             count = 127892
+         mean rate = 327.92 calls/second
+     1-minute rate = 338.82 calls/second
+     5-minute rate = 241.93 calls/second
+    15-minute rate = 115.93 calls/second
+               min = 8.89 milliseconds
+               max = 6347.51 milliseconds
+              mean = 2597.99 milliseconds
+            stddev = 1524.64 milliseconds
+            median = 2502.44 milliseconds
+              75% <= 3884.01 milliseconds
+              95% <= 4978.98 milliseconds
+              98% <= 5462.72 milliseconds
+              99% <= 5756.28 milliseconds
+            99.9% <= 6345.41 milliseconds
+error
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+read
+             count = 254401
+         mean rate = 652.29 calls/second
+     1-minute rate = 670.12 calls/second
+     5-minute rate = 483.14 calls/second
+    15-minute rate = 236.72 calls/second
+               min = 79.03 milliseconds
+               max = 5749.43 milliseconds
+              mean = 2412.65 milliseconds
+            stddev = 1355.38 milliseconds
+            median = 2437.02 milliseconds
+              75% <= 3498.35 milliseconds
+              95% <= 4570.30 milliseconds
+              98% <= 4960.35 milliseconds
+              99% <= 5130.61 milliseconds
+            99.9% <= 5746.83 milliseconds
+total
+             count = 509314
+         mean rate = 1305.89 calls/second
+     1-minute rate = 1346.15 calls/second
+     5-minute rate = 966.80 calls/second
+    15-minute rate = 472.35 calls/second
+               min = 57.12 milliseconds
+               max = 6500.62 milliseconds
+              mean = 2528.48 milliseconds
+            stddev = 1479.98 milliseconds
+            median = 2502.34 milliseconds
+              75% <= 3752.23 milliseconds
+              95% <= 4902.85 milliseconds
+              98% <= 5278.60 milliseconds
+              99% <= 5456.65 milliseconds
+            99.9% <= 6491.81 milliseconds
+update
+             count = 126462
+         mean rate = 324.25 calls/second
+     1-minute rate = 332.09 calls/second
+     5-minute rate = 238.76 calls/second
+    15-minute rate = 114.56 calls/second
+               min = 117.94 milliseconds
+               max = 6272.77 milliseconds
+              mean = 2589.79 milliseconds
+            stddev = 1437.04 milliseconds
+            median = 2496.09 milliseconds
+              75% <= 3748.20 milliseconds
+              95% <= 4947.61 milliseconds
+              98% <= 5349.21 milliseconds
+              99% <= 5745.61 milliseconds
+            99.9% <= 6272.54 milliseconds
+
+
+9/9/15 9:18:15 PM ==============================================================
+
+-- Timers ----------------------------------------------------------------------
+add
+             count = 275894
+         mean rate = 656.87 calls/second
+     1-minute rate = 683.61 calls/second
+     5-minute rate = 506.24 calls/second
+    15-minute rate = 256.80 calls/second
+               min = 60.54 milliseconds
+               max = 5827.64 milliseconds
+              mean = 2380.06 milliseconds
+            stddev = 1349.84 milliseconds
+            median = 2299.03 milliseconds
+              75% <= 3442.84 milliseconds
+              95% <= 4566.01 milliseconds
+              98% <= 4984.97 milliseconds
+              99% <= 5329.98 milliseconds
+            99.9% <= 5824.70 milliseconds
+delete
+             count = 138138
+         mean rate = 328.89 calls/second
+     1-minute rate = 340.64 calls/second
+     5-minute rate = 251.43 calls/second
+    15-minute rate = 123.32 calls/second
+               min = 62.42 milliseconds
+               max = 6347.51 milliseconds
+              mean = 2610.09 milliseconds
+            stddev = 1485.33 milliseconds
+            median = 2554.44 milliseconds
+              75% <= 3782.51 milliseconds
+              95% <= 4991.43 milliseconds
+              98% <= 5351.21 milliseconds
+              99% <= 5718.14 milliseconds
+            99.9% <= 6340.55 milliseconds
+error
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+read
+             count = 275207
+         mean rate = 655.23 calls/second
+     1-minute rate = 678.89 calls/second
+     5-minute rate = 503.14 calls/second
+    15-minute rate = 251.69 calls/second
+               min = 41.08 milliseconds
+               max = 5749.43 milliseconds
+              mean = 2404.36 milliseconds
+            stddev = 1369.74 milliseconds
+            median = 2395.88 milliseconds
+              75% <= 3505.03 milliseconds
+              95% <= 4621.40 milliseconds
+              98% <= 5080.06 milliseconds
+              99% <= 5278.11 milliseconds
+            99.9% <= 5746.83 milliseconds
+total
+             count = 550761
+         mean rate = 1311.29 calls/second
+     1-minute rate = 1360.48 calls/second
+     5-minute rate = 1006.25 calls/second
+    15-minute rate = 502.14 calls/second
+               min = 74.30 milliseconds
+               max = 6500.62 milliseconds
+              mean = 2561.54 milliseconds
+            stddev = 1462.04 milliseconds
+            median = 2566.93 milliseconds
+              75% <= 3695.19 milliseconds
+              95% <= 4911.64 milliseconds
+              98% <= 5313.34 milliseconds
+              99% <= 5548.51 milliseconds
+            99.9% <= 6491.81 milliseconds
+update
+             count = 136729
+         mean rate = 325.53 calls/second
+     1-minute rate = 336.23 calls/second
+     5-minute rate = 248.58 calls/second
+    15-minute rate = 122.01 calls/second
+               min = 108.02 milliseconds
+               max = 6272.77 milliseconds
+              mean = 2598.99 milliseconds
+            stddev = 1461.09 milliseconds
+            median = 2510.91 milliseconds
+              75% <= 3791.15 milliseconds
+              95% <= 4940.21 milliseconds
+              98% <= 5385.04 milliseconds
+              99% <= 5786.10 milliseconds
+            99.9% <= 6272.54 milliseconds
+
+
+9/9/15 9:18:45 PM ==============================================================
+
+-- Timers ----------------------------------------------------------------------
+add
+             count = 295978
+         mean rate = 657.71 calls/second
+     1-minute rate = 684.05 calls/second
+     5-minute rate = 522.08 calls/second
+    15-minute rate = 270.37 calls/second
+               min = 62.89 milliseconds
+               max = 5827.64 milliseconds
+              mean = 2362.27 milliseconds
+            stddev = 1318.54 milliseconds
+            median = 2314.51 milliseconds
+              75% <= 3393.12 milliseconds
+              95% <= 4473.12 milliseconds
+              98% <= 4874.92 milliseconds
+              99% <= 5214.36 milliseconds
+            99.9% <= 5824.70 milliseconds
+delete
+             count = 148147
+         mean rate = 329.21 calls/second
+     1-minute rate = 340.95 calls/second
+     5-minute rate = 259.44 calls/second
+    15-minute rate = 130.25 calls/second
+               min = 62.42 milliseconds
+               max = 6347.51 milliseconds
+              mean = 2565.78 milliseconds
+            stddev = 1452.95 milliseconds
+            median = 2514.97 milliseconds
+              75% <= 3715.43 milliseconds
+              95% <= 4818.81 milliseconds
+              98% <= 5202.25 milliseconds
+              99% <= 5610.20 milliseconds
+            99.9% <= 6340.55 milliseconds
+error
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+read
+             count = 295144
+         mean rate = 655.86 calls/second
+     1-minute rate = 678.83 calls/second
+     5-minute rate = 518.79 calls/second
+    15-minute rate = 265.26 calls/second
+               min = 55.24 milliseconds
+               max = 5749.43 milliseconds
+              mean = 2408.69 milliseconds
+            stddev = 1354.48 milliseconds
+            median = 2391.71 milliseconds
+              75% <= 3464.48 milliseconds
+              95% <= 4537.95 milliseconds
+              98% <= 4952.02 milliseconds
+              99% <= 5216.67 milliseconds
+            99.9% <= 5746.83 milliseconds
+total
+             count = 591073
+         mean rate = 1313.45 calls/second
+     1-minute rate = 1365.70 calls/second
+     5-minute rate = 1039.05 calls/second
+    15-minute rate = 529.83 calls/second
+               min = 74.30 milliseconds
+               max = 6500.62 milliseconds
+              mean = 2493.91 milliseconds
+            stddev = 1398.10 milliseconds
+            median = 2496.56 milliseconds
+              75% <= 3564.74 milliseconds
+              95% <= 4778.39 milliseconds
+              98% <= 5184.58 milliseconds
+              99% <= 5432.55 milliseconds
+            99.9% <= 6491.81 milliseconds
+update
+             count = 146948
+         mean rate = 326.54 calls/second
+     1-minute rate = 340.70 calls/second
+     5-minute rate = 257.53 calls/second
+    15-minute rate = 129.21 calls/second
+               min = 126.23 milliseconds
+               max = 6264.62 milliseconds
+              mean = 2541.38 milliseconds
+            stddev = 1425.65 milliseconds
+            median = 2412.90 milliseconds
+              75% <= 3699.12 milliseconds
+              95% <= 4820.76 milliseconds
+              98% <= 5247.69 milliseconds
+              99% <= 5671.40 milliseconds
+            99.9% <= 6262.94 milliseconds
+
+
+9/9/15 9:19:15 PM ==============================================================
+
+-- Timers ----------------------------------------------------------------------
+add
+             count = 314060
+         mean rate = 654.28 calls/second
+     1-minute rate = 652.81 calls/second
+     5-minute rate = 529.78 calls/second
+    15-minute rate = 281.27 calls/second
+               min = 62.89 milliseconds
+               max = 6375.63 milliseconds
+              mean = 2442.29 milliseconds
+            stddev = 1430.98 milliseconds
+            median = 2369.44 milliseconds
+              75% <= 3522.01 milliseconds
+              95% <= 4815.73 milliseconds
+              98% <= 5610.76 milliseconds
+              99% <= 6095.22 milliseconds
+            99.9% <= 6375.28 milliseconds
+delete
+             count = 157113
+         mean rate = 327.31 calls/second
+     1-minute rate = 324.64 calls/second
+     5-minute rate = 263.19 calls/second
+    15-minute rate = 135.77 calls/second
+               min = 62.42 milliseconds
+               max = 7050.29 milliseconds
+              mean = 2594.62 milliseconds
+            stddev = 1505.75 milliseconds
+            median = 2556.56 milliseconds
+              75% <= 3744.09 milliseconds
+              95% <= 4975.53 milliseconds
+              98% <= 5375.38 milliseconds
+              99% <= 6075.30 milliseconds
+            99.9% <= 7043.11 milliseconds
+error
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+read
+             count = 313213
+         mean rate = 652.51 calls/second
+     1-minute rate = 649.57 calls/second
+     5-minute rate = 526.76 calls/second
+    15-minute rate = 276.31 calls/second
+               min = 55.24 milliseconds
+               max = 6377.71 milliseconds
+              mean = 2512.36 milliseconds
+            stddev = 1373.91 milliseconds
+            median = 2473.78 milliseconds
+              75% <= 3546.16 milliseconds
+              95% <= 4688.72 milliseconds
+              98% <= 5320.78 milliseconds
+              99% <= 5754.89 milliseconds
+            99.9% <= 6374.88 milliseconds
+total
+             count = 627084
+         mean rate = 1306.39 calls/second
+     1-minute rate = 1301.89 calls/second
+     5-minute rate = 1054.43 calls/second
+    15-minute rate = 551.81 calls/second
+               min = 74.30 milliseconds
+               max = 6573.26 milliseconds
+              mean = 2549.69 milliseconds
+            stddev = 1444.26 milliseconds
+            median = 2542.81 milliseconds
+              75% <= 3648.52 milliseconds
+              95% <= 4847.53 milliseconds
+              98% <= 5412.86 milliseconds
+              99% <= 5979.83 milliseconds
+            99.9% <= 6571.99 milliseconds
+update
+             count = 155911
+         mean rate = 324.81 calls/second
+     1-minute rate = 324.44 calls/second
+     5-minute rate = 261.46 calls/second
+    15-minute rate = 134.77 calls/second
+               min = 126.23 milliseconds
+               max = 6668.45 milliseconds
+              mean = 2670.78 milliseconds
+            stddev = 1487.41 milliseconds
+            median = 2570.12 milliseconds
+              75% <= 3886.84 milliseconds
+              95% <= 5027.07 milliseconds
+              98% <= 5767.23 milliseconds
+              99% <= 6344.61 milliseconds
+            99.9% <= 6667.48 milliseconds
+
+
+9/9/15 9:19:45 PM ==============================================================
+
+-- Timers ----------------------------------------------------------------------
+add
+             count = 335244
+         mean rate = 657.33 calls/second
+     1-minute rate = 676.54 calls/second
+     5-minute rate = 546.69 calls/second
+    15-minute rate = 295.21 calls/second
+               min = 62.89 milliseconds
+               max = 6363.79 milliseconds
+              mean = 2437.18 milliseconds
+            stddev = 1394.82 milliseconds
+            median = 2401.47 milliseconds
+              75% <= 3532.39 milliseconds
+              95% <= 4661.53 milliseconds
+              98% <= 5226.58 milliseconds
+              99% <= 5595.75 milliseconds
+            99.9% <= 6363.10 milliseconds
+delete
+             count = 167610
+         mean rate = 328.64 calls/second
+     1-minute rate = 335.74 calls/second
+     5-minute rate = 271.50 calls/second
+    15-minute rate = 142.80 calls/second
+               min = 62.42 milliseconds
+               max = 7050.29 milliseconds
+              mean = 2596.19 milliseconds
+            stddev = 1529.90 milliseconds
+            median = 2594.27 milliseconds
+              75% <= 3802.07 milliseconds
+              95% <= 4973.40 milliseconds
+              98% <= 5418.37 milliseconds
+              99% <= 5937.29 milliseconds
+            99.9% <= 7043.11 milliseconds
+error
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+read
+             count = 334280
+         mean rate = 655.44 calls/second
+     1-minute rate = 673.00 calls/second
+     5-minute rate = 543.60 calls/second
+    15-minute rate = 290.29 calls/second
+               min = 75.32 milliseconds
+               max = 6279.99 milliseconds
+              mean = 2514.03 milliseconds
+            stddev = 1407.76 milliseconds
+            median = 2484.32 milliseconds
+              75% <= 3617.33 milliseconds
+              95% <= 4767.22 milliseconds
+              98% <= 5344.20 milliseconds
+              99% <= 5607.40 milliseconds
+            99.9% <= 6276.89 milliseconds
+total
+             count = 669438
+         mean rate = 1312.59 calls/second
+     1-minute rate = 1350.68 calls/second
+     5-minute rate = 1088.71 calls/second
+    15-minute rate = 580.04 calls/second
+               min = 77.43 milliseconds
+               max = 6529.44 milliseconds
+              mean = 2548.15 milliseconds
+            stddev = 1470.56 milliseconds
+            median = 2523.20 milliseconds
+              75% <= 3692.96 milliseconds
+              95% <= 4955.18 milliseconds
+              98% <= 5417.41 milliseconds
+              99% <= 5755.12 milliseconds
+            99.9% <= 6525.44 milliseconds
+update
+             count = 166584
+         mean rate = 326.63 calls/second
+     1-minute rate = 338.39 calls/second
+     5-minute rate = 270.51 calls/second
+    15-minute rate = 142.03 calls/second
+               min = 152.92 milliseconds
+               max = 6635.23 milliseconds
+              mean = 2593.70 milliseconds
+            stddev = 1471.55 milliseconds
+            median = 2403.05 milliseconds
+              75% <= 3756.63 milliseconds
+              95% <= 4989.85 milliseconds
+              98% <= 5466.17 milliseconds
+              99% <= 6068.22 milliseconds
+            99.9% <= 6634.64 milliseconds
+
+
+9/9/15 9:20:15 PM ==============================================================
+
+-- Timers ----------------------------------------------------------------------
+add
+             count = 354555
+         mean rate = 656.57 calls/second
+     1-minute rate = 663.49 calls/second
+     5-minute rate = 555.91 calls/second
+    15-minute rate = 306.64 calls/second
+               min = 62.89 milliseconds
+               max = 6363.79 milliseconds
+              mean = 2429.63 milliseconds
+            stddev = 1385.75 milliseconds
+            median = 2334.18 milliseconds
+              75% <= 3560.24 milliseconds
+              95% <= 4629.52 milliseconds
+              98% <= 4998.50 milliseconds
+              99% <= 5473.71 milliseconds
+            99.9% <= 6363.10 milliseconds
+delete
+             count = 177273
+         mean rate = 328.28 calls/second
+     1-minute rate = 330.06 calls/second
+     5-minute rate = 276.30 calls/second
+    15-minute rate = 148.68 calls/second
+               min = 62.42 milliseconds
+               max = 7050.29 milliseconds
+              mean = 2550.50 milliseconds
+            stddev = 1505.29 milliseconds
+            median = 2471.34 milliseconds
+              75% <= 3744.90 milliseconds
+              95% <= 4992.14 milliseconds
+              98% <= 5294.75 milliseconds
+              99% <= 5721.77 milliseconds
+            99.9% <= 7024.37 milliseconds
+error
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+read
+             count = 353626
+         mean rate = 654.85 calls/second
+     1-minute rate = 661.64 calls/second
+     5-minute rate = 553.21 calls/second
+    15-minute rate = 301.91 calls/second
+               min = 75.32 milliseconds
+               max = 6279.99 milliseconds
+              mean = 2439.61 milliseconds
+            stddev = 1398.31 milliseconds
+            median = 2364.31 milliseconds
+              75% <= 3534.87 milliseconds
+              95% <= 4645.67 milliseconds
+              98% <= 5039.31 milliseconds
+              99% <= 5404.22 milliseconds
+            99.9% <= 6276.89 milliseconds
+total
+             count = 708138
+         mean rate = 1311.33 calls/second
+     1-minute rate = 1326.33 calls/second
+     5-minute rate = 1107.82 calls/second
+    15-minute rate = 603.31 calls/second
+               min = 46.68 milliseconds
+               max = 6391.69 milliseconds
+              mean = 2426.60 milliseconds
+            stddev = 1449.89 milliseconds
+            median = 2330.65 milliseconds
+              75% <= 3565.90 milliseconds
+              95% <= 4841.80 milliseconds
+              98% <= 5237.28 milliseconds
+              99% <= 5595.14 milliseconds
+            99.9% <= 6390.18 milliseconds
+update
+             count = 176310
+         mean rate = 326.49 calls/second
+     1-minute rate = 332.78 calls/second
+     5-minute rate = 275.61 calls/second
+    15-minute rate = 148.00 calls/second
+               min = 101.57 milliseconds
+               max = 6635.23 milliseconds
+              mean = 2560.74 milliseconds
+            stddev = 1461.31 milliseconds
+            median = 2377.62 milliseconds
+              75% <= 3710.15 milliseconds
+              95% <= 4974.75 milliseconds
+              98% <= 5378.90 milliseconds
+              99% <= 5805.46 milliseconds
+            99.9% <= 6634.64 milliseconds
+
+
+9/9/15 9:20:45 PM ==============================================================
+
+-- Timers ----------------------------------------------------------------------
+add
+             count = 372009
+         mean rate = 652.64 calls/second
+     1-minute rate = 622.43 calls/second
+     5-minute rate = 557.96 calls/second
+    15-minute rate = 315.61 calls/second
+               min = 49.47 milliseconds
+               max = 6334.95 milliseconds
+              mean = 2305.31 milliseconds
+            stddev = 1369.78 milliseconds
+            median = 2208.79 milliseconds
+              75% <= 3428.22 milliseconds
+              95% <= 4526.98 milliseconds
+              98% <= 4823.39 milliseconds
+              99% <= 5011.35 milliseconds
+            99.9% <= 6317.29 milliseconds
+delete
+             count = 185823
+         mean rate = 326.00 calls/second
+     1-minute rate = 307.73 calls/second
+     5-minute rate = 276.91 calls/second
+    15-minute rate = 153.12 calls/second
+               min = 62.42 milliseconds
+               max = 7050.29 milliseconds
+              mean = 2469.07 milliseconds
+            stddev = 1528.29 milliseconds
+            median = 2330.20 milliseconds
+              75% <= 3756.20 milliseconds
+              95% <= 4983.83 milliseconds
+              98% <= 5153.37 milliseconds
+              99% <= 5354.15 milliseconds
+            99.9% <= 7024.37 milliseconds
+error
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+read
+             count = 370992
+         mean rate = 650.85 calls/second
+     1-minute rate = 620.19 calls/second
+     5-minute rate = 555.24 calls/second
+    15-minute rate = 310.95 calls/second
+               min = 56.64 milliseconds
+               max = 6279.99 milliseconds
+              mean = 2370.66 milliseconds
+            stddev = 1392.94 milliseconds
+            median = 2317.67 milliseconds
+              75% <= 3471.25 milliseconds
+              95% <= 4617.25 milliseconds
+              98% <= 4907.96 milliseconds
+              99% <= 5366.27 milliseconds
+            99.9% <= 6276.89 milliseconds
+total
+             count = 742787
+         mean rate = 1303.11 calls/second
+     1-minute rate = 1241.28 calls/second
+     5-minute rate = 1111.49 calls/second
+    15-minute rate = 621.30 calls/second
+               min = 27.16 milliseconds
+               max = 6339.76 milliseconds
+              mean = 2381.81 milliseconds
+            stddev = 1398.05 milliseconds
+            median = 2285.97 milliseconds
+              75% <= 3493.61 milliseconds
+              95% <= 4744.31 milliseconds
+              98% <= 5043.32 milliseconds
+              99% <= 5247.99 milliseconds
+            99.9% <= 6335.62 milliseconds
+update
+             count = 184955
+         mean rate = 324.47 calls/second
+     1-minute rate = 311.11 calls/second
+     5-minute rate = 276.62 calls/second
+    15-minute rate = 152.57 calls/second
+               min = 101.57 milliseconds
+               max = 6635.23 milliseconds
+              mean = 2505.01 milliseconds
+            stddev = 1468.32 milliseconds
+            median = 2314.17 milliseconds
+              75% <= 3685.34 milliseconds
+              95% <= 4981.12 milliseconds
+              98% <= 5299.57 milliseconds
+              99% <= 5651.56 milliseconds
+            99.9% <= 6634.64 milliseconds
+
+
+9/9/15 9:21:15 PM ==============================================================
+
+-- Timers ----------------------------------------------------------------------
+add
+             count = 392397
+         mean rate = 653.98 calls/second
+     1-minute rate = 642.40 calls/second
+     5-minute rate = 569.41 calls/second
+    15-minute rate = 327.53 calls/second
+               min = 49.47 milliseconds
+               max = 6334.95 milliseconds
+              mean = 2326.68 milliseconds
+            stddev = 1378.19 milliseconds
+            median = 2208.41 milliseconds
+              75% <= 3448.40 milliseconds
+              95% <= 4642.09 milliseconds
+              98% <= 4959.02 milliseconds
+              99% <= 5197.95 milliseconds
+            99.9% <= 6312.12 milliseconds
+delete
+             count = 196031
+         mean rate = 326.71 calls/second
+     1-minute rate = 319.22 calls/second
+     5-minute rate = 282.87 calls/second
+    15-minute rate = 159.25 calls/second
+               min = 62.42 milliseconds
+               max = 7050.29 milliseconds
+              mean = 2563.92 milliseconds
+            stddev = 1492.51 milliseconds
+            median = 2503.86 milliseconds
+              75% <= 3767.61 milliseconds
+              95% <= 5052.01 milliseconds
+              98% <= 5431.26 milliseconds
+              99% <= 5665.97 milliseconds
+            99.9% <= 7022.95 milliseconds
+error
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+read
+             count = 391315
+         mean rate = 652.18 calls/second
+     1-minute rate = 640.19 calls/second
+     5-minute rate = 566.73 calls/second
+    15-minute rate = 322.94 calls/second
+               min = 56.64 milliseconds
+               max = 6089.62 milliseconds
+              mean = 2431.43 milliseconds
+            stddev = 1403.36 milliseconds
+            median = 2386.74 milliseconds
+              75% <= 3581.38 milliseconds
+              95% <= 4713.87 milliseconds
+              98% <= 5019.01 milliseconds
+              99% <= 5312.88 milliseconds
+            99.9% <= 6079.98 milliseconds
+total
+             count = 783474
+         mean rate = 1305.76 calls/second
+     1-minute rate = 1281.25 calls/second
+     5-minute rate = 1134.51 calls/second
+    15-minute rate = 645.36 calls/second
+               min = 27.16 milliseconds
+               max = 6339.76 milliseconds
+              mean = 2426.93 milliseconds
+            stddev = 1427.09 milliseconds
+            median = 2332.07 milliseconds
+              75% <= 3557.33 milliseconds
+              95% <= 4864.27 milliseconds
+              98% <= 5218.48 milliseconds
+              99% <= 5503.17 milliseconds
+            99.9% <= 6335.62 milliseconds
+update
+             count = 195046
+         mean rate = 325.07 calls/second
+     1-minute rate = 319.62 calls/second
+     5-minute rate = 282.23 calls/second
+    15-minute rate = 158.59 calls/second
+               min = 101.57 milliseconds
+               max = 6614.74 milliseconds
+              mean = 2616.20 milliseconds
+            stddev = 1495.02 milliseconds
+            median = 2444.09 milliseconds
+              75% <= 3861.57 milliseconds
+              95% <= 5150.48 milliseconds
+              98% <= 5373.28 milliseconds
+              99% <= 5627.80 milliseconds
+            99.9% <= 6613.51 milliseconds
+
+
+9/9/15 9:21:45 PM ==============================================================
+
+-- Timers ----------------------------------------------------------------------
+add
+             count = 413386
+         mean rate = 656.16 calls/second
+     1-minute rate = 665.31 calls/second
+     5-minute rate = 581.81 calls/second
+    15-minute rate = 339.73 calls/second
+               min = 49.47 milliseconds
+               max = 6334.95 milliseconds
+              mean = 2293.58 milliseconds
+            stddev = 1376.88 milliseconds
+            median = 2143.70 milliseconds
+              75% <= 3351.82 milliseconds
+              95% <= 4663.42 milliseconds
+              98% <= 5034.52 milliseconds
+              99% <= 5172.41 milliseconds
+            99.9% <= 6312.12 milliseconds
+delete
+             count = 206779
+         mean rate = 328.22 calls/second
+     1-minute rate = 334.98 calls/second
+     5-minute rate = 290.07 calls/second
+    15-minute rate = 165.77 calls/second
+               min = 68.79 milliseconds
+               max = 7050.29 milliseconds
+              mean = 2572.59 milliseconds
+            stddev = 1492.93 milliseconds
+            median = 2530.44 milliseconds
+              75% <= 3810.71 milliseconds
+              95% <= 5048.54 milliseconds
+              98% <= 5372.47 milliseconds
+              99% <= 5463.54 milliseconds
+            99.9% <= 7020.65 milliseconds
+error
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+read
+             count = 412524
+         mean rate = 654.79 calls/second
+     1-minute rate = 666.30 calls/second
+     5-minute rate = 580.06 calls/second
+    15-minute rate = 335.53 calls/second
+               min = 23.34 milliseconds
+               max = 5757.12 milliseconds
+              mean = 2473.23 milliseconds
+            stddev = 1431.35 milliseconds
+            median = 2422.97 milliseconds
+              75% <= 3642.37 milliseconds
+              95% <= 4809.01 milliseconds
+              98% <= 5044.96 milliseconds
+              99% <= 5204.19 milliseconds
+            99.9% <= 5752.51 milliseconds
+total
+             count = 825843
+         mean rate = 1310.84 calls/second
+     1-minute rate = 1334.47 calls/second
+     5-minute rate = 1161.01 calls/second
+    15-minute rate = 670.51 calls/second
+               min = 27.16 milliseconds
+               max = 6339.76 milliseconds
+              mean = 2441.33 milliseconds
+            stddev = 1457.87 milliseconds
+            median = 2345.14 milliseconds
+              75% <= 3584.12 milliseconds
+              95% <= 4913.76 milliseconds
+              98% <= 5216.61 milliseconds
+              99% <= 5394.95 milliseconds
+            99.9% <= 6335.62 milliseconds
+update
+             count = 205678
+         mean rate = 326.47 calls/second
+     1-minute rate = 334.19 calls/second
+     5-minute rate = 289.14 calls/second
+    15-minute rate = 165.01 calls/second
+               min = 101.57 milliseconds
+               max = 6614.74 milliseconds
+              mean = 2732.92 milliseconds
+            stddev = 1485.31 milliseconds
+            median = 2727.76 milliseconds
+              75% <= 3965.61 milliseconds
+              95% <= 5126.03 milliseconds
+              98% <= 5383.51 milliseconds
+              99% <= 5603.35 milliseconds
+            99.9% <= 6606.99 milliseconds
+
+
+9/9/15 9:22:15 PM ==============================================================
+
+-- Timers ----------------------------------------------------------------------
+add
+             count = 430704
+         mean rate = 652.57 calls/second
+     1-minute rate = 627.97 calls/second
+     5-minute rate = 581.24 calls/second
+    15-minute rate = 347.50 calls/second
+               min = 62.89 milliseconds
+               max = 6334.95 milliseconds
+              mean = 2326.34 milliseconds
+            stddev = 1371.11 milliseconds
+            median = 2195.27 milliseconds
+              75% <= 3404.10 milliseconds
+              95% <= 4604.78 milliseconds
+              98% <= 5057.14 milliseconds
+              99% <= 5244.25 milliseconds
+            99.9% <= 6315.21 milliseconds
+delete
+             count = 215387
+         mean rate = 326.34 calls/second
+     1-minute rate = 314.93 calls/second
+     5-minute rate = 289.71 calls/second
+    15-minute rate = 169.74 calls/second
+               min = 28.14 milliseconds
+               max = 7050.29 milliseconds
+              mean = 2594.85 milliseconds
+            stddev = 1492.92 milliseconds
+            median = 2517.87 milliseconds
+              75% <= 3840.03 milliseconds
+              95% <= 5068.05 milliseconds
+              98% <= 5417.84 milliseconds
+              99% <= 5680.64 milliseconds
+            99.9% <= 7020.65 milliseconds
+error
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+read
+             count = 429924
+         mean rate = 651.39 calls/second
+     1-minute rate = 629.66 calls/second
+     5-minute rate = 579.92 calls/second
+    15-minute rate = 343.53 calls/second
+               min = 51.80 milliseconds
+               max = 5653.13 milliseconds
+              mean = 2373.78 milliseconds
+            stddev = 1437.78 milliseconds
+            median = 2314.88 milliseconds
+              75% <= 3523.58 milliseconds
+              95% <= 4817.02 milliseconds
+              98% <= 5043.91 milliseconds
+              99% <= 5226.00 milliseconds
+            99.9% <= 5651.54 milliseconds
+total
+             count = 860451
+         mean rate = 1303.69 calls/second
+     1-minute rate = 1257.74 calls/second
+     5-minute rate = 1160.03 calls/second
+    15-minute rate = 686.32 calls/second
+               min = 27.16 milliseconds
+               max = 6197.02 milliseconds
+              mean = 2425.29 milliseconds
+            stddev = 1436.75 milliseconds
+            median = 2294.52 milliseconds
+              75% <= 3559.62 milliseconds
+              95% <= 4892.23 milliseconds
+              98% <= 5194.47 milliseconds
+              99% <= 5474.67 milliseconds
+            99.9% <= 6189.25 milliseconds
+update
+             count = 214360
+         mean rate = 324.78 calls/second
+     1-minute rate = 314.84 calls/second
+     5-minute rate = 289.08 calls/second
+    15-minute rate = 169.08 calls/second
+               min = 101.57 milliseconds
+               max = 6347.36 milliseconds
+              mean = 2739.87 milliseconds
+            stddev = 1471.73 milliseconds
+            median = 2693.54 milliseconds
+              75% <= 3959.86 milliseconds
+              95% <= 5142.27 milliseconds
+              98% <= 5431.89 milliseconds
+              99% <= 5739.63 milliseconds
+            99.9% <= 6337.09 milliseconds
+
+
+9/9/15 9:22:45 PM ==============================================================
+
+-- Timers ----------------------------------------------------------------------
+add
+             count = 452469
+         mean rate = 655.74 calls/second
+     1-minute rate = 668.34 calls/second
+     5-minute rate = 595.07 calls/second
+    15-minute rate = 359.90 calls/second
+               min = 62.89 milliseconds
+               max = 6334.95 milliseconds
+              mean = 2410.65 milliseconds
+            stddev = 1408.66 milliseconds
+            median = 2278.61 milliseconds
+              75% <= 3569.58 milliseconds
+              95% <= 4790.81 milliseconds
+              98% <= 5151.24 milliseconds
+              99% <= 5453.92 milliseconds
+            99.9% <= 6324.85 milliseconds
+delete
+             count = 226291
+         mean rate = 327.95 calls/second
+     1-minute rate = 334.86 calls/second
+     5-minute rate = 296.77 calls/second
+    15-minute rate = 176.10 calls/second
+               min = 70.73 milliseconds
+               max = 6491.81 milliseconds
+              mean = 2670.11 milliseconds
+            stddev = 1544.78 milliseconds
+            median = 2516.98 milliseconds
+              75% <= 3916.86 milliseconds
+              95% <= 5203.92 milliseconds
+              98% <= 5653.75 milliseconds
+              99% <= 5867.29 milliseconds
+            99.9% <= 6491.60 milliseconds
+error
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+read
+             count = 451786
+         mean rate = 654.75 calls/second
+     1-minute rate = 670.15 calls/second
+     5-minute rate = 594.15 calls/second
+    15-minute rate = 356.17 calls/second
+               min = 51.80 milliseconds
+               max = 5919.69 milliseconds
+              mean = 2504.33 milliseconds
+            stddev = 1453.02 milliseconds
+            median = 2420.72 milliseconds
+              75% <= 3735.11 milliseconds
+              95% <= 4905.57 milliseconds
+              98% <= 5207.60 milliseconds
+              99% <= 5373.32 milliseconds
+            99.9% <= 5919.17 milliseconds
+total
+             count = 904247
+         mean rate = 1310.48 calls/second
+     1-minute rate = 1340.90 calls/second
+     5-minute rate = 1188.74 calls/second
+    15-minute rate = 711.70 calls/second
+               min = 46.68 milliseconds
+               max = 6687.44 milliseconds
+              mean = 2573.91 milliseconds
+            stddev = 1463.99 milliseconds
+            median = 2483.19 milliseconds
+              75% <= 3803.56 milliseconds
+              95% <= 4987.65 milliseconds
+              98% <= 5345.04 milliseconds
+              99% <= 5674.93 milliseconds
+            99.9% <= 6687.29 milliseconds
+update
+             count = 225487
+         mean rate = 326.79 calls/second
+     1-minute rate = 337.69 calls/second
+     5-minute rate = 296.90 calls/second
+    15-minute rate = 175.70 calls/second
+               min = 113.16 milliseconds
+               max = 6685.81 milliseconds
+              mean = 2778.95 milliseconds
+            stddev = 1543.36 milliseconds
+            median = 2731.89 milliseconds
+              75% <= 4037.13 milliseconds
+              95% <= 5286.53 milliseconds
+              98% <= 5618.86 milliseconds
+              99% <= 5825.30 milliseconds
+            99.9% <= 6679.52 milliseconds
+
+
+9/9/15 9:23:15 PM ==============================================================
+
+-- Timers ----------------------------------------------------------------------
+add
+             count = 470951
+         mean rate = 654.09 calls/second
+     1-minute rate = 647.24 calls/second
+     5-minute rate = 597.02 calls/second
+    15-minute rate = 368.30 calls/second
+               min = 55.38 milliseconds
+               max = 5974.45 milliseconds
+              mean = 2430.75 milliseconds
+            stddev = 1418.96 milliseconds
+            median = 2273.97 milliseconds
+              75% <= 3603.09 milliseconds
+              95% <= 4795.56 milliseconds
+              98% <= 5159.15 milliseconds
+              99% <= 5338.82 milliseconds
+            99.9% <= 5972.68 milliseconds
+delete
+             count = 235365
+         mean rate = 326.89 calls/second
+     1-minute rate = 322.01 calls/second
+     5-minute rate = 297.30 calls/second
+    15-minute rate = 180.24 calls/second
+               min = 70.73 milliseconds
+               max = 6491.81 milliseconds
+              mean = 2633.03 milliseconds
+            stddev = 1538.64 milliseconds
+            median = 2471.74 milliseconds
+              75% <= 3869.59 milliseconds
+              95% <= 5200.46 milliseconds
+              98% <= 5505.40 milliseconds
+              99% <= 5773.99 milliseconds
+            99.9% <= 6490.12 milliseconds
+error
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+read
+             count = 470248
+         mean rate = 653.11 calls/second
+     1-minute rate = 648.62 calls/second
+     5-minute rate = 596.16 calls/second
+    15-minute rate = 364.66 calls/second
+               min = 8.51 milliseconds
+               max = 5919.69 milliseconds
+              mean = 2473.67 milliseconds
+            stddev = 1437.38 milliseconds
+            median = 2371.34 milliseconds
+              75% <= 3659.72 milliseconds
+              95% <= 4827.30 milliseconds
+              98% <= 5162.08 milliseconds
+              99% <= 5341.50 milliseconds
+            99.9% <= 5919.14 milliseconds
+total
+             count = 940995
+         mean rate = 1306.91 calls/second
+     1-minute rate = 1294.76 calls/second
+     5-minute rate = 1192.12 calls/second
+    15-minute rate = 728.52 calls/second
+               min = 34.20 milliseconds
+               max = 6681.98 milliseconds
+              mean = 2572.85 milliseconds
+            stddev = 1459.85 milliseconds
+            median = 2527.79 milliseconds
+              75% <= 3787.72 milliseconds
+              95% <= 4952.56 milliseconds
+              98% <= 5345.04 milliseconds
+              99% <= 5606.43 milliseconds
+            99.9% <= 6676.47 milliseconds
+update
+             count = 234679
+         mean rate = 325.94 calls/second
+     1-minute rate = 325.52 calls/second
+     5-minute rate = 297.81 calls/second
+    15-minute rate = 179.99 calls/second
+               min = 113.16 milliseconds
+               max = 6685.81 milliseconds
+              mean = 2796.53 milliseconds
+            stddev = 1506.05 milliseconds
+            median = 2716.07 milliseconds
+              75% <= 4002.54 milliseconds
+              95% <= 5211.82 milliseconds
+              98% <= 5523.64 milliseconds
+              99% <= 5807.56 milliseconds
+            99.9% <= 6679.52 milliseconds
+
+
+9/9/15 9:23:45 PM ==============================================================
+
+-- Timers ----------------------------------------------------------------------
+add
+             count = 492327
+         mean rate = 656.43 calls/second
+     1-minute rate = 675.16 calls/second
+     5-minute rate = 608.10 calls/second
+    15-minute rate = 379.59 calls/second
+               min = 35.02 milliseconds
+               max = 6353.08 milliseconds
+              mean = 2370.81 milliseconds
+            stddev = 1463.52 milliseconds
+            median = 2204.41 milliseconds
+              75% <= 3468.66 milliseconds
+              95% <= 4923.40 milliseconds
+              98% <= 5402.12 milliseconds
+              99% <= 5967.85 milliseconds
+            99.9% <= 6350.78 milliseconds
+delete
+             count = 246310
+         mean rate = 328.41 calls/second
+     1-minute rate = 340.42 calls/second
+     5-minute rate = 303.79 calls/second
+    15-minute rate = 186.30 calls/second
+               min = 19.73 milliseconds
+               max = 6936.95 milliseconds
+              mean = 2597.83 milliseconds
+            stddev = 1534.96 milliseconds
+            median = 2419.42 milliseconds
+              75% <= 3746.82 milliseconds
+              95% <= 5259.98 milliseconds
+              98% <= 5766.71 milliseconds
+              99% <= 6102.91 milliseconds
+            99.9% <= 6936.69 milliseconds
+error
+             count = 0
+         mean rate = 0.00 calls/second
+     1-minute rate = 0.00 calls/second
+     5-minute rate = 0.00 calls/second
+    15-minute rate = 0.00 calls/second
+               min = 0.00 milliseconds
+               max = 0.00 milliseconds
+              mean = 0.00 milliseconds
+            stddev = 0.00 milliseconds
+            median = 0.00 milliseconds
+              75% <= 0.00 milliseconds
+              95% <= 0.00 milliseconds
+              98% <= 0.00 milliseconds
+              99% <= 0.00 milliseconds
+            99.9% <= 0.00 milliseconds
+read
+             count = 491535
+         mean rate = 655.37 calls/second
+     1-minute rate = 675.16 calls/second
+     5-minute rate = 607.06 calls/second
+    15-minute rate = 375.98 calls/second
+               min = 8.51 milliseconds
+               max = 6352.94 milliseconds
+              mean = 2416.05 milliseconds
+            stddev = 1461.72 milliseconds
+            median = 2328.05 milliseconds
+              75% <= 3524.86 milliseconds
+              95% <= 4936.56 milliseconds
+              98% <= 5361.52 milliseconds
+              99% <= 5857.94 milliseconds
+            99.9% <= 6352.48 milliseconds
+total
+             count = 983819
+         mean rate = 1311.74 calls/second
+     1-minute rate = 1352.44 calls/second
+     5-minute rate = 1214.74 calls/second
+    15-minute rate = 751.46 calls/second
+               min = 34.20 milliseconds
+               max = 6951.24 milliseconds
+              mean = 2554.18 milliseconds
+            stddev = 1492.69 milliseconds
+            median = 2459.55 milliseconds
+              75% <= 3688.22 milliseconds
+              95% <= 5096.21 milliseconds
+              98% <= 5737.41 milliseconds
+              99% <= 6249.89 milliseconds
+            99.9% <= 6938.64 milliseconds
+update
+             count = 245183
+         mean rate = 326.90 calls/second
+     1-minute rate = 336.84 calls/second
+     5-minute rate = 302.85 calls/second
+    15-minute rate = 185.57 calls/second
+               min = 162.60 milliseconds
+               max = 7005.28 milliseconds
+              mean = 2690.96 milliseconds
+            stddev = 1499.73 milliseconds
+            median = 2500.47 milliseconds
+              75% <= 3818.10 milliseconds
+              95% <= 5289.79 milliseconds
+              98% <= 5783.44 milliseconds
+              99% <= 6237.46 milliseconds
+            99.9% <= 7005.14 milliseconds
+
+
+Waiting for 407
