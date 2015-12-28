@@ -1,0 +1,552 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        <style>body { margin: 15px; }</style>
+    </head>
+    <body>
+    <h2>Daily C*Perf Regression Dashboard
+    </h2>
+        <h3>daily_regressions_trunk-repair_10M</h3>
+        <h4>Most Recent Test Run: 
+            <a href="http://cstar.datastax.com/tests/id/849ae33c-ac3c-11e5-a8c6-0256e416528f">Details</a> 
+            <a href="http://cstar.datastax.com/tests/artifacts/849ae33c-ac3c-11e5-a8c6-0256e416528f/graph">Graph</a></br>
+        </h4>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-repair_10M/2538000/graph/4_read/op_rate.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial read throughput
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-repair_10M/2538000/graph/5_read/op_rate.png'/>
+                    </a>
+                    <div class="caption">
+                        Second read throughput
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-repair_10M/2538000/graph/4_read/99.9th_latency.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial read P99.9
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-repair_10M/2538000/graph/5_read/99.9th_latency.png'/>
+                    </a>
+                    <div class="caption">
+                        Second read P99.9
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <h3>daily_regressions_trunk-read_write</h3>
+        <h4>Most Recent Test Run: 
+            <a href="http://cstar.datastax.com/tests/id/e93f2d24-ad05-11e5-a8c6-0256e416528f">Details</a> 
+            <a href="http://cstar.datastax.com/tests/artifacts/e93f2d24-ad05-11e5-a8c6-0256e416528f/graph">Graph</a></br>
+        </h4>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-read_write/2538000/graph/1_write/op_rate.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial write throughput
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-read_write/2538000/graph/2_read/op_rate.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial read throughput
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-read_write/2538000/graph/3_read/op_rate.png'/>
+                    </a>
+                    <div class="caption">
+                        Second read throughput
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-read_write/2538000/graph/1_write/99.9th_latency.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial write P99.9
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-read_write/2538000/graph/2_read/99.9th_latency.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial read P99.9
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-read_write/2538000/graph/3_read/99.9th_latency.png'/>
+                    </a>
+                    <div class="caption">
+                        Second read P99.9
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <h3>daily_regressions_trunk-compaction_dtcs</h3>
+        <h4>Most Recent Test Run: 
+            <a href="http://cstar.datastax.com/tests/id/853e0cf6-ac3c-11e5-8d8a-0256e416528f">Details</a> 
+            <a href="http://cstar.datastax.com/tests/artifacts/853e0cf6-ac3c-11e5-8d8a-0256e416528f/graph">Graph</a></br>
+        </h4>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-compaction_dtcs/2538000/graph/1_write/op_rate.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial write throughput
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-compaction_dtcs/2538000/graph/4_read/op_rate.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial read throughput
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-compaction_dtcs/2538000/graph/5_read/op_rate.png'/>
+                    </a>
+                    <div class="caption">
+                        Second read throughput
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-compaction_dtcs/2538000/graph/1_write/99.9th_latency.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial write P99.9
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-compaction_dtcs/2538000/graph/4_read/99.9th_latency.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial read P99.9
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-compaction_dtcs/2538000/graph/5_read/99.9th_latency.png'/>
+                    </a>
+                    <div class="caption">
+                        Second read P99.9
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <h3>daily_regressions_trunk-compaction</h3>
+        <h4>Most Recent Test Run: 
+            <a href="http://cstar.datastax.com/tests/id/e98e9ed6-ad05-11e5-9800-0256e416528f">Details</a> 
+            <a href="http://cstar.datastax.com/tests/artifacts/e98e9ed6-ad05-11e5-9800-0256e416528f/graph">Graph</a></br>
+        </h4>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-compaction/2538000/graph/1_write/op_rate.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial write throughput
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-compaction/2538000/graph/4_read/op_rate.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial read throughput
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-compaction/2538000/graph/5_read/op_rate.png'/>
+                    </a>
+                    <div class="caption">
+                        Second read throughput
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-compaction/2538000/graph/1_write/99.9th_latency.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial write P99.9
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-compaction/2538000/graph/4_read/99.9th_latency.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial read P99.9
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-compaction/2538000/graph/5_read/99.9th_latency.png'/>
+                    </a>
+                    <div class="caption">
+                        Second read P99.9
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <h3>daily_regressions_trunk-compaction_lcs</h3>
+        <h4>Most Recent Test Run: 
+            <a href="http://cstar.datastax.com/tests/id/8595e78c-ac3c-11e5-947f-0256e416528f">Details</a> 
+            <a href="http://cstar.datastax.com/tests/artifacts/8595e78c-ac3c-11e5-947f-0256e416528f/graph">Graph</a></br>
+        </h4>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-compaction_lcs/2538000/graph/1_write/op_rate.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial write throughput
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-compaction_lcs/2538000/graph/4_read/op_rate.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial read throughput
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-compaction_lcs/2538000/graph/5_read/op_rate.png'/>
+                    </a>
+                    <div class="caption">
+                        Second read throughput
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-compaction_lcs/2538000/graph/1_write/99.9th_latency.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial write P99.9
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-compaction_lcs/2538000/graph/4_read/99.9th_latency.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial read P99.9
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-compaction_lcs/2538000/graph/5_read/99.9th_latency.png'/>
+                    </a>
+                    <div class="caption">
+                        Second read P99.9
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <h3>daily_regressions_trunk-commitlog_sync</h3>
+        <h4>Most Recent Test Run: 
+            <a href="http://cstar.datastax.com/tests/id/85ec9352-ac3c-11e5-947f-0256e416528f">Details</a> 
+            <a href="http://cstar.datastax.com/tests/artifacts/85ec9352-ac3c-11e5-947f-0256e416528f/graph">Graph</a></br>
+        </h4>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-commitlog_sync/2538000/graph/1_write/op_rate.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial write throughput
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-commitlog_sync/2538000/graph/2_read/op_rate.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial read throughput
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-commitlog_sync/2538000/graph/3_read/op_rate.png'/>
+                    </a>
+                    <div class="caption">
+                        Second read throughput
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-commitlog_sync/2538000/graph/1_write/99.9th_latency.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial write P99.9
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-commitlog_sync/2538000/graph/2_read/99.9th_latency.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial read P99.9
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-commitlog_sync/2538000/graph/3_read/99.9th_latency.png'/>
+                    </a>
+                    <div class="caption">
+                        Second read P99.9
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <h3>daily_regressions_trunk-compaction_stcs</h3>
+        <h4>Most Recent Test Run: 
+            <a href="http://cstar.datastax.com/tests/id/84e60b8c-ac3c-11e5-947f-0256e416528f">Details</a> 
+            <a href="http://cstar.datastax.com/tests/artifacts/84e60b8c-ac3c-11e5-947f-0256e416528f/graph">Graph</a></br>
+        </h4>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-compaction_stcs/2538000/graph/1_write/op_rate.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial write throughput
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-compaction_stcs/2538000/graph/4_read/op_rate.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial read throughput
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-compaction_stcs/2538000/graph/5_read/op_rate.png'/>
+                    </a>
+                    <div class="caption">
+                        Second read throughput
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-compaction_stcs/2538000/graph/1_write/99.9th_latency.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial write P99.9
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-compaction_stcs/2538000/graph/4_read/99.9th_latency.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial read P99.9
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-compaction_stcs/2538000/graph/5_read/99.9th_latency.png'/>
+                    </a>
+                    <div class="caption">
+                        Second read P99.9
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <h3>daily_regressions_trunk-rolling_upgrade</h3>
+        <h4>Most Recent Test Run: 
+            <a href="http://cstar.datastax.com/tests/id/e8e34b58-ad05-11e5-947f-0256e416528f">Details</a> 
+            <a href="http://cstar.datastax.com/tests/artifacts/e8e34b58-ad05-11e5-947f-0256e416528f/graph">Graph</a></br>
+        </h4>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-rolling_upgrade/2538000/graph/4_write/op_rate.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial write throughput
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-rolling_upgrade/2538000/graph/5_read/op_rate.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial read throughput
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-rolling_upgrade/2538000/graph/4_write/99.9th_latency.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial write P99.9
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#" class="popimage">
+                        <img src='http://cstar.datastax.com/api/series/daily_regressions_trunk-rolling_upgrade/2538000/graph/5_read/99.9th_latency.png'/>
+                    </a>
+                    <div class="caption">
+                        Initial read P99.9
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/>
+        
+        <!-- Creates the bootstrap modal where the image will appear -->
+        <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel">Full Size</h4>
+              </div>
+              <div class="modal-body">
+                <img src="" id="imagepreview">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <script>
+            $(document).ready(function() {
+                $(".popimage").on("click", function(e) {
+                   e.preventDefault();
+
+                   $('#imagepreview').attr('src', $(this).children(":first").attr('src'));
+                   $('#imagemodal').modal('show');
+                });
+
+                $('#imagemodal').on('shown.bs.modal', function () {
+                    $(this).find('.modal-dialog').css({width:'945px',
+                                               height:'auto',
+                                              'max-height':'100%'});
+                });
+            });
+        </script>
+        </body>
+</html>
+
